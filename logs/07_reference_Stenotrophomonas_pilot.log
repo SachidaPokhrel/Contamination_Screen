@@ -1,0 +1,8 @@
+
+START 2026-10-18T05:40:14Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Stenotrophomonas_pilot.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCF_988222995.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=91466168&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/988/222/995/GCA_988222995.1_SM18_complete_genome/GCA_988222995.1_SM18_complete_genome_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa.partial.download.gz
+COMMAND 2026-10-18T05:40:15Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.metadata.json
+FINISH 2026-10-18T05:40:15Z exit_status=0

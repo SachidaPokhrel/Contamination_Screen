@@ -1,0 +1,19 @@
+{
+  "signature": "adc973d3d770865c89f4d56d34c5a8e57d5fe953a77e004bb545dd67faa40fbe",
+  "outputs": {
+    "data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz": "26c50013eb9ff60b33e85ae909ed6e294cbe2db563fa2714540e42507b6219c4",
+    "data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz": "8ba73b897935fee46acba87251b5788b5be893fab2899f8925b010ea1b009342",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/pairs.json": "3c101048d0694518a68b8cbf7b9aa77f7a018ba78f45d5acebcbca262a5d9e65",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/fastp.json": "5b57742a38cb75e1e2d396a24122b7a39c7d0c445765941377232db9c990dd6f",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/fastp.html": "1a8e192d24b4b4905cf5bd97a24a3a54c0a782f25fb60637cd4cc9b7596b35f1",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/raw/RNA_Phib_mycelia1_1_fastqc.zip": "c8faba3af116568f6fa6e130cc57482af6178f5d1dc217b8da50abb6d629f844",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/raw/RNA_Phib_mycelia1_1_fastqc.html": "951eef315ab507939919d7d21663c3dc76518c8a8c90ba3c5af8bd6e874b0767",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/raw/RNA_Phib_mycelia1_2_fastqc.zip": "cbd00af9ece1d0740c05e3ffbb7a088b1f4539223a34a3aea58e026009b0f449",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/raw/RNA_Phib_mycelia1_2_fastqc.html": "3aeecfce41d620adcd68f2c4c990e3a94277eeabeff143d2a0d3f5eb9e9d4de9",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/cleaned/RNA_Phib_mycelia1_1_fastqc.zip": "31b765c4a83818cab7bf93603cb1fa326ef9dd0a29bd9c0feef995bdc2bb35d9",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/cleaned/RNA_Phib_mycelia1_2_fastqc.zip": "e6deb12243813c13fefa91d1d372f50e814054d0eb12f574b9d9c6cbb52c30c7",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/cleaned/RNA_Phib_mycelia1_1_fastqc.html": "cf393f1be2601cecc550a0c0c7c2fa2e7752afd0384c3c68c8de3e0d4e8f5edb",
+    "results/RNA/01_qc/RNA_Phib_mycelia1/cleaned/RNA_Phib_mycelia1_2_fastqc.html": "91a8556ce46ef090e1e3574e1950efdcb3d2d3c6528e2d694508a03e152ba744"
+  },
+  "finished": "2026-10-17T21:10:45Z"
+}

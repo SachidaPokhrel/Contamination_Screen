@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "sample_id": "RNA_Phib_mycelia1",
+  "reads": [
+    "data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz",
+    "data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz"
+  ],
+  "assembly": "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta",
+  "output": "results/RNA/08_transcriptome/RNA_Phib_mycelia1",
+  "threads": 8,
+  "spades_memory_gb": 56,
+  "minimum_free_gb": 40,
+  "strand_specificity": "unknown",
+  "min_mapq": 20,
+  "kraken_db": "/datasets/unzipped/pluspf",
+  "kraken_confidence": 0.1,
+  "blobtools_command": [
+    "bash",
+    "hpc/blobtoolkit_exec.sh",
+    "blobtools"
+  ],
+  "spades_command": [
+    "bash",
+    "hpc/rnaspades_exec.sh",
+    "spades.py"
+  ]
+}

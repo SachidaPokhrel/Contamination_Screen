@@ -1,0 +1,16 @@
+sample_id	assay	taxid	name	rank	kraken_percent	clade_fragments	direct_fragments	expected_target	flags	interpretation
+DNA_Gokan_CBS315_81	DNA	9606	Homo sapiens	S	0.13	127	127	False		requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	1760811	uncultured Acetobacteroides sp.	S	0.05	48	48	False	uncertain_database_label	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	2892442	Pseudomonas sp. CIP-10	S	0.01	7	7	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	299262	Tateyamaria omphalii	S	0.0	2	2	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	2570586	Candidatus Bandiella numerosa	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	94625	Brucella intermedia	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	709810	Azospirillum sp. TSA2s	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	339	Xanthomonas campestris	S	0.0	1	0	False	low_screening_support;descendant_only_assignment	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	40324	Stenotrophomonas maltophilia	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	3075430	Dyella sp. BiH032	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	3142261	Micrococcus sp. 2A	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	477697	Streptomyces sp. T12	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	1747	Cutibacterium acnes	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	927083	Sandaracinus amylolyticus	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+DNA_Gokan_CBS315_81	DNA	1291540	Methanomethylophilus alvi	S	0.0	1	1	False	low_screening_support	requires independent reference validation

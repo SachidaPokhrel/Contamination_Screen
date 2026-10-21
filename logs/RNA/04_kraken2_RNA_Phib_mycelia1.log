@@ -1,0 +1,18 @@
+
+START 2026-10-17T21:37:08Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/04_kraken2_RNA_Phib_mycelia1.log
+COMMAND 2026-10-17T21:39:44Z kraken2 --db /datasets/unzipped/kraken2_full --threads 4 --paired --confidence 0.1 --report /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv --output /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.output.tsv --gzip-compressed /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_2.fastq.gz
+Loading database information... done.
+100000 sequences (17.99 Mbp) processed in 0.896s (6692.8 Kseq/m, 1203.84 Mbp/m).
+  2456 sequences classified (2.46%)
+  97544 sequences unclassified (97.54%)
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.output.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/screen.json
+FINISH 2026-10-17T21:41:10Z exit_status=0
+
+START 2026-10-18T13:24:38Z pid=3089949 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/04_kraken2_RNA_Phib_mycelia1.log
+COMMAND 2026-10-18T13:26:32Z kraken2 --db /datasets/unzipped/pluspf --threads 4 --paired --confidence 0.1 --report /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv --output /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.output.tsv --gzip-compressed /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_2.fastq.gz
+Loading database information... done.
+100000 sequences (17.99 Mbp) processed in 0.811s (7397.8 Kseq/m, 1330.67 Mbp/m).
+  5536 sequences classified (5.54%)
+  94464 sequences unclassified (94.46%)
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.output.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/screen.json
+FINISH 2026-10-18T13:28:09Z exit_status=0

@@ -1,0 +1,18 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: 5screen.sh
+  The time limit is 360:00:00 HH:MM:SS.
+  The target directory is: /scratch/aubsxp001/Phylogeny/input/fcs
+  The memory limit is: 40gb
+  The job will start running after: 202610141609.16
+  Job Name: screen_class
+  Queue: -q large
+  Constraints: 
+  Command typed:
+/scripts/run_script 5screen.sh     
+  Queue submit command:
+qsub -q large -j oe -N screen_class -a 202610141609.16 -r n -M szp0204@auburn.edu -l walltime=360:00:00 -l select=ncpus=2:mpiprocs=2:mem=40000mb 
+  Job number: 102266
+ 

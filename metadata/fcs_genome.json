@@ -1,0 +1,29 @@
+{
+  "assembly_accession": "GCA_051997085.1",
+  "organism": "Globisporangium irregulare",
+  "strain": "13-30",
+  "taxid": 36331,
+  "bioproject": "PRJNA816194",
+  "biosample": "SAMN26664723",
+  "wgs_master": "JALBZS000000000",
+  "relationship_to_readsets": "Independent public-genome case, not SRR15309490 or SRR16206986; no raw reads from this genome were analysed here.",
+  "sra_run_accessions": [],
+  "sra_status": "No run accession verified in this session; this is not a claim that no associated reads exist.",
+  "ncbi_contamination_flag": {
+    "reported_by": "user",
+    "status": "User reports NCBI flagged this assembly as contaminated",
+    "independent_verification": "Exact current NCBI flag wording could not be retrieved; do not substitute the FCS report for this metadata evidence."
+  },
+  "verified_links": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/bioproject/816194",
+      "supports": "Assembly/BioSample/strain/species linkage in the NCBI project assembly table"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=36331&mode=Info",
+      "supports": "Globisporangium irregulare taxonomy ID36331"
+    }
+  ],
+  "checked_date": "2026-10-20",
+  "screening_scope": "Supplied assembly FASTA only; input read counts, read fraction, read depth and read-mapping breadth are not available."
+}

@@ -1,0 +1,16 @@
+{
+  "reference_id": "Phib_genome",
+  "role": "host",
+  "assay": "RNA",
+  "taxid": "175300",
+  "organism": "Phytophthora hibernalis",
+  "accessions": "GCA_024679025.1",
+  "fasta": "references/host/Phib_genome.fa",
+  "evidence_url": "https://www.ncbi.nlm.nih.gov/bioproject/746351",
+  "verified": "true",
+  "retrieved_at": "2026-10-18T05:40:13Z",
+  "sha256": "6d6ba3ab52800d8b7f17810f98f1429a446270f2ed4f6173c843bd12a575d89d",
+  "contigs": 6584,
+  "bases": 71214006,
+  "source": "NCBI versioned accession"
+}

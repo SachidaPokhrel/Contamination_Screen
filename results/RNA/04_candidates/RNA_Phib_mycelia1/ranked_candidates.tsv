@@ -1,0 +1,24 @@
+sample_id	assay	taxid	name	rank	kraken_percent	clade_fragments	direct_fragments	expected_target	flags	interpretation
+RNA_Phib_mycelia1	RNA	1760811	uncultured Acetobacteroides sp.	S	0.17	171	171	False	uncertain_database_label	requires independent reference validation
+RNA_Phib_mycelia1	RNA	9606	Homo sapiens	S	0.14	137	137	False		requires independent reference validation
+RNA_Phib_mycelia1	RNA	2892442	Pseudomonas sp. CIP-10	S	0.06	56	56	False		requires independent reference validation
+RNA_Phib_mycelia1	RNA	299262	Tateyamaria omphalii	S	0.03	33	33	False		requires independent reference validation
+RNA_Phib_mycelia1	RNA	40324	Stenotrophomonas maltophilia	S	0.01	14	14	False		requires independent reference validation
+RNA_Phib_mycelia1	RNA	2843216	Miltoncostaea oceani	S	0.01	12	12	False		requires independent reference validation
+RNA_Phib_mycelia1	RNA	2023772	Paenibacillus sp. RUD330	S	0.01	9	9	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	2306583	Halomonas sp. JS92-SW72	S	0.01	8	8	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	2986929	Rhizobium sp. BT-175	S	0.01	7	7	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	32062	Deinococcus radiophilus	S	0.01	5	5	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	3075430	Dyella sp. BiH032	S	0.0	2	2	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	2986949	Jiella pelagia	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	3025670	Novosphingobium sp. KACC 22771	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	2867236	Qipengyuania xiapuensis	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	2954091	Pseudomonas sp. FP2309	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	562	Escherichia coli	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	584	Proteus mirabilis	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	225992	Comamonas kerstersii	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	1040979	Cupriavidus neocaledonicus	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	2903818	Streptomyces sp. NBC_01304	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	196914	Actinoplanes friuliensis	S	0.0	1	0	False	low_screening_support;descendant_only_assignment	requires independent reference validation
+RNA_Phib_mycelia1	RNA	2975950	Streptosporangium sp. NBC_01756	S	0.0	1	1	False	low_screening_support	requires independent reference validation
+RNA_Phib_mycelia1	RNA	492670	Bacillus velezensis	S	0.0	1	1	False	low_screening_support	requires independent reference validation

@@ -1,0 +1,9 @@
+{
+  "signature": "82f60aadccd595f5c714e2c1aadbcd33c2cc43383010f8bc7d0a414dce6d96cd",
+  "outputs": {
+    "results_pluspf/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.report.tsv": "3e0b0d84f7e1cd8a63440f7919b81d5192c983464d9692ead94179dd66ba382d",
+    "results_pluspf/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.output.tsv": "43a97f8b2bd85c34be3a9710137b3ff5d28ffe0e6103aa95b7e0b20fad09b590",
+    "results_pluspf/DNA/02_kraken2/DNA_Gokan_CBS315_81/screen.json": "9d9dc8245f3fca57916cf3f8717c8073b855c1f25d777b09196a442e8dceed8c"
+  },
+  "finished": "2026-10-18T13:24:38Z"
+}

@@ -1,0 +1,57 @@
+test_multicontig_zero_coverage_gc_and_taxonomy (test_assembly_extension.AssemblyEvidenceTests.test_multicontig_zero_coverage_gc_and_taxonomy) ... ok
+test_help_and_missing_assembly (test_assembly_extension.EntryPointTests.test_help_and_missing_assembly) ... ok
+test_pbs_afterok_and_optional_fcs (test_assembly_extension.SubmissionTests.test_pbs_afterok_and_optional_fcs) ... ok
+test_config_validation (test_core.CoreTest.test_config_validation) ... ok
+test_fake_qsub_dependencies (test_core.CoreTest.test_fake_qsub_dependencies) ... ok
+test_missing_input (test_core.CoreTest.test_missing_input) ... ok
+test_mock_submission_failure_stops_chain (test_core.CoreTest.test_mock_submission_failure_stops_chain) ... ok
+test_pair_errors (test_core.CoreTest.test_pair_errors) ... ok
+test_pbs_dryrun (test_core.CoreTest.test_pbs_dryrun) ... ok
+test_pbs_workdir_root_detection (test_core.CoreTest.test_pbs_workdir_root_detection) ... ok
+test_stage_checksum (test_core.CoreTest.test_stage_checksum) ... OUTPUTS /tmp/oomycete test z5kv5z6l/output
+SKIP verified /tmp/oomycete test z5kv5z6l/unit.done.json
+ok
+test_stage_relocation (test_core.CoreTest.test_stage_relocation) ... OUTPUTS /tmp/oomycete test 328x9b14/first/output
+SKIP verified /tmp/oomycete test 328x9b14/second/relocate.done.json
+ok
+test_subsample_restart_and_stale (test_core.CoreTest.test_subsample_restart_and_stale) ... ok
+test_truncated_fastq (test_core.CoreTest.test_truncated_fastq) ... ok
+test_all_zero (test_coverage.CoverageTest.test_all_zero) ... ok
+test_invalid_duplicate_position (test_coverage.CoverageTest.test_invalid_duplicate_position) ... ok
+test_known_multicontig (test_coverage.CoverageTest.test_known_multicontig) ... ok
+test_reads_vs_fragments (test_coverage.CoverageTest.test_reads_vs_fragments) ... ok
+test_sparse_and_zero_contig (test_coverage.CoverageTest.test_sparse_and_zero_contig) ... ok
+test_checkpoint_resume_and_changed_input_rejection (test_dna_denovo_extension.DNAAssemblyTests.test_checkpoint_resume_and_changed_input_rejection) ... ok
+test_dna_mode_without_reference_and_verified_restart (test_dna_denovo_extension.DNAAssemblyTests.test_dna_mode_without_reference_and_verified_restart) ... ok
+test_missing_input_stops_before_assembler (test_dna_denovo_extension.DNAAssemblyTests.test_missing_input_stops_before_assembler) ... ok
+test_fcs_uses_new_contigs_and_only_reuses_software_settings (test_dna_denovo_extension.FCSDeNovoTests.test_fcs_uses_new_contigs_and_only_reuses_software_settings) ... ok
+test_four_jobs_with_correct_dependencies (test_dna_denovo_extension.PBSDependencyTests.test_four_jobs_with_correct_dependencies) ... ok
+test_mock_prefetch_validation_conversion_restart_permission (test_download_mock.DownloadControlTest.test_mock_prefetch_validation_conversion_restart_permission) ... ok
+test_duplicate_fasta_rejected (test_fcs.FcsTests.test_duplicate_fasta_rejected) ... ok
+test_gzip_stdin_and_failure_logging (test_fcs.FcsTests.test_gzip_stdin_and_failure_logging) ... START 2026-10-21T00:13:30.742473+00:00
+COMMAND /usr/bin/python3 -c 'import sys; assert sys.stdin.read()==">x\nACGT\n"; print("received")'
+received
+FINISH 2026-10-21T00:13:30.767197+00:00 exit_status=0
+/home/sachida/Codex_Code/Contamination_Scan/tests/test_fcs.py:42: ResourceWarning: unclosed file <_io.BufferedReader name=6>
+  fcs.stream_process([sys.executable, '-c', 'import sys; assert sys.stdin.read()==">x\\nACGT\\n"; print("received")'], root / 'success.log', root / 'input.fa.gz')
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+START 2026-10-21T00:13:30.773847+00:00
+COMMAND /usr/bin/python3 -c 'raise SystemExit(7)'
+FINISH 2026-10-21T00:13:30.794574+00:00 exit_status=7
+/usr/lib/python3.14/traceback.py:270: ResourceWarning: unclosed file <_io.BufferedReader name=5>
+  tb.tb_frame.clear()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_inspect_from_another_directory (test_fcs.FcsTests.test_inspect_from_another_directory) ... ok
+test_missing_database_fails_before_run (test_fcs.FcsTests.test_missing_database_fails_before_run) ... ok
+test_runtime_argument_arrays (test_fcs.FcsTests.test_runtime_argument_arrays) ... ok
+test_supplied_case_partition (test_fcs.FcsTests.test_supplied_case_partition) ... ok
+test_four_jobs_with_correct_dependencies (test_rna_extension.PBSDependencyTests.test_four_jobs_with_correct_dependencies) ... ok
+test_checkpoint_resume_and_changed_input_rejection (test_rna_extension.RNAAssemblyTests.test_checkpoint_resume_and_changed_input_rejection) ... ok
+test_missing_input_stops_before_assembler (test_rna_extension.RNAAssemblyTests.test_missing_input_stops_before_assembler) ... ok
+test_rna_mode_unknown_strandedness_and_verified_restart (test_rna_extension.RNAAssemblyTests.test_rna_mode_unknown_strandedness_and_verified_restart) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 10.024s
+
+OK

@@ -1,0 +1,4 @@
+case	organism	strain_or_sample	assembly_accession	sra_run	bioproject	biosample	raw_reads_analysed	ncbi_contamination_flag	verification
+DNA readset	Globisporangium okanoganense	CBS 315.81	GCA_023334035.1	SRR15309490	PRJNA601986	SAMN13878593	yes	not established	NCBI-linked readset metadata; original selected_datasets.tsv retained
+RNA readset	Phytophthora hibernalis	Phibe_mycelia1	GCA_024679025.1 (same species; same RNA isolate not established)	SRR16206986	PRJNA746351	SAMN22065162	yes	not established	NCBI-linked readset metadata; original selected_datasets.tsv retained
+Additional FCS public-genome case	Globisporangium irregulare	13-30	GCA_051997085.1		PRJNA816194	SAMN26664723	no	user reports NCBI contamination flag; exact wording not independently retrieved	NCBI project table verifies assembly/BioSample/strain; no SRA run verified in this session

@@ -1,0 +1,16 @@
+{
+  "reference_id": "Stenotrophomonas_pilot",
+  "role": "candidate",
+  "assay": "RNA",
+  "taxid": "40324",
+  "organism": "Stenotrophomonas maltophilia",
+  "accessions": "GCF_988222995.1",
+  "fasta": "references/candidates/Stenotrophomonas_pilot.fa",
+  "evidence_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_988222995.1/",
+  "verified": "true",
+  "retrieved_at": "2026-10-18T05:40:15Z",
+  "sha256": "c02d093f2af83847f2c9769754a8caf03c14aa159c468068edceab3524b52f57",
+  "contigs": 1,
+  "bases": 4664498,
+  "source": "NCBI versioned accession"
+}

@@ -1,0 +1,16 @@
+{
+  "reference_id": "Gokan_CBS315_81",
+  "role": "host",
+  "assay": "DNA",
+  "taxid": "182683",
+  "organism": "Globisporangium okanoganense",
+  "accessions": "GCA_023334035.1",
+  "fasta": "references/host/Gokan_CBS315_81.fa",
+  "evidence_url": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA601986",
+  "verified": "true",
+  "retrieved_at": "2026-10-18T05:40:12Z",
+  "sha256": "e91b7c236c926e5b334707b83d8793eab683df170b516fb7919a067df35a537e",
+  "contigs": 5631,
+  "bases": 44209726,
+  "source": "NCBI versioned accession"
+}

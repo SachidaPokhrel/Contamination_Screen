@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#PBS -N oom_reports
+#PBS -l select=1:ncpus=1:mem=2gb
+#PBS -l walltime=01:00:00
+#PBS -j oe
+set -Eeuo pipefail
+if [[ ${1:-} == --help ]]; then
+ echo 'PBS wrapper: submit with qsub; override defaults using qsub -q QUEUE -l select=1:ncpus=N:mem=M -l walltime=HH:MM:SS'
+ exit 0
+fi
+# PBS copies job scripts to a spool directory, so BASH_SOURCE is not a project locator.
+ROOT="${OOMYCETE_PROJECT_ROOT:-${PBS_O_WORKDIR:-}}"
+[[ -n "$ROOT" ]] || { echo 'Set OOMYCETE_PROJECT_ROOT or submit from within the project' >&2; exit 1; }
+while [[ "$ROOT" != / && ! -f "$ROOT/scripts/pipeline.py" ]]; do ROOT="$(dirname -- "$ROOT")"; done
+[[ -f "$ROOT/scripts/pipeline.py" ]] || { echo 'Cannot locate project root' >&2; exit 1; }
+mkdir -p "$ROOT/logs/pbs"
+exec > >(tee -a "$ROOT/logs/pbs/reports_${PBS_JOBID:-local}.log") 2>&1
+trap 'rc=$?; echo "FINISH $(date -u +%FT%TZ) exit_status=$rc job=${PBS_JOBID:-local}"' EXIT
+export OOMYCETE_THREADS="${OOMYCETE_THREADS:-${PBS_NCPUS:-1}}"
+cd "$ROOT"
+bash "$ROOT/hpc/run_stage.sh" reports

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "sample_id": "DNA_Gokan_CBS315_81",
+  "reads": [
+    "data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz",
+    "data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz"
+  ],
+  "assembly": "results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta",
+  "output": "results/DNA/08_denovo/DNA_Gokan_CBS315_81",
+  "threads": 8,
+  "spades_memory_gb": 56,
+  "minimum_free_gb": 40,
+  "min_mapq": 20,
+  "kraken_db": "/datasets/unzipped/pluspf",
+  "kraken_confidence": 0.1,
+  "blobtools_command": [
+    "bash",
+    "hpc/blobtoolkit_exec.sh",
+    "blobtools"
+  ],
+  "spades_command": [
+    "bash",
+    "hpc/dna_spades_exec.sh",
+    "spades.py"
+  ],
+  "taxid": 182683,
+  "fcs_settings": "config/assembly_analysis.json"
+}

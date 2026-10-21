@@ -1,0 +1,98 @@
+{
+  "time": "2026-10-17T20:45:20Z",
+  "os": "Linux-5.14.0-570.58.1.el9_6.x86_64-x86_64-with-glibc2.34",
+  "architecture": "x86_64",
+  "cpus": 8,
+  "memory": [
+    "MemTotal:       59194272 kB",
+    "MemFree:         1428800 kB",
+    "MemAvailable:   46170172 kB"
+  ],
+  "disk_free_bytes": 579256890703872,
+  "tools": [
+    {
+      "tool": "prefetch",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/prefetch",
+      "version": "prefetch : 3.2.1",
+      "status": "available"
+    },
+    {
+      "tool": "fasterq-dump",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/fasterq-dump",
+      "version": "fasterq-dump : 3.2.1",
+      "status": "available"
+    },
+    {
+      "tool": "vdb-validate",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/vdb-validate",
+      "version": "vdb-validate : 3.2.1",
+      "status": "available"
+    },
+    {
+      "tool": "fastqc",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/fastqc",
+      "version": "FastQC v0.12.1",
+      "status": "available"
+    },
+    {
+      "tool": "fastp",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/fastp",
+      "version": "fastp 0.24.3",
+      "status": "available"
+    },
+    {
+      "tool": "seqkit",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/seqkit",
+      "version": "seqkit v2.14.0",
+      "status": "available"
+    },
+    {
+      "tool": "kraken2",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/kraken2",
+      "version": "Kraken version 2.1.6 | Copyright 2013-2023, Derrick Wood (dwood@cs.jhu.edu)",
+      "status": "available"
+    },
+    {
+      "tool": "bracken",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bracken",
+      "version": "Bracken v3.0.1",
+      "status": "available"
+    },
+    {
+      "tool": "bowtie2",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2",
+      "version": "[WARNING] Failed to launch x86-64-v3 version, staying with default | [WARNING] Failed to launch x86-64-v3 version, staying with default | /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2-align-s version 2.5.5",
+      "status": "available"
+    },
+    {
+      "tool": "bowtie2-build",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2-build",
+      "version": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2-build-s version 2.5.5 | 64-bit | Built on runnervm7g52i",
+      "status": "available"
+    },
+    {
+      "tool": "samtools",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/samtools",
+      "version": "samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.",
+      "status": "available"
+    },
+    {
+      "tool": "minimap2",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/minimap2",
+      "version": "2.31-r1302",
+      "status": "available"
+    },
+    {
+      "tool": "blastn",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/blastn",
+      "version": "blastn: 2.16.0+ |  Package: blast 2.16.0, build Mar 28 2025 16:30:45",
+      "status": "available"
+    },
+    {
+      "tool": "Rscript",
+      "path": "/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/Rscript",
+      "version": "Rscript (R) version 4.4.3 (2025-02-28)",
+      "status": "available"
+    }
+  ]
+}

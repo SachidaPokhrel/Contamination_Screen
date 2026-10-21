@@ -1,0 +1,7 @@
+name: rnaspades
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - spades=4.2

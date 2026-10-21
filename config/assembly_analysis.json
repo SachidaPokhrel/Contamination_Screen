@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "sample_id": "DNA_Gokan_CBS315_81",
+  "taxid": 182683,
+  "assembly_accession": "GCA_023334035.1",
+  "assembly": "references/host/Gokan_CBS315_81.fa",
+  "reads": [
+    "data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz",
+    "data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz"
+  ],
+  "output": "results/DNA/07_assembly/DNA_Gokan_CBS315_81",
+  "threads": 4,
+  "min_mapq": 20,
+  "kraken_db": "/datasets/unzipped/pluspf",
+  "kraken_confidence": 0.1,
+  "blobtools_command": [
+    "bash",
+    "hpc/blobtoolkit_exec.sh",
+    "blobtools"
+  ],
+  "fcs_runner": "tools/fcs/fcs.py",
+  "fcs_image": "tools/fcs/fcs-gx.sif",
+  "fcs_db": "/datasets/unzipped/fcs/gxdb",
+  "container_engine": "singularity"
+}

@@ -1,0 +1,17 @@
+
+START 2026-10-17T21:58:09Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Pseudomonas_CIP10.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCF_020911845.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=11473501&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/020/911/845/GCA_020911845.1_ASM2091184v1/GCA_020911845.1_ASM2091184v1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.partial.download.gz
+COMMAND 2026-10-17T21:58:09Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.metadata.json
+FINISH 2026-10-17T21:58:10Z exit_status=0
+
+START 2026-10-17T21:58:27Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Pseudomonas_CIP10.log
+SKIP verified /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10_reference.done.json
+FINISH 2026-10-17T21:58:27Z exit_status=0
+
+START 2026-10-18T05:40:14Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Pseudomonas_CIP10.log
+COMMAND 2026-10-18T05:40:14Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.metadata.json
+FINISH 2026-10-18T05:40:14Z exit_status=0

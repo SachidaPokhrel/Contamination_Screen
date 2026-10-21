@@ -1,0 +1,47 @@
+100.00	2431	0	R	1	root
+100.00	2431	0	R1	131567	  cellular organisms
+100.00	2431	0	R2	2759	    Eukaryota
+71.08	1727	0	R3	2698737	      Sar
+67.71	1646	0	R4	33634	        Stramenopiles
+67.71	1646	0	P	4762	          Oomycota
+67.71	1646	0	O	4776	            Peronosporales
+67.71	1646	0	F	4777	              Peronosporaceae
+67.71	1646	0	G	4778	                Bremia
+67.71	1646	1646	S	4779	                  Bremia lactucae
+3.37	81	0	R4	33630	        Alveolata
+3.37	81	0	P	5794	          Apicomplexa
+3.37	81	0	C	422676	            Aconoidasida
+3.37	81	0	O	5819	              Haemosporida
+3.37	81	0	F	1639119	                Plasmodiidae
+3.37	81	0	G	5820	                  Plasmodium
+3.37	81	0	G1	418104	                    Plasmodium (Haemamoeba)
+3.37	81	81	S	85471	                      Plasmodium relictum
+28.92	703	0	R3	33154	      Opisthokonta
+28.92	703	0	K	33208	        Metazoa
+28.92	703	0	K1	6072	          Eumetazoa
+28.92	703	0	K2	33213	            Bilateria
+28.92	703	0	K3	33511	              Deuterostomia
+28.92	703	0	P	7711	                Chordata
+28.92	703	0	P1	89593	                  Craniata
+28.92	703	0	P2	7742	                    Vertebrata
+28.92	703	0	P3	7776	                      Gnathostomata
+28.92	703	0	P4	117570	                        Teleostomi
+28.92	703	0	P5	117571	                          Euteleostomi
+28.92	703	0	P6	8287	                            Sarcopterygii
+28.92	703	0	P7	1338369	                              Dipnotetrapodomorpha
+28.92	703	0	P8	32523	                                Tetrapoda
+28.92	703	0	P9	32524	                                  Amniota
+28.92	703	0	C	40674	                                    Mammalia
+28.92	703	0	C1	32525	                                      Theria
+28.92	703	0	C2	9347	                                        Eutheria
+28.92	703	0	C3	1437010	                                          Boreoeutheria
+28.92	703	0	C4	314146	                                            Euarchontoglires
+28.92	703	0	O	9443	                                              Primates
+28.92	703	0	O1	376913	                                                Haplorrhini
+28.92	703	0	O2	314293	                                                  Simiiformes
+28.92	703	0	O3	9526	                                                    Catarrhini
+28.92	703	0	O4	314295	                                                      Hominoidea
+28.92	703	0	F	9604	                                                        Hominidae
+28.92	703	0	F1	207598	                                                          Homininae
+28.92	703	0	G	9605	                                                            Homo
+28.92	703	703	S	9606	                                                              Homo sapiens

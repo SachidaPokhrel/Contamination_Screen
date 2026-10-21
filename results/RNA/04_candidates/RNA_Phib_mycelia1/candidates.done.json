@@ -1,0 +1,8 @@
+{
+  "signature": "01a1da5d1329d84de689f3503b93e6a693774ec9aa8225bfbd793faecfcb216e",
+  "outputs": {
+    "results/RNA/04_candidates/RNA_Phib_mycelia1/ranked_candidates.tsv": "0c5c6958915250e486b9a5470b8a02a60419ad4e69e410b8f1acdc86b1484fcb",
+    "results/RNA/04_candidates/RNA_Phib_mycelia1/selection_template.tsv": "15540c6e56578170aa9a805a425fae0ac8bbe10b82102eb89de5e9b85d0a5148"
+  },
+  "finished": "2026-10-17T21:41:10Z"
+}

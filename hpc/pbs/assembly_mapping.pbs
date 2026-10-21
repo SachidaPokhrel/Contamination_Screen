@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N oom_asm_mapping
+#PBS -q medium
+#PBS -l select=1:ncpus=4:mem=16gb
+#PBS -l walltime=08:00:00
+#PBS -j oe
+set -Eeuo pipefail
+cd "${OOMYCETE_PROJECT_ROOT:-${PBS_O_WORKDIR:?Submit from project root}}"
+export OOMYCETE_THREADS=4
+if [[ -n "${OOMYCETE_ENV_INIT:-}" ]]; then source "$OOMYCETE_ENV_INIT"; fi
+printf 'START %s job=%s\n' "$(date -Is)" "${PBS_JOBID:-unknown}"
+bash hpc/environment_exec.sh contamination bash scripts/14_assembly_analysis.sh mapping --config "${ASSEMBLY_CONFIG:-config/assembly_analysis.json}"
+printf 'FINISH %s\n' "$(date -Is)"

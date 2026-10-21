@@ -1,0 +1,9 @@
+{
+  "signature": "7142cd947018984094f71b2862ef902dc5ec9090940e56c54aeccf42950bb97d",
+  "outputs": {
+    "references/host/Gokan_CBS315_81.fa": "e91b7c236c926e5b334707b83d8793eab683df170b516fb7919a067df35a537e",
+    "references/host/Gokan_CBS315_81.fa.fai": "44d1021a7e7219f8777a20465b45c834b29ea051e5da6a5cc38dde5d5abe15bc",
+    "references/host/Gokan_CBS315_81.metadata.json": "1480aada942e5a3a66d29c0f0a0c661020efd7bffb5015b0107ad8e3538e5474"
+  },
+  "finished": "2026-10-18T05:40:12Z"
+}

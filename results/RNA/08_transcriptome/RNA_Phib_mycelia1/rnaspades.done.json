@@ -1,0 +1,11 @@
+{
+  "signature": "6dc98eee41d68178f20b617776ddc6ee7a10af15cba589bbff8f20adadcd2063",
+  "outputs": {
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta": "cc7a759700892b6fe6f80d37e75ef28ec64d54b90db364f82de1fac71f7279e2",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/spades.log": "fc69071dc97d8a051de8a961b42847ef9441a680533c77b6c69a17b78417667b",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/params.txt": "27fdbb3a38479ec3fc297070158c8717c94fcc14d3c966bef540a25dd2613ea8",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades_input_identity.json": "9f30634f84aac41dedc600f95a068804617a2d27f9d7af4acaf29d4cc9f568a8",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/transcriptome_manifest.json": "6e22cda502cb56eb7795a14953b338c1806302c8f16db634dbef6019ee8d35c2"
+  },
+  "finished": "2026-10-19T16:46:49Z"
+}

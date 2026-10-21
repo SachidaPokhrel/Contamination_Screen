@@ -1,0 +1,4 @@
+
+START 2026-10-17T19:30:24Z pid=8 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/installations/install_environments_installation.log
+FINISH 2026-10-17T19:30:24Z exit_status=1 error=No Conda/Mamba detected. Load a cluster Conda module or install a manager separately; no manager was downloaded.
+No Conda/Mamba detected. Load a cluster Conda module or install a manager separately; no manager was downloaded.

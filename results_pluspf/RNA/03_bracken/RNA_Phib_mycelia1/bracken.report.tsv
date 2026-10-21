@@ -1,0 +1,86 @@
+100.00	4927	0	R	1	root
+100.00	4927	0	R1	131567	  cellular organisms
+81.65	4022	0	R2	2759	    Eukaryota
+47.77	2353	0	R3	33154	      Opisthokonta
+25.98	1279	0	K	33208	        Metazoa
+25.98	1279	0	K1	6072	          Eumetazoa
+25.98	1279	0	K2	33213	            Bilateria
+25.98	1279	0	K3	33511	              Deuterostomia
+25.98	1279	0	P	7711	                Chordata
+25.98	1279	0	P1	89593	                  Craniata
+25.98	1279	0	P2	7742	                    Vertebrata
+25.98	1279	0	P3	7776	                      Gnathostomata
+25.98	1279	0	P4	117570	                        Teleostomi
+25.98	1279	0	P5	117571	                          Euteleostomi
+25.98	1279	0	P6	8287	                            Sarcopterygii
+25.98	1279	0	P7	1338369	                              Dipnotetrapodomorpha
+25.98	1279	0	P8	32523	                                Tetrapoda
+25.98	1279	0	P9	32524	                                  Amniota
+25.98	1279	0	C	40674	                                    Mammalia
+25.98	1279	0	C1	32525	                                      Theria
+25.98	1279	0	C2	9347	                                        Eutheria
+25.98	1279	0	C3	1437010	                                          Boreoeutheria
+25.98	1279	0	C4	314146	                                            Euarchontoglires
+25.98	1279	0	O	9443	                                              Primates
+25.98	1279	0	O1	376913	                                                Haplorrhini
+25.98	1279	0	O2	314293	                                                  Simiiformes
+25.98	1279	0	O3	9526	                                                    Catarrhini
+25.98	1279	0	O4	314295	                                                      Hominoidea
+25.98	1279	0	F	9604	                                                        Hominidae
+25.98	1279	0	F1	207598	                                                          Homininae
+25.98	1279	0	G	9605	                                                            Homo
+25.98	1279	1279	S	9606	                                                              Homo sapiens
+21.80	1073	0	K	4751	        Fungi
+21.80	1073	0	K1	451864	          Dikarya
+14.29	704	0	P	4890	            Ascomycota
+14.29	704	0	P1	716545	              saccharomyceta
+14.29	704	0	P2	147538	                Pezizomycotina
+14.29	704	0	P3	716546	                  leotiomyceta
+14.29	704	0	P4	715989	                    sordariomyceta
+14.29	704	0	C	147550	                      Sordariomycetes
+14.29	704	0	C1	222543	                        Hypocreomycetidae
+14.29	704	0	O	5125	                          Hypocreales
+8.85	435	0	F	474943	                            Cordycipitaceae
+8.85	435	0	G	150366	                              Akanthomyces
+8.85	435	435	S	2231603	                                Akanthomyces muscarius
+5.44	268	0	F	474942	                            Ophiocordycipitaceae
+5.44	268	0	G	1052105	                              Purpureocillium
+5.44	268	268	S	2060973	                                Purpureocillium takamizusanense
+7.50	369	0	P	5204	            Basidiomycota
+6.45	317	0	P1	452284	              Ustilaginomycotina
+6.45	317	0	C	1538075	                Malasseziomycetes
+6.45	317	0	O	162474	                  Malasseziales
+6.45	317	0	F	742845	                    Malasseziaceae
+6.45	317	0	G	55193	                      Malassezia
+6.45	317	317	S	76775	                        Malassezia restricta
+1.05	51	0	P1	5302	              Agaricomycotina
+1.05	51	0	C	155616	                Tremellomycetes
+1.05	51	0	O	1851469	                  Trichosporonales
+1.05	51	0	F	1759442	                    Trichosporonaceae
+1.05	51	0	G	1838142	                      Cutaneotrichosporon
+1.05	51	51	S	279322	                        Cutaneotrichosporon cavernicola
+33.88	1669	0	R3	2698737	      Sar
+33.88	1669	0	R4	33634	        Stramenopiles
+33.88	1669	0	P	4762	          Oomycota
+33.88	1669	0	O	4776	            Peronosporales
+33.88	1669	0	F	4777	              Peronosporaceae
+33.88	1669	0	G	4778	                Bremia
+33.88	1669	1669	S	4779	                  Bremia lactucae
+18.35	904	0	R2	2	    Bacteria
+14.89	733	0	K	3379134	      Pseudomonadati
+14.89	733	0	K1	1783270	        FCB group
+14.89	733	0	K2	68336	          Bacteroidota/Chlorobiota group
+14.89	733	0	P	976	            Bacteroidota
+14.89	733	0	C	200643	              Bacteroidia
+14.89	733	0	O	171549	                Bacteroidales
+14.89	733	0	F	171550	                  Rikenellaceae
+14.89	733	0	G	1647173	                    Acetobacteroides
+14.89	733	0	G1	1760810	                      environmental samples
+14.89	733	733	S	1760811	                        uncultured Acetobacteroides sp.
+3.46	170	0	K	1783272	      Bacillati
+3.46	170	0	P	201174	        Actinomycetota
+3.46	170	0	C	1497346	          Thermoleophilia
+3.46	170	0	O	2843198	            Miltoncostaeales
+3.46	170	0	F	2843199	              Miltoncostaeaceae
+3.46	170	0	G	2843200	                Miltoncostaea
+3.46	170	170	S	2843216	                  Miltoncostaea oceani

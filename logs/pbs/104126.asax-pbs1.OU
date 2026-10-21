@@ -1,0 +1,57 @@
+START 2026-10-19T15:42:16-05:00 job=104126.asax-pbs1
+
+START 2026-10-19T20:42:27Z pid=3196393 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/16_dna_denovo_mapping_DNA_Gokan_CBS315_81.log
+CONFIG {"assembly": "results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta", "blobtools_command": ["bash", "hpc/blobtoolkit_exec.sh", "blobtools"], "fcs_settings": "config/assembly_analysis.json", "kraken_confidence": 0.1, "kraken_db": "/datasets/unzipped/pluspf", "min_mapq": 20, "minimum_free_gb": 40, "output": "results/DNA/08_denovo/DNA_Gokan_CBS315_81", "reads": ["data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz", "data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz"], "sample_id": "DNA_Gokan_CBS315_81", "schema_version": 1, "spades_command": ["bash", "hpc/dna_spades_exec.sh", "spades.py"], "spades_memory_gb": 56, "taxid": 182683, "threads": 4}
+COMMAND minimap2 -ax sr -t 3 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz | samtools sort -@ 0 -m 512M -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/DNA.full_cleaned.bam.partial -
+[M::mm_idx_gen::1.449*0.98] collected minimizers
+[M::mm_idx_gen::1.799*1.33] sorted minimizers
+[M::main::1.808*1.33] loaded/built the index for 18388 target sequence(s)
+[M::mm_mapopt_update::1.808*1.33] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 18388
+[M::mm_idx_stat::1.946*1.31] distinct minimizers: 7281524 (97.21% are singletons); average occurrences: 1.066; average spacing: 6.040; total length: 46890401
+[M::worker_pipeline::8.713*2.69] mapped 335794 sequences
+[M::worker_pipeline::13.733*2.92] mapped 335806 sequences
+[M::worker_pipeline::18.276*3.02] mapped 335732 sequences
+[M::worker_pipeline::23.166*3.09] mapped 335812 sequences
+[M::worker_pipeline::32.375*3.11] mapped 335998 sequences
+[M::worker_pipeline::33.926*3.15] mapped 335940 sequences
+[M::worker_pipeline::38.548*3.18] mapped 335964 sequences
+[M::worker_pipeline::43.013*3.19] mapped 335866 sequences
+[M::worker_pipeline::52.084*3.19] mapped 335936 sequences
+[M::worker_pipeline::53.190*3.22] mapped 335688 sequences
+[M::worker_pipeline::57.774*3.23] mapped 335820 sequences
+[M::worker_pipeline::62.995*3.23] mapped 335694 sequences
+[M::worker_pipeline::71.712*3.22] mapped 335762 sequences
+[M::worker_pipeline::73.240*3.24] mapped 335958 sequences
+[M::worker_pipeline::77.401*3.25] mapped 335918 sequences
+[M::worker_pipeline::82.391*3.25] mapped 335708 sequences
+[M::worker_pipeline::91.460*3.24] mapped 335750 sequences
+[M::worker_pipeline::92.747*3.26] mapped 335734 sequences
+[M::worker_pipeline::96.916*3.27] mapped 335892 sequences
+[M::worker_pipeline::101.670*3.27] mapped 335816 sequences
+[M::worker_pipeline::110.105*3.26] mapped 335792 sequences
+[M::worker_pipeline::111.617*3.27] mapped 335984 sequences
+[M::worker_pipeline::116.539*3.28] mapped 335904 sequences
+[M::worker_pipeline::121.487*3.28] mapped 335862 sequences
+[M::worker_pipeline::126.363*3.28] mapped 335888 sequences
+[M::worker_pipeline::136.163*3.27] mapped 335780 sequences
+[M::worker_pipeline::137.563*3.28] mapped 335724 sequences
+[M::worker_pipeline::140.966*3.29] mapped 335594 sequences
+[M::worker_pipeline::145.694*3.29] mapped 335710 sequences
+[M::worker_pipeline::154.624*3.28] mapped 335810 sequences
+[M::worker_pipeline::156.297*3.29] mapped 335782 sequences
+[M::worker_pipeline::160.251*3.29] mapped 335728 sequences
+[M::worker_pipeline::165.157*3.29] mapped 335830 sequences
+[M::worker_pipeline::173.119*3.19] mapped 288976 sequences
+[M::main] Version: 2.31-r1302
+[M::main] CMD: minimap2 -ax sr -t 3 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz
+[M::main] Real time: 173.322 sec; CPU: 552.918 sec; Peak RSS: 0.910 GB
+[bam_sort_core] merging from 8 files and 1 in-memory blocks...
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-19T20:47:14Z samtools quickcheck -v /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/DNA.full_cleaned.bam.partial
+COMMAND 2026-10-19T20:47:14Z samtools view -b -q 20 -F 3844 -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/DNA.full_cleaned.filtered.bam /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/DNA.full_cleaned.bam.partial
+COMMAND 2026-10-19T20:49:01Z samtools index /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/DNA.full_cleaned.filtered.bam
+COMMAND 2026-10-19T20:49:07Z samtools coverage /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/DNA.full_cleaned.filtered.bam > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/samtools_coverage.tsv
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/DNA.full_cleaned.filtered.bam, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/DNA.full_cleaned.filtered.bam.bai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/samtools_coverage.tsv
+FINISH 2026-10-19T20:49:35Z exit_status=0
+FINISH 2026-10-19T15:49:35-05:00

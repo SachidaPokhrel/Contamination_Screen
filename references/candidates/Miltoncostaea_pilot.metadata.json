@@ -1,0 +1,16 @@
+{
+  "reference_id": "Miltoncostaea_pilot",
+  "role": "candidate",
+  "assay": "RNA",
+  "taxid": "2843216",
+  "organism": "Miltoncostaea oceani",
+  "accessions": "GCF_018141545.1",
+  "fasta": "references/candidates/Miltoncostaea_pilot.fa",
+  "evidence_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_018141545.1/",
+  "verified": "true",
+  "retrieved_at": "2026-10-18T05:40:16Z",
+  "sha256": "7a2fdfd2c42cb94d9e1f60aec0bdbc9cc93d39c2db7a1842a8e150b8cc9db15a",
+  "contigs": 3,
+  "bases": 4542116,
+  "source": "NCBI versioned accession"
+}

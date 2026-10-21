@@ -1,0 +1,290 @@
+
+START 2026-10-17T21:02:04Z pid=3017653 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/qc_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=2 readset=subsampled
+
+START 2026-10-17T21:02:04Z pid=3017653 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/02_qc_DNA_Gokan_CBS315_81.log
+VERSION fastqc: FastQC v0.12.1
+VERSION fastp: fastp 0.24.3
+COMMAND 2026-10-17T21:02:58Z fastqc --threads 2 --outdir /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/raw /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of DNA_Gokan_CBS315_81_1.fastq.gz
+Started analysis of DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 5% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 5% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 10% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 10% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 15% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 15% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 20% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 20% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 25% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 25% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 30% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 30% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 35% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 35% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 40% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 40% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 45% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 45% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 50% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 55% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 50% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 60% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 55% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 65% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 60% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 70% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 65% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 75% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 70% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 80% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 75% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 85% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 80% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 90% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 95% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 85% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Analysis complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 90% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 95% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Analysis complete for DNA_Gokan_CBS315_81_2.fastq.gz
+COMMAND 2026-10-17T21:04:02Z fastp --in1 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_1.fastq.gz --in2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_2.fastq.gz --out1 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.partial.gz --out2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.partial.gz --thread 2 --detect_adapter_for_pe --json /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.json --html /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.html
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+No adapter detected for read2
+
+Read1 before filtering:
+total reads: 5888715
+total bases: 876463512
+Q20 bases: 811806945(92.623%)
+Q30 bases: 759355220(86.6385%)
+
+Read2 before filtering:
+total reads: 5888715
+total bases: 877886742
+Q20 bases: 795764270(90.6454%)
+Q30 bases: 735982871(83.8357%)
+
+Read1 after filtering:
+total reads: 5685476
+total bases: 846593711
+Q20 bases: 790093935(93.3262%)
+Q30 bases: 740124010(87.4238%)
+
+Read2 after filtering:
+total reads: 5685476
+total bases: 846441221
+Q20 bases: 779524362(92.0943%)
+Q30 bases: 722968891(85.4128%)
+
+Filtering result:
+reads passed filter: 11370952
+reads failed due to low quality: 390260
+reads failed due to too many N: 16218
+reads failed due to too short: 0
+reads with adapter trimmed: 49366
+bases trimmed due to adapters: 2138629
+
+Duplication rate: 0.366447%
+
+Insert size peak (evaluated by paired-end reads): 262
+
+JSON report: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.json
+HTML report: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.html
+
+fastp --in1 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_1.fastq.gz --in2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_2.fastq.gz --out1 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.partial.gz --out2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.partial.gz --thread 2 --detect_adapter_for_pe --json /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.json --html /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.html 
+fastp v0.24.3, time used: 63 seconds
+COMMAND 2026-10-17T21:05:49Z fastqc --threads 2 --outdir /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/cleaned /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of DNA_Gokan_CBS315_81_1.fastq.gz
+Started analysis of DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 5% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 5% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 10% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 10% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 15% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 15% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 20% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 20% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 25% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 25% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 30% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 30% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 35% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 40% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 35% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 45% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 40% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 50% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 45% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 55% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 50% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 60% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 55% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 65% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 60% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 70% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 65% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 75% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 70% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 80% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 85% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 75% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 90% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 80% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 95% complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 85% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Analysis complete for DNA_Gokan_CBS315_81_1.fastq.gz
+Approx 90% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Approx 95% complete for DNA_Gokan_CBS315_81_2.fastq.gz
+Analysis complete for DNA_Gokan_CBS315_81_2.fastq.gz
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/pairs.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.html, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/raw/DNA_Gokan_CBS315_81_1_fastqc.zip, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/raw/DNA_Gokan_CBS315_81_1_fastqc.html, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/raw/DNA_Gokan_CBS315_81_2_fastqc.zip, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/raw/DNA_Gokan_CBS315_81_2_fastqc.html, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/cleaned/DNA_Gokan_CBS315_81_1_fastqc.zip, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/cleaned/DNA_Gokan_CBS315_81_1_fastqc.html, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/cleaned/DNA_Gokan_CBS315_81_2_fastqc.zip, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/01_qc/DNA_Gokan_CBS315_81/cleaned/DNA_Gokan_CBS315_81_2_fastqc.html
+FINISH 2026-10-17T21:06:55Z exit_status=0
+
+START 2026-10-17T21:06:55Z pid=3017653 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/02_qc_RNA_Phib_mycelia1.log
+COMMAND 2026-10-17T21:07:41Z fastqc --threads 2 --outdir /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/raw /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/raw/RNA_Phib_mycelia1_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/raw/RNA_Phib_mycelia1_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of RNA_Phib_mycelia1_1.fastq.gz
+Started analysis of RNA_Phib_mycelia1_2.fastq.gz
+Approx 5% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 5% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 10% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 10% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 15% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 15% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 20% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 20% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 25% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 25% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 30% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 30% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 35% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 35% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 40% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 40% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 45% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 45% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 50% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 50% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 55% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 55% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 60% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 60% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 65% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 65% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 70% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 70% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 75% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 80% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 75% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 85% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 80% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 90% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 85% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 95% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 90% complete for RNA_Phib_mycelia1_2.fastq.gz
+Analysis complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 95% complete for RNA_Phib_mycelia1_2.fastq.gz
+Analysis complete for RNA_Phib_mycelia1_2.fastq.gz
+COMMAND 2026-10-17T21:08:32Z fastp --in1 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/raw/RNA_Phib_mycelia1_1.fastq.gz --in2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/raw/RNA_Phib_mycelia1_2.fastq.gz --out1 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.partial.gz --out2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.partial.gz --thread 2 --detect_adapter_for_pe --json /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/fastp.json --html /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/fastp.html
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+No adapter detected for read2
+
+Read1 before filtering:
+total reads: 6040967
+total bases: 543687030
+Q20 bases: 522594708(96.1205%)
+Q30 bases: 476635907(87.6673%)
+
+Read2 before filtering:
+total reads: 6040967
+total bases: 543687030
+Q20 bases: 522563218(96.1147%)
+Q30 bases: 478282684(87.9702%)
+
+Read1 after filtering:
+total reads: 5941455
+total bases: 534333716
+Q20 bases: 516298776(96.6248%)
+Q30 bases: 471952798(88.3255%)
+
+Read2 after filtering:
+total reads: 5941455
+total bases: 534333716
+Q20 bases: 516455194(96.6541%)
+Q30 bases: 473970465(88.7031%)
+
+Filtering result:
+reads passed filter: 11882910
+reads failed due to low quality: 199024
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads with adapter trimmed: 84504
+bases trimmed due to adapters: 797428
+
+Duplication rate: 11.2314%
+
+Insert size peak (evaluated by paired-end reads): 149
+
+JSON report: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/fastp.json
+HTML report: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/fastp.html
+
+fastp --in1 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/raw/RNA_Phib_mycelia1_1.fastq.gz --in2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/raw/RNA_Phib_mycelia1_2.fastq.gz --out1 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.partial.gz --out2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.partial.gz --thread 2 --detect_adapter_for_pe --json /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/fastp.json --html /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/fastp.html 
+fastp v0.24.3, time used: 40 seconds
+COMMAND 2026-10-17T21:09:55Z fastqc --threads 2 --outdir /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/cleaned /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz
+application/gzip
+application/gzip
+Started analysis of RNA_Phib_mycelia1_1.fastq.gz
+Started analysis of RNA_Phib_mycelia1_2.fastq.gz
+Approx 5% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 5% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 10% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 10% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 15% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 15% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 20% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 20% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 25% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 25% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 30% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 30% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 35% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 35% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 40% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 40% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 45% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 45% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 50% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 50% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 55% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 55% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 60% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 60% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 65% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 65% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 70% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 70% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 75% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 75% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 80% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 80% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 85% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 85% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 90% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 90% complete for RNA_Phib_mycelia1_2.fastq.gz
+Approx 95% complete for RNA_Phib_mycelia1_1.fastq.gz
+Approx 95% complete for RNA_Phib_mycelia1_2.fastq.gz
+Analysis complete for RNA_Phib_mycelia1_1.fastq.gz
+Analysis complete for RNA_Phib_mycelia1_2.fastq.gz
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/pairs.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/fastp.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/fastp.html, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/raw/RNA_Phib_mycelia1_1_fastqc.zip, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/raw/RNA_Phib_mycelia1_1_fastqc.html, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/raw/RNA_Phib_mycelia1_2_fastqc.zip, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/raw/RNA_Phib_mycelia1_2_fastqc.html, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/cleaned/RNA_Phib_mycelia1_1_fastqc.zip, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/cleaned/RNA_Phib_mycelia1_2_fastqc.zip, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/cleaned/RNA_Phib_mycelia1_1_fastqc.html, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/01_qc/RNA_Phib_mycelia1/cleaned/RNA_Phib_mycelia1_2_fastqc.html
+FINISH 2026-10-17T21:10:45Z exit_status=0
+FINISH 2026-10-17T21:10:45Z exit_status=0

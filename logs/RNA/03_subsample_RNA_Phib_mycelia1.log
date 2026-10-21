@@ -1,0 +1,4 @@
+
+START 2026-10-17T21:16:33Z pid=2429032 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/03_subsample_RNA_Phib_mycelia1.log
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_1.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_2.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1.subsample.json
+FINISH 2026-10-17T21:17:59Z exit_status=0

@@ -1,0 +1,17 @@
+
+START 2026-10-17T21:58:05Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Phib_genome.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCA_024679025.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=13507051&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/024/679/025/GCA_024679025.1_ASM2467902v1/GCA_024679025.1_ASM2467902v1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.partial.download.gz
+COMMAND 2026-10-17T21:58:07Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.metadata.json
+FINISH 2026-10-17T21:58:08Z exit_status=0
+
+START 2026-10-17T21:58:27Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Phib_genome.log
+SKIP verified /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome_reference.done.json
+FINISH 2026-10-17T21:58:27Z exit_status=0
+
+START 2026-10-18T05:40:12Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Phib_genome.log
+COMMAND 2026-10-18T05:40:13Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.metadata.json
+FINISH 2026-10-18T05:40:13Z exit_status=0

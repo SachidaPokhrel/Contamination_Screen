@@ -1,0 +1,8 @@
+reference_id	role	assay	taxid	organism	accessions	fasta	evidence_url	verified
+Gokan_CBS315_81	host	DNA	182683	Globisporangium okanoganense	GCA_023334035.1	references/host/Gokan_CBS315_81.fa	https://www.ncbi.nlm.nih.gov/bioproject/PRJNA601986	true
+Phib_genome	host	RNA	175300	Phytophthora hibernalis	GCA_024679025.1	references/host/Phib_genome.fa	https://www.ncbi.nlm.nih.gov/bioproject/746351	true
+Acetobacteroides_pilot	candidate	all	1760811	uncultured Acetobacteroides sp.	GCF_963678165.1	references/candidates/Acetobacteroides_pilot.fa	https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_963678165.1/	true
+Pseudomonas_CIP10	candidate	all	2892442	Pseudomonas sp. CIP-10	GCF_020911845.1	references/candidates/Pseudomonas_CIP10.fa	https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_020911845.1/	true
+Tateyamaria_pilot	candidate	all	299262	Tateyamaria omphalii	GCF_001969365.1	references/candidates/Tateyamaria_pilot.fa	https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_001969365.1/	true
+Stenotrophomonas_pilot	candidate	RNA	40324	Stenotrophomonas maltophilia	GCF_988222995.1	references/candidates/Stenotrophomonas_pilot.fa	https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_988222995.1/	true
+Miltoncostaea_pilot	candidate	RNA	2843216	Miltoncostaea oceani	GCF_018141545.1	references/candidates/Miltoncostaea_pilot.fa	https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_018141545.1/	true

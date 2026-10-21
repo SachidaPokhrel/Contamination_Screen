@@ -1,0 +1,9 @@
+Inspection 2026-10-17
+Ubuntu 26.04.1 LTS; x86_64; WSL2; kernel 6.18.33.2-microsoft-standard-WSL2
+12 logical CPUs; RAM 3.7 GiB total / 2.7 GiB available; swap 1.0 GiB
+Project filesystem ~941 GiB free; /tmp tmpfs 1.9 GiB
+Bash 5.3.9; Python 3.14.4; Git 2.53.0
+Conda/Mamba/Micromamba/R and requested bioinformatics executables absent from PATH.
+Shell HTTPS NCBI and conda-forge: urllib URLError [Errno -3] Temporary failure in name resolution.
+Browsing service NCBI queries succeeded.
+No actual bioinformatics tests run.

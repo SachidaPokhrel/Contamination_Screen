@@ -1,0 +1,4 @@
+branch	sequences	total_bases	N50_bp	longest_bp	unclassified_bases_percent	input_scope	source
+Published DNA assembly	5631	44209726	15859	134403	99.99659	published assembly + full cleaned DNA mapping	results/DNA/07_assembly/DNA_Gokan_CBS315_81/contig_evidence.tsv
+De novo DNA assembly	18388	46890401	17970	146301	99.75374	full cleaned reads assembled de novo	results/DNA/08_denovo/DNA_Gokan_CBS315_81/contig_evidence.tsv
+De novo RNA transcriptome	27606	26496841	1750	13911	99.64604	full cleaned reads assembled de novo	results/RNA/08_transcriptome/RNA_Phib_mycelia1/contig_evidence.tsv

@@ -1,0 +1,16 @@
+environment	platform	tool	version	status
+contamination	Linux-x86_64	prefetch	 | prefetch : 3.2.1 | 	executed
+contamination	Linux-x86_64	fasterq-dump	 | fasterq-dump : 3.2.1 | 	executed
+contamination	Linux-x86_64	vdb-validate	 | vdb-validate : 3.2.1 | 	executed
+contamination	Linux-x86_64	fastqc	FastQC v0.12.1	executed
+contamination	Linux-x86_64	fastp	fastp 0.24.3	executed
+contamination	Linux-x86_64	seqkit	seqkit v2.14.0	executed
+contamination	Linux-x86_64	kraken2	Kraken version 2.1.6 | Copyright 2013-2023, Derrick Wood (dwood@cs.jhu.edu)	executed
+contamination	Linux-x86_64	bracken	Bracken v3.0.1	executed
+contamination	Linux-x86_64	bowtie2	[WARNING] Failed to launch x86-64-v3 version, staying with default | [WARNING] Failed to launch x86-64-v3 version, staying with default | /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2-align-s version 2.5.5	executed
+contamination	Linux-x86_64	minimap2	2.31-r1302	executed
+contamination	Linux-x86_64	samtools	samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.	executed
+contamination	Linux-x86_64	blastn	blastn: 2.16.0+ |  Package: blast 2.16.0, build Mar 28 2025 16:30:45	executed
+contamination	Linux-x86_64	python	Python 3.11.17	executed
+contamination	Linux-x86_64	Rscript	Rscript (R) version 4.4.3 (2025-02-28)	executed
+plotting	Linux-x86_64	Rscript	Rscript (R) version 4.4.3 (2025-02-28)	executed

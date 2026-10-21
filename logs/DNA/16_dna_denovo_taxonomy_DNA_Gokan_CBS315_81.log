@@ -1,0 +1,11 @@
+
+START 2026-10-19T20:42:27Z pid=4155739 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/16_dna_denovo_taxonomy_DNA_Gokan_CBS315_81.log
+CONFIG {"assembly": "results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta", "blobtools_command": ["bash", "hpc/blobtoolkit_exec.sh", "blobtools"], "fcs_settings": "config/assembly_analysis.json", "kraken_confidence": 0.1, "kraken_db": "/datasets/unzipped/pluspf", "min_mapq": 20, "minimum_free_gb": 40, "output": "results/DNA/08_denovo/DNA_Gokan_CBS315_81", "reads": ["data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz", "data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz"], "sample_id": "DNA_Gokan_CBS315_81", "schema_version": 1, "spades_command": ["bash", "hpc/dna_spades_exec.sh", "spades.py"], "spades_memory_gb": 56, "taxid": 182683, "threads": 4}
+VERSION kraken2: Kraken version 2.1.6 | Copyright 2013-2023, Derrick Wood (dwood@cs.jhu.edu)
+COMMAND 2026-10-19T20:42:36Z kraken2 --db /datasets/unzipped/pluspf --threads 4 --confidence 0.1 --report /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/assembly.kraken.report.tsv --output /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/assembly.kraken.tsv /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta
+Loading database information... done.
+18388 sequences (46.89 Mbp) processed in 2.952s (373.7 Kseq/m, 952.99 Mbp/m).
+  596 sequences classified (3.24%)
+  17792 sequences unclassified (96.76%)
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/assembly.kraken.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/assembly.kraken.report.tsv
+FINISH 2026-10-19T20:50:11Z exit_status=0

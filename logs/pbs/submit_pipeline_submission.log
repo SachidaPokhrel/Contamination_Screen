@@ -1,0 +1,245 @@
+
+START 2026-10-17T19:31:47Z pid=4 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -W depend=afterok:100.mock /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T19:31:47Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T19:31:48Z', 'dry_run': False}]
+FINISH 2026-10-17T19:31:48Z exit_status=0
+
+START 2026-10-17T19:31:48Z pid=12 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T19:31:48Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T19:31:48Z', 'dry_run': True}]
+FINISH 2026-10-17T19:31:48Z exit_status=0
+
+START 2026-10-17T19:33:20Z pid=10 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -W depend=afterok:100.mock /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T19:33:20Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T19:33:20Z', 'dry_run': False}]
+FINISH 2026-10-17T19:33:20Z exit_status=0
+
+START 2026-10-17T19:33:20Z pid=18 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T19:33:20Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T19:33:20Z', 'dry_run': True}]
+FINISH 2026-10-17T19:33:20Z exit_status=0
+
+START 2026-10-17T19:38:19Z pid=8 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -W depend=afterok:100.mock /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T19:38:19Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T19:38:19Z', 'dry_run': False}]
+FINISH 2026-10-17T19:38:19Z exit_status=0
+
+START 2026-10-17T19:38:20Z pid=16 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+FINISH 2026-10-17T19:38:20Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-17T19:38:20Z pid=20 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T19:38:20Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T19:38:20Z', 'dry_run': True}]
+FINISH 2026-10-17T19:38:20Z exit_status=0
+
+START 2026-10-17T19:38:31Z pid=4 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -W depend=afterok:100.mock /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T19:38:32Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T19:38:32Z', 'dry_run': False}]
+FINISH 2026-10-17T19:38:32Z exit_status=0
+
+START 2026-10-17T19:38:32Z pid=12 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+FINISH 2026-10-17T19:38:32Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-17T19:38:32Z pid=16 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -e /home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T19:38:32Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T19:38:32Z', 'dry_run': True}]
+FINISH 2026-10-17T19:38:32Z exit_status=0
+
+START 2026-10-17T19:42:08Z pid=5 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test vi361syc/pbs_logs' -e '/tmp/oomycete test vi361syc/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test vi361syc/pbs_logs' -e '/tmp/oomycete test vi361syc/pbs_logs' -W depend=afterok:100.mock /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T19:42:08Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T19:42:09Z', 'dry_run': False}]
+FINISH 2026-10-17T19:42:09Z exit_status=0
+
+START 2026-10-17T19:42:09Z pid=13 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test h6f126rz/pbs_logs' -e '/tmp/oomycete test h6f126rz/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+FINISH 2026-10-17T19:42:09Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-17T19:42:09Z pid=17 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test o8_ic4zv/pbs_logs' -e '/tmp/oomycete test o8_ic4zv/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test o8_ic4zv/pbs_logs' -e '/tmp/oomycete test o8_ic4zv/pbs_logs' -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T19:42:09Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T19:42:09Z', 'dry_run': True}]
+FINISH 2026-10-17T19:42:09Z exit_status=0
+
+START 2026-10-17T19:42:42Z pid=7 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test 6vixhl25/pbs_logs' -e '/tmp/oomycete test 6vixhl25/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test 6vixhl25/pbs_logs' -e '/tmp/oomycete test 6vixhl25/pbs_logs' -W depend=afterok:100.mock /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T19:42:42Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T19:42:42Z', 'dry_run': False}]
+FINISH 2026-10-17T19:42:42Z exit_status=0
+
+START 2026-10-17T19:42:43Z pid=15 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test 8uth3hmf/pbs_logs' -e '/tmp/oomycete test 8uth3hmf/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+FINISH 2026-10-17T19:42:43Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-17T19:42:43Z pid=19 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test 9qn6jmd2/pbs_logs' -e '/tmp/oomycete test 9qn6jmd2/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test 9qn6jmd2/pbs_logs' -e '/tmp/oomycete test 9qn6jmd2/pbs_logs' -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T19:42:43Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T19:42:43Z', 'dry_run': True}]
+FINISH 2026-10-17T19:42:43Z exit_status=0
+
+START 2026-10-17T19:43:10Z pid=8 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test fv6ky0ue/pbs_logs' -e '/tmp/oomycete test fv6ky0ue/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test fv6ky0ue/pbs_logs' -e '/tmp/oomycete test fv6ky0ue/pbs_logs' -W depend=afterok:100.mock /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T19:43:10Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T19:43:10Z', 'dry_run': False}]
+FINISH 2026-10-17T19:43:10Z exit_status=0
+
+START 2026-10-17T19:43:10Z pid=16 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test cucypmb9/pbs_logs' -e '/tmp/oomycete test cucypmb9/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+FINISH 2026-10-17T19:43:10Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-17T19:43:11Z pid=20 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test nmk58oak/pbs_logs' -e '/tmp/oomycete test nmk58oak/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test nmk58oak/pbs_logs' -e '/tmp/oomycete test nmk58oak/pbs_logs' -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T19:43:11Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T19:43:11Z', 'dry_run': True}]
+FINISH 2026-10-17T19:43:11Z exit_status=0
+
+START 2026-10-17T19:43:43Z pid=7 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test ytyvyrtw/pbs_logs' -e '/tmp/oomycete test ytyvyrtw/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test ytyvyrtw/pbs_logs' -e '/tmp/oomycete test ytyvyrtw/pbs_logs' -W depend=afterok:100.mock /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T19:43:43Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T19:43:44Z', 'dry_run': False}]
+FINISH 2026-10-17T19:43:44Z exit_status=0
+
+START 2026-10-17T19:43:44Z pid=15 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test 6_qtr82w/pbs_logs' -e '/tmp/oomycete test 6_qtr82w/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+FINISH 2026-10-17T19:43:44Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-17T19:43:44Z pid=19 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test xy9boile/pbs_logs' -e '/tmp/oomycete test xy9boile/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test xy9boile/pbs_logs' -e '/tmp/oomycete test xy9boile/pbs_logs' -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T19:43:44Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T19:43:44Z', 'dry_run': True}]
+FINISH 2026-10-17T19:43:44Z exit_status=0
+
+START 2026-10-17T19:48:05Z pid=8 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test gqzbxcer/pbs_logs' -e '/tmp/oomycete test gqzbxcer/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test gqzbxcer/pbs_logs' -e '/tmp/oomycete test gqzbxcer/pbs_logs' -W depend=afterok:100.mock /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T19:48:05Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T19:48:05Z', 'dry_run': False}]
+FINISH 2026-10-17T19:48:05Z exit_status=0
+
+START 2026-10-17T19:48:06Z pid=16 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test vyovvn5y/pbs_logs' -e '/tmp/oomycete test vyovvn5y/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+FINISH 2026-10-17T19:48:06Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-17T19:48:06Z pid=20 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test jsqa9rut/pbs_logs' -e '/tmp/oomycete test jsqa9rut/pbs_logs' /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test jsqa9rut/pbs_logs' -e '/tmp/oomycete test jsqa9rut/pbs_logs' -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T19:48:06Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T19:48:06Z', 'dry_run': True}]
+FINISH 2026-10-17T19:48:06Z exit_status=0
+
+START 2026-10-17T20:44:11Z pid=2399768 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/scratch-local/oomycete test 0mw5bdix/pbs_logs' -e '/tmp/scratch-local/oomycete test 0mw5bdix/pbs_logs' /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/scratch-local/oomycete test 0mw5bdix/pbs_logs' -e '/tmp/scratch-local/oomycete test 0mw5bdix/pbs_logs' -W depend=afterok:100.mock /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T20:44:11Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T20:44:11Z', 'dry_run': False}]
+FINISH 2026-10-17T20:44:11Z exit_status=0
+
+START 2026-10-17T20:44:11Z pid=2399779 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/scratch-local/oomycete test 8h02w9yu/pbs_logs' -e '/tmp/scratch-local/oomycete test 8h02w9yu/pbs_logs' /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+FINISH 2026-10-17T20:44:11Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-17T20:44:11Z pid=2399817 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/scratch-local/oomycete test r1xh1w1w/pbs_logs' -e '/tmp/scratch-local/oomycete test r1xh1w1w/pbs_logs' /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/scratch-local/oomycete test r1xh1w1w/pbs_logs' -e '/tmp/scratch-local/oomycete test r1xh1w1w/pbs_logs' -W depend=afterok:1.dryrun /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T20:44:11Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T20:44:11Z', 'dry_run': True}]
+FINISH 2026-10-17T20:44:11Z exit_status=0
+
+START 2026-10-17T20:45:13Z pid=2401340 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/scratch-local/oomycete test wm979s0v/pbs_logs' -e '/tmp/scratch-local/oomycete test wm979s0v/pbs_logs' /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/scratch-local/oomycete test wm979s0v/pbs_logs' -e '/tmp/scratch-local/oomycete test wm979s0v/pbs_logs' -W depend=afterok:100.mock /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-17T20:45:13Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-17T20:45:13Z', 'dry_run': False}]
+FINISH 2026-10-17T20:45:13Z exit_status=0
+
+START 2026-10-17T20:45:13Z pid=2401349 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/scratch-local/oomycete test 2jns2s0_/pbs_logs' -e '/tmp/scratch-local/oomycete test 2jns2s0_/pbs_logs' /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+FINISH 2026-10-17T20:45:13Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-17T20:45:13Z pid=2401353 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/scratch-local/oomycete test coa_28um/pbs_logs' -e '/tmp/scratch-local/oomycete test coa_28um/pbs_logs' /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=8gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination,OOMYCETE_CONFIG=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/scratch-local/oomycete test coa_28um/pbs_logs' -e '/tmp/scratch-local/oomycete test coa_28um/pbs_logs' -W depend=afterok:1.dryrun /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-17T20:45:13Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-17T20:45:13Z', 'dry_run': True}]
+FINISH 2026-10-17T20:45:13Z exit_status=0
+
+START 2026-10-20T21:27:18Z pid=24 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test sc0psnpu/pbs_logs' -e '/tmp/oomycete test sc0psnpu/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=96gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test sc0psnpu/pbs_logs' -e '/tmp/oomycete test sc0psnpu/pbs_logs' -q large -W depend=afterok:100.mock /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-20T21:27:18Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-20T21:27:18Z', 'dry_run': False}]
+FINISH 2026-10-20T21:27:18Z exit_status=0
+
+START 2026-10-20T21:27:18Z pid=32 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test 1b8wfdm2/pbs_logs' -e '/tmp/oomycete test 1b8wfdm2/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+FINISH 2026-10-20T21:27:18Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-20T21:27:19Z pid=36 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test zivu3tff/pbs_logs' -e '/tmp/oomycete test zivu3tff/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=96gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test zivu3tff/pbs_logs' -e '/tmp/oomycete test zivu3tff/pbs_logs' -q large -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-20T21:27:19Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-20T21:27:19Z', 'dry_run': True}]
+FINISH 2026-10-20T21:27:19Z exit_status=0
+
+START 2026-10-20T21:28:23Z pid=21 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test vmx5v36z/pbs_logs' -e '/tmp/oomycete test vmx5v36z/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=96gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test vmx5v36z/pbs_logs' -e '/tmp/oomycete test vmx5v36z/pbs_logs' -q large -W depend=afterok:100.mock /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-20T21:28:23Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-20T21:28:23Z', 'dry_run': False}]
+FINISH 2026-10-20T21:28:23Z exit_status=0
+
+START 2026-10-20T21:28:23Z pid=29 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test hbu8zeuu/pbs_logs' -e '/tmp/oomycete test hbu8zeuu/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+FINISH 2026-10-20T21:28:23Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-20T21:28:23Z pid=33 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test vtc6nqxd/pbs_logs' -e '/tmp/oomycete test vtc6nqxd/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=96gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test vtc6nqxd/pbs_logs' -e '/tmp/oomycete test vtc6nqxd/pbs_logs' -q large -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-20T21:28:23Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-20T21:28:23Z', 'dry_run': True}]
+FINISH 2026-10-20T21:28:23Z exit_status=0
+
+START 2026-10-20T21:30:02Z pid=24 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test 95pq6t08/pbs_logs' -e '/tmp/oomycete test 95pq6t08/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=96gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test 95pq6t08/pbs_logs' -e '/tmp/oomycete test 95pq6t08/pbs_logs' -q large -W depend=afterok:100.mock /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-20T21:30:02Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-20T21:30:02Z', 'dry_run': False}]
+FINISH 2026-10-20T21:30:02Z exit_status=0
+
+START 2026-10-20T21:30:02Z pid=32 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test d5gd14uh/pbs_logs' -e '/tmp/oomycete test d5gd14uh/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+FINISH 2026-10-20T21:30:02Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-20T21:30:02Z pid=36 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test wpvmwej9/pbs_logs' -e '/tmp/oomycete test wpvmwej9/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=96gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test wpvmwej9/pbs_logs' -e '/tmp/oomycete test wpvmwej9/pbs_logs' -q large -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-20T21:30:02Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-20T21:30:02Z', 'dry_run': True}]
+FINISH 2026-10-20T21:30:02Z exit_status=0
+
+START 2026-10-21T00:13:27Z pid=26 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test evkfso5a/pbs_logs' -e '/tmp/oomycete test evkfso5a/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=96gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test evkfso5a/pbs_logs' -e '/tmp/oomycete test evkfso5a/pbs_logs' -q large -W depend=afterok:100.mock /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '100.mock', 'submitted_at': '2026-10-21T00:13:27Z', 'dry_run': False}, {'stage': 'screen', 'job_id': '101.mock', 'submitted_at': '2026-10-21T00:13:27Z', 'dry_run': False}]
+FINISH 2026-10-21T00:13:27Z exit_status=0
+
+START 2026-10-21T00:13:27Z pid=34 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test r4zjytkb/pbs_logs' -e '/tmp/oomycete test r4zjytkb/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+FINISH 2026-10-21T00:13:27Z exit_status=1 error=qsub rejected qc: rejected
+; already submitted jobs: []
+
+START 2026-10-21T00:13:28Z pid=38 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/pbs/submit_pipeline_submission.log
+COMMAND qsub -N oom_qc -l select=1:ncpus=2:mem=4gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=2 -o '/tmp/oomycete test 6a_4z2jf/pbs_logs' -e '/tmp/oomycete test 6a_4z2jf/pbs_logs' -q small /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/02_qc.pbs
+COMMAND qsub -N oom_screen -l select=1:ncpus=4:mem=96gb -l walltime=02:00:00 -v OOMYCETE_PROJECT_ROOT=/home/sachida/Codex_Code/Contamination_Scan,OOMYCETE_CONFIG=/home/sachida/Codex_Code/Contamination_Scan/config/config.yaml,OOMYCETE_THREADS=4 -o '/tmp/oomycete test 6a_4z2jf/pbs_logs' -e '/tmp/oomycete test 6a_4z2jf/pbs_logs' -q large -W depend=afterok:1.dryrun /home/sachida/Codex_Code/Contamination_Scan/hpc/pbs/03_screen.pbs
+Job chain: [{'stage': 'qc', 'job_id': '1.dryrun', 'submitted_at': '2026-10-21T00:13:28Z', 'dry_run': True}, {'stage': 'screen', 'job_id': '2.dryrun', 'submitted_at': '2026-10-21T00:13:28Z', 'dry_run': True}]
+FINISH 2026-10-21T00:13:28Z exit_status=0

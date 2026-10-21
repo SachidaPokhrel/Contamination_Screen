@@ -1,0 +1,7 @@
+sample_id	taxid	reference_id	selected	note
+DNA_Gokan_CBS315_81	1760811	Acetobacteroides_pilot	true	Pilot validation; representative reference, not proof of organism identity
+RNA_Phib_mycelia1	1760811	Acetobacteroides_pilot	true	Pilot validation; representative reference, not proof of organism identity
+DNA_Gokan_CBS315_81	2892442	Pseudomonas_CIP10	true	Pilot validation; representative reference, not proof of organism identity
+RNA_Phib_mycelia1	2892442	Pseudomonas_CIP10	true	Pilot validation; representative reference, not proof of organism identity
+DNA_Gokan_CBS315_81	299262	Tateyamaria_pilot	true	Pilot validation; representative reference, not proof of organism identity
+RNA_Phib_mycelia1	299262	Tateyamaria_pilot	true	Pilot validation; representative reference, not proof of organism identity

@@ -1,0 +1,14 @@
+{
+  "signature": "5b9f05495239d9a7c01b3672408192f6a671fe6872b6486c1171a064b089585e",
+  "outputs": {
+    "results_round2/RNA/05_mapping/RNA_Phib_mycelia1/competitive/aligned.bam": "16833fd9c1f2dd64671322a57836ea80c5e68285e0585518a54de5611cf1f02c",
+    "results_round2/RNA/05_mapping/RNA_Phib_mycelia1/competitive/aligned.bam.bai": "565b639be29478142b633f64092e9eb52f48c8a44e42d2d33b49ca01e8234f60",
+    "results_round2/RNA/05_mapping/RNA_Phib_mycelia1/competitive/reference.fa": "3cefa6bf103cc464044355264574604b052adf179347b1189a380cdd1e2d14ea",
+    "results_round2/RNA/05_mapping/RNA_Phib_mycelia1/competitive/reference.fa.fai": "d42a291aba58ffd2a4c296ebdf3a7353beb1cd365a594044a3df06c516be51ae",
+    "results_round2/RNA/05_mapping/RNA_Phib_mycelia1/competitive/contigs.tsv": "e029a31bc093a6524387a699c31cd8d57d1c7fdcd8f5e73d637c9b71c21fb1e0",
+    "results_round2/RNA/05_mapping/RNA_Phib_mycelia1/competitive/mapping.json": "3fada63d93159cc815904d200f2fd78ea81cb275727aa1b1c2e5b81e1dbb6b3e",
+    "results_round2/RNA/05_mapping/RNA_Phib_mycelia1/competitive/flagstat.txt": "9ddcb1483852d6be6952512da13262c8300806269bad51e1b4eec8e3a2a949f0",
+    "results_round2/RNA/05_mapping/RNA_Phib_mycelia1/competitive/samtools.stats.txt": "e25ed034bb36311c6010afa894fcf00abd1e516de81f11cb38bfe57592f04d92"
+  },
+  "finished": "2026-10-18T05:45:24Z"
+}

@@ -1,0 +1,14 @@
+{
+  "signature": "571fa934ff35eaa7fb2bc4c6322a0874fb69055b6f48d03a0ed2800f43b02d9b",
+  "outputs": {
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/competitive/aligned.bam": "08add289d8043bad99d4709b227c627a6ca237fba58161e8daf4383d2bd6eafd",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/competitive/aligned.bam.bai": "e6096a6b66a5fda0de9375fdf26cd6e3dd2dcfd604df0084b8ebd457abb94d55",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/competitive/reference.fa": "f2f0dc46e741c9ccdeed6a5b621685fb1462b2493591355527b1b7a2f4ccc6df",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/competitive/reference.fa.fai": "658c93568eea71ead092bc256cc28242fc8dc531cf183f8e55528185b515dc6e",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/competitive/contigs.tsv": "0cec6bbf076ec0c7c5dabb3537749d7cdcd0c18c42b04d9871a36d34b190ce0e",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/competitive/mapping.json": "e9378b19b3f8f648f1662981a495e365b6f475ccca81f21f09b7f20eac4053ac",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/competitive/flagstat.txt": "36fac6f0ba041425e6a39806099006ac99b0bac99c4eeaa81b526343f4343446",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/competitive/samtools.stats.txt": "5fc86f51eb01fe4d9b7579508da6805e5c017296074f3b3862fa171b2852a917"
+  },
+  "finished": "2026-10-17T22:00:36Z"
+}

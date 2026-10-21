@@ -1,0 +1,118 @@
+LOCUS       CP064356                4130 bp    DNA     linear   BCT 27-APR-2021
+DEFINITION  Miltoncostaea oceani strain SCSIO 61214 chromosome, complete
+            genome.
+ACCESSION   CP064356 REGION: 2099784..2103913
+VERSION     CP064356.1
+DBLINK      BioProject: PRJNA674971
+            BioSample: SAMN16686063
+KEYWORDS    .
+SOURCE      Miltoncostaea oceani
+  ORGANISM  Miltoncostaea oceani
+            Bacteria; Bacillati; Actinomycetota; Thermoleophilia;
+            Miltoncostaeales; Miltoncostaeaceae; Miltoncostaea.
+REFERENCE   1  (bases 1 to 4130)
+  AUTHORS   Li,C.
+  TITLE     Miltonia costa(ii) gen. nov. sp. nov., and Miltonia oceani sp.
+            nov., a novel deep branching phylogenetic lineage within the order
+            Gaiellales isolated from marine environments, and proposal of
+            Miltoniaceae fam. nov
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4130)
+  AUTHORS   Li,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-NOV-2020) Key Laboratory of Marine Bio-resources and
+            Ecology, South China Sea Institute of Oceanology,Chinese Academy of
+            Sciences, Xingang West Road, Guangzhou 510301, China
+COMMENT     Bacteria and source DNA available from Key Laboratory of Marine
+            Bio-resources and Ecology, South China Sea Institute of Oceanology,
+            Chinese Academy of Sciences.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: SOAPdenovo v. 2.3
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 1470.0x
+            Sequencing Technology  :: PacBio
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4130
+                     /organism="Miltoncostaea oceani"
+                     /mol_type="genomic DNA"
+                     /strain="SCSIO 61214"
+                     /isolation_source="marine sediment"
+                     /type_material="type material of Miltoncostaea oceani"
+                     /db_xref="taxon:2843216"
+                     /geo_loc_name="China: the south China sea"
+                     /collection_date="2016-09-15"
+ORIGIN      
+        1 gcgtagacgt cctggacgtc gtcgttgtcc tcgagctggt cgaccatccg caggatctgg
+       61 cgcgcctcgt tctcggtcgg cgccaccgtc gtcttcggga ccatggtcag ctcggcggtc
+      121 gcgaaggcga tgccggcctc ctcgagcgcc ccgcgcacgg ccatgaagtc ggacgggtcg
+      181 gtcgtgatgt gccaggtgcc gccgtcgtcg gacacgtcct ccgcgccgcc ctcgagcgcc
+      241 gcctccatca gggcgtcctc gtcgacgccc tcgcgctcga ccacgatcag gcccttgcgg
+      301 tcgaactgcc acgcgacgct gcccggggtg cccagggagc cgccgttctt cgtgaagatg
+      361 aagcgcaggt cgctggcggt gcggttgcgg ttgtcggtga ggatggtgca gatgacggcc
+      421 acgccgcccg ccgcgtagcc ctcgtagagc atcgactcgt acgagtctcc ctcaccggcg
+      481 ccggcgcccc gctggatcgc gcgctcgatg ttgtccttcg gcatcgagtt gtcgcgcgcc
+      541 ttctggatgg cgttcgcgag cgcggcgttc gcgtcggggt cgcccccgcc ctccttcgcg
+      601 gccacgatga tggcccgcga gagcttggag aagagctgcc ccctcttggc gtccgccgcg
+      661 cccttcttgc gcttgatcgt cgcccactta ctgtgcccgg acatgctcct gcctcctctc
+      721 tgtggcgccc tcgcggcgcg cgcgcgcccg ggtcaccagc cactcgtgga accggtgctc
+      781 ccccgagagc tcggggtgga acgccgtgac caacagatcg ccctgccgtg cggccaccgc
+      841 gtgaccggcg caggtcgcga gcacctcgac gcccgggccc gcctcctcga tccacggcgc
+      901 gcggatgaac acggcgtcga ccgggccctc ccccatcgcc aggacgtcga gggtcgtctc
+      961 gaacgagctc cgctgccgcc cgaaggcgtt gcggcgcacg acgatgtcca tgccgccgac
+     1021 gagcggctgc gcgccgccgg tggtcgcccg cgccagcacg atcatgccgg cgcaggtgcc
+     1081 gagggccggg aggccgtcgg cgaggcgcgt ccggaggacg tcgagcaggc ccgacccctc
+     1141 ggcgacgagg ccgagcgtgg tgctctcccc gcccggcagg acgatcgcgt cgacgtcgtc
+     1201 gaggtccccg ggggaccgca cgtccaccgg ctccgcgccc acgcgggata ggacgtccgc
+     1261 gtgctccgcg aacgcgccct gcaccgagag gaccccgacc cgggggcgcc cgaaccccgt
+     1321 cgcggcggcc tcgctcacca cccccggccc tggagcaggt cgccctgggc gagcgcggac
+     1381 atctcgatgc ccggcatcgc ctccttcagg ccgcgcgaca cgcgcgccag cacctcgggg
+     1441 tcgcggtagt gcgtcgcggc ctcgacgatc gcgcgcgccc ggctcgccgg gtcggcgctc
+     1501 ttgtagatgc cggagccgac gaagaccccc tcggcgccga gctgcagcat gagggccgcg
+     1561 tccgcggggg tggcgatgcc gcccgcgcag aacagcacga cggggagggc cccgtcggcg
+     1621 gcgacccggg ccaccaggtc gtagggtgcg cgcaggtcct tcgcggcggc gtgcagctcc
+     1681 tcgggcggga gacccgccag gcgggcgatg ccgccgcgga tcgaccgcat gtggcggacg
+     1741 gcctcgacga cgttgccggt gccggcctcg cccttgctcc ggatcatggc ggcaccctcg
+     1801 gagatgcgcc ggagcgcctc gccgaggtcg gtggcaccgc acacgaaggg gatggtgaag
+     1861 gagtgcttgt cgatgtggtg ggcctcgtcg gccggggtga ggacctcgga ctcgtcgatg
+     1921 aagtccacgt cgagcgcctg cagcacctgg gcctcgacga agtggccgat gcggcacttc
+     1981 gccatgaccg ggatggagac ggcctcctgg atcccggcga tcatctcggg gtcgctcatg
+     2041 cgggccacgc cgccgtccac gcggatgtcg gcggggatgc gctcgagcgc catgacggcg
+     2101 caggcccccg cgtcctcggc gatgcgcgcc tgctccgggg tcgtcacgtc catgatgacc
+     2161 ccgcccttga gcatctgggc gagtccggtc ttgacgcgcg tcgtcccggt gcgaccgttt
+     2221 gcgtctgcca cgcgatcccc tcatccgtcg ttgggcccgg ccggaaagtc tatcggacgg
+     2281 gccaccggtc acccgtcccc gccgccgcgc cgctttggcc gcgtggccga agaggagccc
+     2341 cccgcgtgtc cctaccgtcc tcatagatgg cacgtgatcc cgagatcgcc ttcctgcagc
+     2401 gcctcgcgct gacggcggcg tccgcgtcca gcatgggcga gctcgtgcgg ctcgtcatct
+     2461 ccgagaccgc ggaggccctc gagacggacg tctgctccgt ctacctgctg gaccccgacg
+     2521 acggcctgct ggtgctgacg gcgacgaacg gcctgtcgca cgagggcgtc gggcgcgtcc
+     2581 gcctcgccct gggcgagggc gtcaccggcg ccgccgccgc ggaccgccgc cccgtggtgg
+     2641 tggccgacgt ccggcgcgag ccgcgcttcc gctggctcga cggcgtcgac caggcccgct
+     2701 tcgtgtcgat gtgctccgtc ccgatcctcg ccggcgaccg cctggtgggc gtcctcaacg
+     2761 tccagacgga ccgcacccgg atcttctccg agggcgacgt cgcgttcctg acggcgatcg
+     2821 cggcgcaggt cgcgggggtc ctcgcccgcg tggagctgca ggagcgcctc gagcgacgcg
+     2881 tcgccgacct cgggcggtcg gaggaggtcc accgccgcct cagcggcctc gtcctcgcgg
+     2941 gcgccggcct gcgggccgtc tgcgacgaga tcgcgggcct gacgggcgcc gcggtcgccg
+     3001 tctacgacct cgacggcgtc cccgtcgcga cgagcggcac cggcctcccc ggccgcctgc
+     3061 ccggcggcgg cgcggagggc gggctggagg tcgcgaccct cagcgccggg cgggagacgc
+     3121 tcggctggct cgcggtgggg ccgtcgcgac gacccgggga catcgggcgc cgccaggcgc
+     3181 tggagcacgg ggcgacggtg ctggccctgg agctcgtgcg ggagcgggcg gcggacgagg
+     3241 cccgccaccg cgcgagcggc gatctgatcg acgagctcct gtcggcgggc ctggcgcccg
+     3301 acgacgccga ccggctcgcc gagcgggcgg cgcggctcgg ccaccggctg cagggccccg
+     3361 cgtgggtcat cgccatcgag ggcgacgacg cccgctccgg ccacgccctc acggcccccg
+     3421 ccgcacgggt ccgcgccgcg cgggagctgt cggggctggc gatggcgcgc gacgccgacg
+     3481 cgatcgtggt ggagcggctc ggcgggatcg cgctgatcgt ctccggcctc gtcgacggcg
+     3541 acgccgccga ggtgctcgcc ggcggggcgc gggccgtcgc ggcggcgctc gcccccggcg
+     3601 gttccgtctc gtgcgggctg agcggcgagg cggggggccc cgccgccctg caccgcctgt
+     3661 cgctccaggc gcgccaggcg cttcgggtcg cccggcgcct cggggagcgg ggcgtcgtcg
+     3721 cgtcgtaccg gcgcctcggc atcgagcggc tgctcctcgc gatcgacgac cccgagccga
+     3781 tcgacggctt cgtggaggac tggatcggcc cgctcgtgcg gcacgacgag gcggggcgcg
+     3841 gaggggcggc cccgctgctg gagtccctcg acgccctcgt ccgcgagggc tggaacatgc
+     3901 gggcgaccgc gcggcggctc ggcgtccacg tcaacaccct gctctaccgg atgcgccgca
+     3961 tcgagacgct cgtcaggcgc cgcctggacg accccgacac ccgcctcgcg ctcgcgctgg
+     4021 cgctgcgcgc ccgggtcgtg gcggcgggct cgcccggccc ggccgtctcg gtgctggagg
+     4081 gcgagccgcc cgtccgggcg ccccgcgcgg acccctgacg cccggggggc
+//
+

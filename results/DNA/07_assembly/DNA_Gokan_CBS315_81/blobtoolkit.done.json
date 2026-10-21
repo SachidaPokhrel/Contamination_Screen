@@ -1,0 +1,16 @@
+{
+  "signature": "15d75f29b811121940e7b596ec8bb71eb364fa1a67192dbdd66546bfaed98022",
+  "outputs": {
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/contig_evidence.tsv": "3af2f05e1029a8acd77a01fc953554239ea8dfa3834682cc725fa069e11466c4",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/blobdir/identifiers.json": "2378e5d5b43c213074a853c6dfa78ce2d0b7d16197afc5f42f4d2c07c706e2c4",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/blobdir/gc.json": "989f62b04921b4950fbd93b14085a13d2659826508bf850ca0a26591ff830293",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/blobdir/length.json": "f26a6793b9f587ddaf2dbe40a15ec75f8aeb77805bb0636bae2c9a43f468494b",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/blobdir/ncount.json": "5aa2eebb719456d70a4ae8008d2f8db156501a6c61c07cb4092fb746b2834926",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/blobdir/meta.json": "6224719d2de20efa0541d015ab2783b5ae6e023c776ef47c0d1b924943d82b50",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/blobdir/assembly_depth.json": "ae7f4739f275c3fb1158f5ddf2b08ed56aba6f6b847dd3a44c6587ac5e0ecaed",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/blobdir/kraken_label.json": "c52c8107fbb01fcc392e373670dcdfefce6ce520ee89422b304cacf36bff250b",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/assembly_blobplot.png": "0ffa76a47ca45ddbf959f5a94a2ffb44cbf8994a6c804d2c920e05b1eca02f4d",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/assembly_blobplot.pdf": "515b4a10ab9629bb311f7e1374846c2f4af4950fde436b5c3dd6c8cb082f3e89"
+  },
+  "finished": "2026-10-18T18:37:11Z"
+}

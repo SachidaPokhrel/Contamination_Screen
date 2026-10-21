@@ -1,0 +1,10 @@
+{
+  "pairs": 100000,
+  "reads": 200000,
+  "readset": "subsampled",
+  "db": "/datasets/unzipped/pluspf",
+  "release": "unknown; HPC shared pluspf installation",
+  "taxonomy_date": "unknown",
+  "db_taxa": "not independently verified",
+  "kraken_count_unit": "paired fragments/spots for --paired"
+}

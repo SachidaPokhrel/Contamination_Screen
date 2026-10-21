@@ -1,0 +1,43 @@
+# Regenerable sequencing inputs and large intermediate products
+/data/**
+!/data/README.md
+.envs/
+tools/
+work/
+*.sra
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.bt2
+*.bt2l
+*.k2d
+*.fai
+*.gzi
+*.sif
+*.gxi
+*.gxs
+*.sqlite
+*.partial
+*.lock
+**/depth.tsv.gz
+# Restored final assemblies are regenerated from the tracked gzip artifacts.
+results/DNA/08_denovo/**/contigs.fasta
+results/RNA/08_transcriptome/**/transcripts.fasta
+references/**/*.fa
+references/**/*.fasta
+# Local caches and synthetic test products
+__pycache__/
+*.py[cod]
+.pytest_cache/
+reports/synthetic_demo/
+logs/verification/synthetic/*
+!logs/verification/synthetic/README.md
+.DS_Store
+Thumbs.db
+
+# Fresh FCS reruns are regenerable; supplied historical outputs remain retained.
+fcs/reruns/

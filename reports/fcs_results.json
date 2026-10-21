@@ -1,0 +1,152 @@
+{
+  "assembly_accession": "GCA_051997085.1",
+  "taxid": 36331,
+  "input_sequences": 5451,
+  "input_bases": 42653821,
+  "cleaned_sequences": 5443,
+  "cleaned_bases": 42641463,
+  "excluded_sequences": 8,
+  "excluded_bases": 12358,
+  "excluded_assembly_percent": 0.028972785345537978,
+  "actions": [
+    {
+      "seq_id": "JALBZS010003580.1",
+      "start_pos": 1,
+      "end_pos": 2221,
+      "seq_len": 2221,
+      "action": "EXCLUDE",
+      "div": "fung:ascomycetes",
+      "agg_cont_cov": "100",
+      "top_tax_name": "Cladosporium colombiae"
+    },
+    {
+      "seq_id": "JALBZS010003714.1",
+      "start_pos": 1,
+      "end_pos": 2067,
+      "seq_len": 2067,
+      "action": "EXCLUDE",
+      "div": "fung:ascomycetes",
+      "agg_cont_cov": "80",
+      "top_tax_name": "Cladosporium colombiae"
+    },
+    {
+      "seq_id": "JALBZS010003737.1",
+      "start_pos": 1,
+      "end_pos": 2047,
+      "seq_len": 2047,
+      "action": "EXCLUDE",
+      "div": "fung:ascomycetes",
+      "agg_cont_cov": "67",
+      "top_tax_name": "Cladosporium colombiae"
+    },
+    {
+      "seq_id": "JALBZS010004295.1",
+      "start_pos": 1,
+      "end_pos": 1605,
+      "seq_len": 1605,
+      "action": "EXCLUDE",
+      "div": "fung:ascomycetes",
+      "agg_cont_cov": "71",
+      "top_tax_name": "Cladosporium colombiae"
+    },
+    {
+      "seq_id": "JALBZS010005108.1",
+      "start_pos": 1,
+      "end_pos": 1149,
+      "seq_len": 1149,
+      "action": "EXCLUDE",
+      "div": "fung:ascomycetes",
+      "agg_cont_cov": "96",
+      "top_tax_name": "Cladosporium colombiae"
+    },
+    {
+      "seq_id": "JALBZS010005132.1",
+      "start_pos": 1,
+      "end_pos": 1136,
+      "seq_len": 1136,
+      "action": "EXCLUDE",
+      "div": "fung:ascomycetes",
+      "agg_cont_cov": "100",
+      "top_tax_name": "Cladosporium colombiae"
+    },
+    {
+      "seq_id": "JALBZS010005197.1",
+      "start_pos": 1,
+      "end_pos": 1105,
+      "seq_len": 1105,
+      "action": "EXCLUDE",
+      "div": "fung:ascomycetes",
+      "agg_cont_cov": "83",
+      "top_tax_name": "Melanodothis sp. VS III C KN 2"
+    },
+    {
+      "seq_id": "JALBZS010005385.1",
+      "start_pos": 1,
+      "end_pos": 1028,
+      "seq_len": 1028,
+      "action": "EXCLUDE",
+      "div": "fung:ascomycetes",
+      "agg_cont_cov": "100",
+      "top_tax_name": "Melanodothis sp. VS III C KN 2"
+    }
+  ],
+  "taxa": [
+    {
+      "assembly_accession": "GCA_051997085.1",
+      "top_tax_name": "Cladosporium colombiae",
+      "sequences": 6,
+      "flagged_bases": 10225,
+      "input_assembly_bases_percent": 0.023972061025904337,
+      "significance_bin": "",
+      "likely_source": "",
+      "read_fraction_percent": "",
+      "mean_depth": "",
+      "read_mapping_breadth_percent": "",
+      "evidence": "FCS-GX action report, not independent read-mapping validation"
+    },
+    {
+      "assembly_accession": "GCA_051997085.1",
+      "top_tax_name": "Melanodothis sp. VS III C KN 2",
+      "sequences": 2,
+      "flagged_bases": 2133,
+      "input_assembly_bases_percent": 0.005000724319633639,
+      "significance_bin": "",
+      "likely_source": "",
+      "read_fraction_percent": "",
+      "mean_depth": "",
+      "read_mapping_breadth_percent": "",
+      "evidence": "FCS-GX action report, not independent read-mapping validation"
+    }
+  ],
+  "fcs_metadata": {
+    "git-rev": "v0.5.0+branch--HEAD",
+    "run-date": "Wed Oct 14 16:09:38 2026",
+    "db": {
+      "build-date": "2023-01-24",
+      "seqs": 3025824,
+      "Gbp": 709.264
+    },
+    "run-info": {
+      "agg-cvg": 0.94078,
+      "asserted-div": "prst:algae",
+      "inferred-primary-divs": [
+        "prst:algae"
+      ],
+      "corrected-primary-divs": [
+        "prst:algae"
+      ]
+    }
+  },
+  "exact_id_partition_verified": true,
+  "sequence_partition_verified_case_insensitive": true,
+  "retained_sequences_with_case_changes": 5419,
+  "input_lowercase_bases": 5642306,
+  "cleaned_lowercase_bases": 0,
+  "file_sha256": {
+    "fcs/GCA_051997085.1.fasta": "e702186387255a17b0fdffed862293f3135401baa970a5aeb4ccb16b4de3f9a2",
+    "fcs/clean.fasta": "17e6dabcfc4217daed2d6c7c48b12d29e17bd05302f14c554495a87ad7417892",
+    "fcs/contaminated.fasta": "8b4e270057722a3677acfe0cb095b6bedb19d8aa66eb8428b32d55a5fbaae171",
+    "fcs/decontamination/GCA_051997085.1.36331.fcs_gx_report.txt": "ca42ea96fc084eae43259d96d452f8c60931ec3833b45b7ce2397f418cba0c8c"
+  },
+  "scope": "Independent public assembly only; read fraction, depth and read-mapping breadth are unavailable."
+}

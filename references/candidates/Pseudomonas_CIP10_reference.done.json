@@ -1,0 +1,9 @@
+{
+  "signature": "af93f44a9bff712f39bfab4ba10d97b99af5b5c0f75d820d695f66357d41128b",
+  "outputs": {
+    "references/candidates/Pseudomonas_CIP10.fa": "4b59595110ed9240ad1cfe25d8789e7f53651eacc279f3c9ed044ee9cd0b7bbb",
+    "references/candidates/Pseudomonas_CIP10.fa.fai": "8484ed17da0e122f656501c48fce964525f8a9e0178a04e3db38e582afdbed76",
+    "references/candidates/Pseudomonas_CIP10.metadata.json": "b15d6b0a1a5a4808be210c16ee8762ab601095e0a6d3d79f33548d528eacc96b"
+  },
+  "finished": "2026-10-18T05:40:14Z"
+}

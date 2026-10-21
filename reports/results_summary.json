@@ -1,0 +1,1420 @@
+{
+  "qc": [
+    {
+      "assay": "DNA",
+      "sample_id": "DNA_Gokan_CBS315_81",
+      "input_pairs": 5888715,
+      "cleaned_pairs": 5685476,
+      "retained_pairs_percent": 96.5487,
+      "q30_after_percent": 86.418,
+      "input_scope": "full readset"
+    },
+    {
+      "assay": "RNA",
+      "sample_id": "RNA_Phib_mycelia1",
+      "input_pairs": 6040967,
+      "cleaned_pairs": 5941455,
+      "retained_pairs_percent": 98.3527,
+      "q30_after_percent": 88.514,
+      "input_scope": "full readset"
+    }
+  ],
+  "screens": [
+    {
+      "assay": "DNA",
+      "database": "Original database",
+      "input_pairs": 100000,
+      "classified_pairs": 1399,
+      "unclassified_pairs": 98601,
+      "classified_percent": 1.399,
+      "source": "results/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.report.tsv"
+    },
+    {
+      "assay": "DNA",
+      "database": "pluspf comparison",
+      "input_pairs": 100000,
+      "classified_pairs": 2773,
+      "unclassified_pairs": 97227,
+      "classified_percent": 2.773,
+      "source": "results_pluspf/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.report.tsv"
+    },
+    {
+      "assay": "RNA",
+      "database": "Original database",
+      "input_pairs": 100000,
+      "classified_pairs": 2456,
+      "unclassified_pairs": 97544,
+      "classified_percent": 2.456,
+      "source": "results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv"
+    },
+    {
+      "assay": "RNA",
+      "database": "pluspf comparison",
+      "input_pairs": 100000,
+      "classified_pairs": 5536,
+      "unclassified_pairs": 94464,
+      "classified_percent": 5.536,
+      "source": "results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv"
+    }
+  ],
+  "bracken": [
+    {
+      "assay": "DNA",
+      "sample_id": "DNA_Gokan_CBS315_81",
+      "name": "Bremia lactucae",
+      "taxid": "4779",
+      "directly_assigned_fragments": 1579,
+      "redistributed_fragments": 67,
+      "estimated_fragments": 1646,
+      "bracken_model_percent": 67.709,
+      "estimated_input_pair_percent": 1.646,
+      "input_pairs": 100000,
+      "distribution_bp": 150,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "DNA",
+      "sample_id": "DNA_Gokan_CBS315_81",
+      "name": "Plasmodium relictum",
+      "taxid": "85471",
+      "directly_assigned_fragments": 14,
+      "redistributed_fragments": 67,
+      "estimated_fragments": 81,
+      "bracken_model_percent": 3.332,
+      "estimated_input_pair_percent": 0.081,
+      "input_pairs": 100000,
+      "distribution_bp": 150,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "DNA",
+      "sample_id": "DNA_Gokan_CBS315_81",
+      "name": "Homo sapiens",
+      "taxid": "9606",
+      "directly_assigned_fragments": 108,
+      "redistributed_fragments": 595,
+      "estimated_fragments": 703,
+      "bracken_model_percent": 28.918,
+      "estimated_input_pair_percent": 0.703,
+      "input_pairs": 100000,
+      "distribution_bp": 150,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "RNA",
+      "sample_id": "RNA_Phib_mycelia1",
+      "name": "Bremia lactucae",
+      "taxid": "4779",
+      "directly_assigned_fragments": 1358,
+      "redistributed_fragments": 311,
+      "estimated_fragments": 1669,
+      "bracken_model_percent": 33.875,
+      "estimated_input_pair_percent": 1.669,
+      "input_pairs": 100000,
+      "distribution_bp": 100,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "RNA",
+      "sample_id": "RNA_Phib_mycelia1",
+      "name": "Akanthomyces muscarius",
+      "taxid": "2231603",
+      "directly_assigned_fragments": 92,
+      "redistributed_fragments": 343,
+      "estimated_fragments": 435,
+      "bracken_model_percent": 8.829,
+      "estimated_input_pair_percent": 0.435,
+      "input_pairs": 100000,
+      "distribution_bp": 100,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "RNA",
+      "sample_id": "RNA_Phib_mycelia1",
+      "name": "Purpureocillium takamizusanense",
+      "taxid": "2060973",
+      "directly_assigned_fragments": 44,
+      "redistributed_fragments": 224,
+      "estimated_fragments": 268,
+      "bracken_model_percent": 5.439,
+      "estimated_input_pair_percent": 0.268,
+      "input_pairs": 100000,
+      "distribution_bp": 100,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "RNA",
+      "sample_id": "RNA_Phib_mycelia1",
+      "name": "Malassezia restricta",
+      "taxid": "76775",
+      "directly_assigned_fragments": 11,
+      "redistributed_fragments": 306,
+      "estimated_fragments": 317,
+      "bracken_model_percent": 6.434,
+      "estimated_input_pair_percent": 0.317,
+      "input_pairs": 100000,
+      "distribution_bp": 100,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "RNA",
+      "sample_id": "RNA_Phib_mycelia1",
+      "name": "Cutaneotrichosporon cavernicola",
+      "taxid": "279322",
+      "directly_assigned_fragments": 10,
+      "redistributed_fragments": 41,
+      "estimated_fragments": 51,
+      "bracken_model_percent": 1.035,
+      "estimated_input_pair_percent": 0.051,
+      "input_pairs": 100000,
+      "distribution_bp": 100,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "RNA",
+      "sample_id": "RNA_Phib_mycelia1",
+      "name": "Homo sapiens",
+      "taxid": "9606",
+      "directly_assigned_fragments": 83,
+      "redistributed_fragments": 1196,
+      "estimated_fragments": 1279,
+      "bracken_model_percent": 25.959,
+      "estimated_input_pair_percent": 1.279,
+      "input_pairs": 100000,
+      "distribution_bp": 100,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "RNA",
+      "sample_id": "RNA_Phib_mycelia1",
+      "name": "uncultured Acetobacteroides sp.",
+      "taxid": "1760811",
+      "directly_assigned_fragments": 65,
+      "redistributed_fragments": 668,
+      "estimated_fragments": 733,
+      "bracken_model_percent": 14.877,
+      "estimated_input_pair_percent": 0.733,
+      "input_pairs": 100000,
+      "distribution_bp": 100,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    },
+    {
+      "assay": "RNA",
+      "sample_id": "RNA_Phib_mycelia1",
+      "name": "Miltoncostaea oceani",
+      "taxid": "2843216",
+      "directly_assigned_fragments": 12,
+      "redistributed_fragments": 158,
+      "estimated_fragments": 170,
+      "bracken_model_percent": 3.45,
+      "estimated_input_pair_percent": 0.17,
+      "input_pairs": 100000,
+      "distribution_bp": 100,
+      "validation_status": "screening_estimate_not_independent_confirmation"
+    }
+  ],
+  "assemblies": [
+    {
+      "branch": "Published DNA assembly",
+      "sequences": 5631,
+      "total_bases": 44209726,
+      "N50_bp": 15859,
+      "longest_bp": 134403,
+      "unclassified_bases_percent": 99.99659,
+      "input_scope": "published assembly + full cleaned DNA mapping",
+      "source": "results/DNA/07_assembly/DNA_Gokan_CBS315_81/contig_evidence.tsv"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "sequences": 18388,
+      "total_bases": 46890401,
+      "N50_bp": 17970,
+      "longest_bp": 146301,
+      "unclassified_bases_percent": 99.75374,
+      "input_scope": "full cleaned reads assembled de novo",
+      "source": "results/DNA/08_denovo/DNA_Gokan_CBS315_81/contig_evidence.tsv"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "sequences": 27606,
+      "total_bases": 26496841,
+      "N50_bp": 1750,
+      "longest_bp": 13911,
+      "unclassified_bases_percent": 99.64604,
+      "input_scope": "full cleaned reads assembled de novo",
+      "source": "results/RNA/08_transcriptome/RNA_Phib_mycelia1/contig_evidence.tsv"
+    }
+  ],
+  "taxa": [
+    {
+      "branch": "Published DNA assembly",
+      "assigned_label": "unclassified",
+      "sequences": 5630,
+      "bases": 44208218,
+      "assembly_bases_percent": 99.99659,
+      "length_weighted_mean_depth": 34.18415,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "Published DNA assembly",
+      "assigned_label": "Bacteria",
+      "sequences": 1,
+      "bases": 1508,
+      "assembly_bases_percent": 0.00341,
+      "length_weighted_mean_depth": 58.4019,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "unclassified",
+      "sequences": 17792,
+      "bases": 46774929,
+      "assembly_bases_percent": 99.75374,
+      "length_weighted_mean_depth": 33.9675,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Homo sapiens",
+      "sequences": 290,
+      "bases": 40468,
+      "assembly_bases_percent": 0.0863,
+      "length_weighted_mean_depth": 7.49076,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Bremia lactucae",
+      "sequences": 79,
+      "bases": 19132,
+      "assembly_bases_percent": 0.0408,
+      "length_weighted_mean_depth": 1624.01907,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Enterobacteriaceae",
+      "sequences": 27,
+      "bases": 6772,
+      "assembly_bases_percent": 0.01444,
+      "length_weighted_mean_depth": 1.26802,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Micrococcus",
+      "sequences": 26,
+      "bases": 6707,
+      "assembly_bases_percent": 0.0143,
+      "length_weighted_mean_depth": 1.23722,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Eukaryota",
+      "sequences": 22,
+      "bases": 4993,
+      "assembly_bases_percent": 0.01065,
+      "length_weighted_mean_depth": 96.04689,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Kocuria palustris",
+      "sequences": 15,
+      "bases": 3851,
+      "assembly_bases_percent": 0.00821,
+      "length_weighted_mean_depth": 1.21319,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Bacteria",
+      "sequences": 9,
+      "bases": 3607,
+      "assembly_bases_percent": 0.00769,
+      "length_weighted_mean_depth": 68.41264,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "cellular organisms",
+      "sequences": 23,
+      "bases": 3536,
+      "assembly_bases_percent": 0.00754,
+      "length_weighted_mean_depth": 11.53818,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "root",
+      "sequences": 7,
+      "bases": 3488,
+      "assembly_bases_percent": 0.00744,
+      "length_weighted_mean_depth": 400.25226,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Cutibacterium acnes",
+      "sequences": 14,
+      "bases": 3472,
+      "assembly_bases_percent": 0.0074,
+      "length_weighted_mean_depth": 1.21313,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Stutzerimonas stutzeri",
+      "sequences": 10,
+      "bases": 2599,
+      "assembly_bases_percent": 0.00554,
+      "length_weighted_mean_depth": 1.26318,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Micrococcus luteus",
+      "sequences": 9,
+      "bases": 2376,
+      "assembly_bases_percent": 0.00507,
+      "length_weighted_mean_depth": 1.21886,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Kocuria varians",
+      "sequences": 7,
+      "bases": 1781,
+      "assembly_bases_percent": 0.0038,
+      "length_weighted_mean_depth": 1.18473,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Tequatrovirus",
+      "sequences": 1,
+      "bases": 1242,
+      "assembly_bases_percent": 0.00265,
+      "length_weighted_mean_depth": 4.53623,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Opisthokonta",
+      "sequences": 8,
+      "bases": 1147,
+      "assembly_bases_percent": 0.00245,
+      "length_weighted_mean_depth": 19.68092,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Actinomycetes",
+      "sequences": 3,
+      "bases": 796,
+      "assembly_bases_percent": 0.0017,
+      "length_weighted_mean_depth": 1.13693,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Bradyrhizobium",
+      "sequences": 3,
+      "bases": 764,
+      "assembly_bases_percent": 0.00163,
+      "length_weighted_mean_depth": 1.18586,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Kocuria",
+      "sequences": 3,
+      "bases": 745,
+      "assembly_bases_percent": 0.00159,
+      "length_weighted_mean_depth": 1.21074,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Escherichia coli",
+      "sequences": 3,
+      "bases": 715,
+      "assembly_bases_percent": 0.00152,
+      "length_weighted_mean_depth": 1.26294,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Microbacteriaceae",
+      "sequences": 4,
+      "bases": 528,
+      "assembly_bases_percent": 0.00113,
+      "length_weighted_mean_depth": 0.57197,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Stenotrophomonas",
+      "sequences": 2,
+      "bases": 497,
+      "assembly_bases_percent": 0.00106,
+      "length_weighted_mean_depth": 1.21529,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Gammaproteobacteria",
+      "sequences": 2,
+      "bases": 480,
+      "assembly_bases_percent": 0.00102,
+      "length_weighted_mean_depth": 1.25416,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Pseudomonadota",
+      "sequences": 2,
+      "bases": 474,
+      "assembly_bases_percent": 0.00101,
+      "length_weighted_mean_depth": 1.27426,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Xanthomonas campestris pv. incanae",
+      "sequences": 5,
+      "bases": 455,
+      "assembly_bases_percent": 0.00097,
+      "length_weighted_mean_depth": 3.19341,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Kocuria rhizophila",
+      "sequences": 1,
+      "bases": 306,
+      "assembly_bases_percent": 0.00065,
+      "length_weighted_mean_depth": 1.94771,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Sar",
+      "sequences": 2,
+      "bases": 293,
+      "assembly_bases_percent": 0.00062,
+      "length_weighted_mean_depth": 12.61092,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "unclassified Stenotrophomonas",
+      "sequences": 1,
+      "bases": 276,
+      "assembly_bases_percent": 0.00059,
+      "length_weighted_mean_depth": 1.0942,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Staphylococcus",
+      "sequences": 1,
+      "bases": 274,
+      "assembly_bases_percent": 0.00058,
+      "length_weighted_mean_depth": 1.09854,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Comamonadaceae",
+      "sequences": 1,
+      "bases": 266,
+      "assembly_bases_percent": 0.00057,
+      "length_weighted_mean_depth": 1.13534,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Stutzerimonas stutzeri group",
+      "sequences": 1,
+      "bases": 259,
+      "assembly_bases_percent": 0.00055,
+      "length_weighted_mean_depth": 1.16602,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Brevundimonas sp. S1H14",
+      "sequences": 1,
+      "bases": 256,
+      "assembly_bases_percent": 0.00055,
+      "length_weighted_mean_depth": 1.17969,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Delftia acidovorans",
+      "sequences": 1,
+      "bases": 256,
+      "assembly_bases_percent": 0.00055,
+      "length_weighted_mean_depth": 1.17969,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Sphingomonadales",
+      "sequences": 1,
+      "bases": 255,
+      "assembly_bases_percent": 0.00054,
+      "length_weighted_mean_depth": 1.18039,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Corynebacterium tuberculostearicum",
+      "sequences": 1,
+      "bases": 253,
+      "assembly_bases_percent": 0.00054,
+      "length_weighted_mean_depth": 1.19368,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Acinetobacter",
+      "sequences": 1,
+      "bases": 252,
+      "assembly_bases_percent": 0.00054,
+      "length_weighted_mean_depth": 1.19444,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Sphingobium sp. WTD-1",
+      "sequences": 1,
+      "bases": 250,
+      "assembly_bases_percent": 0.00053,
+      "length_weighted_mean_depth": 1.208,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Leucobacter",
+      "sequences": 1,
+      "bases": 247,
+      "assembly_bases_percent": 0.00053,
+      "length_weighted_mean_depth": 1.21457,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Stutzerimonas kunmingensis",
+      "sequences": 1,
+      "bases": 245,
+      "assembly_bases_percent": 0.00052,
+      "length_weighted_mean_depth": 1.23265,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Dietzia timorensis",
+      "sequences": 1,
+      "bases": 241,
+      "assembly_bases_percent": 0.00051,
+      "length_weighted_mean_depth": 1.24896,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Leucobacter aridicollis",
+      "sequences": 1,
+      "bases": 239,
+      "assembly_bases_percent": 0.00051,
+      "length_weighted_mean_depth": 1.2636,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Exiguobacterium alkaliphilum",
+      "sequences": 1,
+      "bases": 231,
+      "assembly_bases_percent": 0.00049,
+      "length_weighted_mean_depth": 1.30736,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Leishmania",
+      "sequences": 1,
+      "bases": 138,
+      "assembly_bases_percent": 0.00029,
+      "length_weighted_mean_depth": 72.1594,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Streptomyces",
+      "sequences": 1,
+      "bases": 123,
+      "assembly_bases_percent": 0.00026,
+      "length_weighted_mean_depth": 30.2276,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Pseudomonadati",
+      "sequences": 1,
+      "bases": 104,
+      "assembly_bases_percent": 0.00022,
+      "length_weighted_mean_depth": 2.0,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo DNA assembly",
+      "assigned_label": "Burkholderia vietnamiensis",
+      "sequences": 1,
+      "bases": 83,
+      "assembly_bases_percent": 0.00018,
+      "length_weighted_mean_depth": 0.0,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "unclassified",
+      "sequences": 27473,
+      "bases": 26403054,
+      "assembly_bases_percent": 99.64604,
+      "length_weighted_mean_depth": 27.40132,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Bremia lactucae",
+      "sequences": 12,
+      "bases": 30454,
+      "assembly_bases_percent": 0.11493,
+      "length_weighted_mean_depth": 181.9086,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "cellular organisms",
+      "sequences": 21,
+      "bases": 19240,
+      "assembly_bases_percent": 0.07261,
+      "length_weighted_mean_depth": 58.12141,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Bacteria",
+      "sequences": 10,
+      "bases": 15565,
+      "assembly_bases_percent": 0.05874,
+      "length_weighted_mean_depth": 188.24654,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Eukaryota",
+      "sequences": 8,
+      "bases": 6315,
+      "assembly_bases_percent": 0.02383,
+      "length_weighted_mean_depth": 694.5502,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Akanthomyces muscarius",
+      "sequences": 22,
+      "bases": 4566,
+      "assembly_bases_percent": 0.01723,
+      "length_weighted_mean_depth": 3.16097,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Hypocreales",
+      "sequences": 16,
+      "bases": 3570,
+      "assembly_bases_percent": 0.01347,
+      "length_weighted_mean_depth": 2.97899,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Paenibacillus",
+      "sequences": 1,
+      "bases": 2901,
+      "assembly_bases_percent": 0.01095,
+      "length_weighted_mean_depth": 28.2964,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "leotiomyceta",
+      "sequences": 6,
+      "bases": 1740,
+      "assembly_bases_percent": 0.00657,
+      "length_weighted_mean_depth": 554.38098,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Sordariomycetes",
+      "sequences": 5,
+      "bases": 1672,
+      "assembly_bases_percent": 0.00631,
+      "length_weighted_mean_depth": 5.96771,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "unclassified Paenibacillus",
+      "sequences": 1,
+      "bases": 1452,
+      "assembly_bases_percent": 0.00548,
+      "length_weighted_mean_depth": 21.7796,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Homo sapiens",
+      "sequences": 8,
+      "bases": 1236,
+      "assembly_bases_percent": 0.00466,
+      "length_weighted_mean_depth": 1.22573,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Hypocreomycetidae",
+      "sequences": 5,
+      "bases": 1053,
+      "assembly_bases_percent": 0.00397,
+      "length_weighted_mean_depth": 2.61729,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Paenibacillus sp. RUD330",
+      "sequences": 3,
+      "bases": 641,
+      "assembly_bases_percent": 0.00242,
+      "length_weighted_mean_depth": 2.50234,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Dikarya",
+      "sequences": 2,
+      "bases": 618,
+      "assembly_bases_percent": 0.00233,
+      "length_weighted_mean_depth": 449.6388,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Pseudomonadati",
+      "sequences": 2,
+      "bases": 583,
+      "assembly_bases_percent": 0.0022,
+      "length_weighted_mean_depth": 3.50772,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Pseudomonadaceae",
+      "sequences": 2,
+      "bases": 410,
+      "assembly_bases_percent": 0.00155,
+      "length_weighted_mean_depth": 2.02195,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Opisthokonta",
+      "sequences": 2,
+      "bases": 408,
+      "assembly_bases_percent": 0.00154,
+      "length_weighted_mean_depth": 5.00736,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Basidiomycota",
+      "sequences": 1,
+      "bases": 388,
+      "assembly_bases_percent": 0.00146,
+      "length_weighted_mean_depth": 3702.1,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Clostridium",
+      "sequences": 2,
+      "bases": 328,
+      "assembly_bases_percent": 0.00124,
+      "length_weighted_mean_depth": 3.45122,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Gammaproteobacteria",
+      "sequences": 1,
+      "bases": 207,
+      "assembly_bases_percent": 0.00078,
+      "length_weighted_mean_depth": 3.03865,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Trichoderma atroviride",
+      "sequences": 1,
+      "bases": 149,
+      "assembly_bases_percent": 0.00056,
+      "length_weighted_mean_depth": 2.57047,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Pseudomonadota",
+      "sequences": 1,
+      "bases": 146,
+      "assembly_bases_percent": 0.00055,
+      "length_weighted_mean_depth": 2.46575,
+      "interpretation": "provisional whole-contig assignment"
+    },
+    {
+      "branch": "De novo RNA transcriptome",
+      "assigned_label": "Pseudomonas",
+      "sequences": 1,
+      "bases": 145,
+      "assembly_bases_percent": 0.00055,
+      "length_weighted_mean_depth": 1.24138,
+      "interpretation": "provisional whole-contig assignment"
+    }
+  ],
+  "fcs": {
+    "assembly_accession": "GCA_051997085.1",
+    "taxid": 36331,
+    "input_sequences": 5451,
+    "input_bases": 42653821,
+    "cleaned_sequences": 5443,
+    "cleaned_bases": 42641463,
+    "excluded_sequences": 8,
+    "excluded_bases": 12358,
+    "excluded_assembly_percent": 0.028972785345537978,
+    "actions": [
+      {
+        "seq_id": "JALBZS010003580.1",
+        "start_pos": 1,
+        "end_pos": 2221,
+        "seq_len": 2221,
+        "action": "EXCLUDE",
+        "div": "fung:ascomycetes",
+        "agg_cont_cov": "100",
+        "top_tax_name": "Cladosporium colombiae"
+      },
+      {
+        "seq_id": "JALBZS010003714.1",
+        "start_pos": 1,
+        "end_pos": 2067,
+        "seq_len": 2067,
+        "action": "EXCLUDE",
+        "div": "fung:ascomycetes",
+        "agg_cont_cov": "80",
+        "top_tax_name": "Cladosporium colombiae"
+      },
+      {
+        "seq_id": "JALBZS010003737.1",
+        "start_pos": 1,
+        "end_pos": 2047,
+        "seq_len": 2047,
+        "action": "EXCLUDE",
+        "div": "fung:ascomycetes",
+        "agg_cont_cov": "67",
+        "top_tax_name": "Cladosporium colombiae"
+      },
+      {
+        "seq_id": "JALBZS010004295.1",
+        "start_pos": 1,
+        "end_pos": 1605,
+        "seq_len": 1605,
+        "action": "EXCLUDE",
+        "div": "fung:ascomycetes",
+        "agg_cont_cov": "71",
+        "top_tax_name": "Cladosporium colombiae"
+      },
+      {
+        "seq_id": "JALBZS010005108.1",
+        "start_pos": 1,
+        "end_pos": 1149,
+        "seq_len": 1149,
+        "action": "EXCLUDE",
+        "div": "fung:ascomycetes",
+        "agg_cont_cov": "96",
+        "top_tax_name": "Cladosporium colombiae"
+      },
+      {
+        "seq_id": "JALBZS010005132.1",
+        "start_pos": 1,
+        "end_pos": 1136,
+        "seq_len": 1136,
+        "action": "EXCLUDE",
+        "div": "fung:ascomycetes",
+        "agg_cont_cov": "100",
+        "top_tax_name": "Cladosporium colombiae"
+      },
+      {
+        "seq_id": "JALBZS010005197.1",
+        "start_pos": 1,
+        "end_pos": 1105,
+        "seq_len": 1105,
+        "action": "EXCLUDE",
+        "div": "fung:ascomycetes",
+        "agg_cont_cov": "83",
+        "top_tax_name": "Melanodothis sp. VS III C KN 2"
+      },
+      {
+        "seq_id": "JALBZS010005385.1",
+        "start_pos": 1,
+        "end_pos": 1028,
+        "seq_len": 1028,
+        "action": "EXCLUDE",
+        "div": "fung:ascomycetes",
+        "agg_cont_cov": "100",
+        "top_tax_name": "Melanodothis sp. VS III C KN 2"
+      }
+    ],
+    "taxa": [
+      {
+        "assembly_accession": "GCA_051997085.1",
+        "top_tax_name": "Cladosporium colombiae",
+        "sequences": 6,
+        "flagged_bases": 10225,
+        "input_assembly_bases_percent": 0.023972061025904337,
+        "significance_bin": "",
+        "likely_source": "",
+        "read_fraction_percent": "",
+        "mean_depth": "",
+        "read_mapping_breadth_percent": "",
+        "evidence": "FCS-GX action report, not independent read-mapping validation"
+      },
+      {
+        "assembly_accession": "GCA_051997085.1",
+        "top_tax_name": "Melanodothis sp. VS III C KN 2",
+        "sequences": 2,
+        "flagged_bases": 2133,
+        "input_assembly_bases_percent": 0.005000724319633639,
+        "significance_bin": "",
+        "likely_source": "",
+        "read_fraction_percent": "",
+        "mean_depth": "",
+        "read_mapping_breadth_percent": "",
+        "evidence": "FCS-GX action report, not independent read-mapping validation"
+      }
+    ],
+    "fcs_metadata": {
+      "git-rev": "v0.5.0+branch--HEAD",
+      "run-date": "Wed Oct 14 16:09:38 2026",
+      "db": {
+        "build-date": "2023-01-24",
+        "seqs": 3025824,
+        "Gbp": 709.264
+      },
+      "run-info": {
+        "agg-cvg": 0.94078,
+        "asserted-div": "prst:algae",
+        "inferred-primary-divs": [
+          "prst:algae"
+        ],
+        "corrected-primary-divs": [
+          "prst:algae"
+        ]
+      }
+    },
+    "exact_id_partition_verified": true,
+    "sequence_partition_verified_case_insensitive": true,
+    "retained_sequences_with_case_changes": 5419,
+    "input_lowercase_bases": 5642306,
+    "cleaned_lowercase_bases": 0,
+    "file_sha256": {
+      "fcs/GCA_051997085.1.fasta": "e702186387255a17b0fdffed862293f3135401baa970a5aeb4ccb16b4de3f9a2",
+      "fcs/clean.fasta": "17e6dabcfc4217daed2d6c7c48b12d29e17bd05302f14c554495a87ad7417892",
+      "fcs/contaminated.fasta": "8b4e270057722a3677acfe0cb095b6bedb19d8aa66eb8428b32d55a5fbaae171",
+      "fcs/decontamination/GCA_051997085.1.36331.fcs_gx_report.txt": "ca42ea96fc084eae43259d96d452f8c60931ec3833b45b7ce2397f418cba0c8c"
+    },
+    "scope": "Independent public assembly only; read fraction, depth and read-mapping breadth are unavailable."
+  },
+  "history": [
+    {
+      "start_utc": "2026-10-17T19:47:50Z",
+      "finish_utc": "2026-10-17T19:47:50Z",
+      "status": "FAILED_ATTEMPT",
+      "step": "01_download_DNA_Gokan_CBS315_81",
+      "evidence": "logs/downloads/01_download_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T19:47:50Z",
+      "finish_utc": "",
+      "status": "NO_FINISH_RECORDED",
+      "step": "approved_download_attempt",
+      "evidence": "logs/downloads/approved_download_attempt.log"
+    },
+    {
+      "start_utc": "2026-10-17T19:47:50Z",
+      "finish_utc": "2026-10-17T19:47:50Z",
+      "status": "FAILED_ATTEMPT",
+      "step": "approved_download_attempt",
+      "evidence": "logs/downloads/approved_download_attempt.log"
+    },
+    {
+      "start_utc": "2026-10-17T20:16:26Z",
+      "finish_utc": "2026-10-17T20:16:26Z",
+      "status": "FAILED_ATTEMPT",
+      "step": "01_download_DNA_Gokan_CBS315_81",
+      "evidence": "logs/downloads/01_download_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T20:46:40Z",
+      "finish_utc": "2026-10-17T20:52:31Z",
+      "status": "PASS",
+      "step": "01_download_DNA_Gokan_CBS315_81",
+      "evidence": "logs/downloads/01_download_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T20:52:31Z",
+      "finish_utc": "2026-10-17T20:56:31Z",
+      "status": "PASS",
+      "step": "01_download_RNA_Phib_mycelia1",
+      "evidence": "logs/downloads/01_download_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-17T20:59:44Z",
+      "finish_utc": "2026-10-17T20:59:44Z",
+      "status": "FAILED_ATTEMPT",
+      "step": "03_subsample_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/03_subsample_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:02:04Z",
+      "finish_utc": "2026-10-17T21:06:55Z",
+      "status": "PASS",
+      "step": "02_qc_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/02_qc_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:06:55Z",
+      "finish_utc": "2026-10-17T21:10:45Z",
+      "status": "PASS",
+      "step": "02_qc_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/02_qc_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:14:40Z",
+      "finish_utc": "2026-10-17T21:16:33Z",
+      "status": "PASS",
+      "step": "03_subsample_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/03_subsample_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:16:33Z",
+      "finish_utc": "2026-10-17T21:17:59Z",
+      "status": "PASS",
+      "step": "03_subsample_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/03_subsample_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:34:18Z",
+      "finish_utc": "2026-10-17T21:37:08Z",
+      "status": "PASS",
+      "step": "04_kraken2_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/04_kraken2_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:37:08Z",
+      "finish_utc": "2026-10-17T21:41:10Z",
+      "status": "PASS",
+      "step": "04_kraken2_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/04_kraken2_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:41:10Z",
+      "finish_utc": "2026-10-17T21:41:10Z",
+      "status": "PASS",
+      "step": "05_bracken_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/05_bracken_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:41:10Z",
+      "finish_utc": "2026-10-17T21:41:10Z",
+      "status": "PASS",
+      "step": "05_bracken_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/05_bracken_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:41:10Z",
+      "finish_utc": "2026-10-17T21:41:10Z",
+      "status": "PASS",
+      "step": "06_candidates_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/06_candidates_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:41:10Z",
+      "finish_utc": "2026-10-17T21:41:10Z",
+      "status": "PASS",
+      "step": "06_candidates_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/06_candidates_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:58:31Z",
+      "finish_utc": "2026-10-17T21:58:54Z",
+      "status": "PASS",
+      "step": "08_mapping_candidate_only_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/08_mapping_candidate_only_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T21:58:54Z",
+      "finish_utc": "2026-10-17T22:00:36Z",
+      "status": "PASS",
+      "step": "08_mapping_competitive_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/08_mapping_competitive_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T22:00:36Z",
+      "finish_utc": "2026-10-17T22:00:57Z",
+      "status": "PASS",
+      "step": "08_mapping_candidate_only_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/08_mapping_candidate_only_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-17T22:00:57Z",
+      "finish_utc": "2026-10-17T22:02:58Z",
+      "status": "PASS",
+      "step": "08_mapping_competitive_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/08_mapping_competitive_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-17T22:07:13Z",
+      "finish_utc": "2026-10-17T22:07:42Z",
+      "status": "PASS",
+      "step": "09_coverage_candidate_only_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/09_coverage_candidate_only_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T22:07:42Z",
+      "finish_utc": "2026-10-17T22:09:34Z",
+      "status": "PASS",
+      "step": "09_coverage_competitive_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/09_coverage_competitive_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-17T22:09:35Z",
+      "finish_utc": "2026-10-17T22:10:03Z",
+      "status": "PASS",
+      "step": "09_coverage_candidate_only_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/09_coverage_candidate_only_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-17T22:10:03Z",
+      "finish_utc": "2026-10-17T22:12:57Z",
+      "status": "PASS",
+      "step": "09_coverage_competitive_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/09_coverage_competitive_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-18T05:42:29Z",
+      "finish_utc": "2026-10-18T05:43:04Z",
+      "status": "PASS",
+      "step": "08_mapping_candidate_only_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/08_mapping_candidate_only_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-18T05:43:04Z",
+      "finish_utc": "2026-10-18T05:45:24Z",
+      "status": "PASS",
+      "step": "08_mapping_competitive_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/08_mapping_competitive_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-18T05:45:28Z",
+      "finish_utc": "2026-10-18T05:46:13Z",
+      "status": "PASS",
+      "step": "09_coverage_candidate_only_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/09_coverage_candidate_only_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-18T05:46:13Z",
+      "finish_utc": "2026-10-18T05:49:28Z",
+      "status": "PASS",
+      "step": "09_coverage_competitive_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/09_coverage_competitive_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-18T13:20:56Z",
+      "finish_utc": "2026-10-18T13:24:38Z",
+      "status": "PASS",
+      "step": "04_kraken2_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/04_kraken2_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-18T13:24:38Z",
+      "finish_utc": "2026-10-18T13:28:09Z",
+      "status": "PASS",
+      "step": "04_kraken2_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/04_kraken2_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-18T13:28:13Z",
+      "finish_utc": "2026-10-18T13:28:13Z",
+      "status": "PASS",
+      "step": "05_bracken_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/05_bracken_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-18T13:28:18Z",
+      "finish_utc": "2026-10-18T13:28:18Z",
+      "status": "PASS",
+      "step": "05_bracken_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/05_bracken_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-18T18:11:47Z",
+      "finish_utc": "2026-10-18T18:11:47Z",
+      "status": "PASS",
+      "step": "14_assembly_inspect_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/14_assembly_inspect_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-18T18:17:58Z",
+      "finish_utc": "2026-10-18T18:17:59Z",
+      "status": "PASS",
+      "step": "14_assembly_assembly_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/14_assembly_assembly_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-18T18:18:20Z",
+      "finish_utc": "2026-10-18T18:36:42Z",
+      "status": "PASS",
+      "step": "14_assembly_mapping_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/14_assembly_mapping_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-18T18:18:20Z",
+      "finish_utc": "2026-10-18T18:24:21Z",
+      "status": "PASS",
+      "step": "14_assembly_taxonomy_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/14_assembly_taxonomy_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-18T18:36:49Z",
+      "finish_utc": "2026-10-18T18:37:11Z",
+      "status": "PASS",
+      "step": "14_assembly_blobtoolkit_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/14_assembly_blobtoolkit_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-19T16:35:03Z",
+      "finish_utc": "2026-10-19T16:35:03Z",
+      "status": "PASS",
+      "step": "15_rna_inspect_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/15_rna_inspect_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-19T16:36:20Z",
+      "finish_utc": "2026-10-19T16:46:49Z",
+      "status": "PASS",
+      "step": "15_rna_assemble_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/15_rna_assemble_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-19T16:47:06Z",
+      "finish_utc": "2026-10-19T16:51:38Z",
+      "status": "PASS",
+      "step": "15_rna_mapping_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/15_rna_mapping_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-19T16:47:06Z",
+      "finish_utc": "2026-10-19T16:53:02Z",
+      "status": "PASS",
+      "step": "15_rna_taxonomy_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/15_rna_taxonomy_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-19T16:53:12Z",
+      "finish_utc": "2026-10-19T16:53:45Z",
+      "status": "PASS",
+      "step": "15_rna_blobtoolkit_RNA_Phib_mycelia1",
+      "evidence": "logs/RNA/15_rna_blobtoolkit_RNA_Phib_mycelia1.log"
+    },
+    {
+      "start_utc": "2026-10-19T19:19:14Z",
+      "finish_utc": "2026-10-19T19:19:14Z",
+      "status": "PASS",
+      "step": "16_dna_denovo_inspect_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/16_dna_denovo_inspect_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-19T19:21:26Z",
+      "finish_utc": "2026-10-19T20:42:07Z",
+      "status": "PASS",
+      "step": "16_dna_denovo_assemble_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/16_dna_denovo_assemble_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-19T20:42:27Z",
+      "finish_utc": "2026-10-19T20:49:35Z",
+      "status": "PASS",
+      "step": "16_dna_denovo_mapping_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/16_dna_denovo_mapping_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-19T20:42:27Z",
+      "finish_utc": "2026-10-19T20:50:11Z",
+      "status": "PASS",
+      "step": "16_dna_denovo_taxonomy_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/16_dna_denovo_taxonomy_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-19T20:50:22Z",
+      "finish_utc": "2026-10-19T20:50:56Z",
+      "status": "PASS",
+      "step": "16_dna_denovo_blobtoolkit_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/16_dna_denovo_blobtoolkit_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-20T21:27:18Z",
+      "finish_utc": "2026-10-20T21:27:18Z",
+      "status": "FAILED_ATTEMPT",
+      "step": "14_assembly_mapping_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/14_assembly_mapping_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-20T21:28:23Z",
+      "finish_utc": "2026-10-20T21:28:23Z",
+      "status": "FAILED_ATTEMPT",
+      "step": "14_assembly_mapping_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/14_assembly_mapping_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-20T21:30:02Z",
+      "finish_utc": "2026-10-20T21:30:02Z",
+      "status": "FAILED_ATTEMPT",
+      "step": "14_assembly_mapping_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/14_assembly_mapping_DNA_Gokan_CBS315_81.log"
+    },
+    {
+      "start_utc": "2026-10-21T00:13:27Z",
+      "finish_utc": "2026-10-21T00:13:27Z",
+      "status": "FAILED_ATTEMPT",
+      "step": "14_assembly_mapping_DNA_Gokan_CBS315_81",
+      "evidence": "logs/DNA/14_assembly_mapping_DNA_Gokan_CBS315_81.log"
+    }
+  ],
+  "detection_rows": 16,
+  "embedded_figures": 7,
+  "fcs_completed": true,
+  "virus_discovery_completed": false
+}

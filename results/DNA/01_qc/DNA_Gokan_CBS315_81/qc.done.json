@@ -1,0 +1,19 @@
+{
+  "signature": "0f60d91cf8f94d73e46242cffe68dfed90550dd34edca74aff6e02a5adef3ed9",
+  "outputs": {
+    "data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz": "18290aa4fee1da3d52b5cae242968541658ea005ef1f63f4d0beb41ca03aa1cc",
+    "data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz": "778dc6983740b87cf1fa0b664c8b987d32abb241ecc614fbc1bfcc4f4d7bc104",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/pairs.json": "cba2595743a92e72172e0bad2ad8a554db419a0e6f67df72a1b49f3e92966319",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.json": "b7388d1dbb641581532f18c32cad579b8e2fb696db7305dedd8005d8581115f9",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/fastp.html": "25f4e01a42572c0130209ac56aa98b16bc0a62c686e4e788bb61b221cfd47f99",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/raw/DNA_Gokan_CBS315_81_1_fastqc.zip": "e3346f8da0276e2271eac4a56fd2bce1b4c302b62e1a04643bd2c64d73c59ce4",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/raw/DNA_Gokan_CBS315_81_1_fastqc.html": "409385035a6570fd6c2e396e3a63dbfa8a6154af8fd3d723342096e903e4978b",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/raw/DNA_Gokan_CBS315_81_2_fastqc.zip": "c16d216c48f2c6e09bf91f81c0a68d96e6090e69d7fd078476ad03f04763f9d8",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/raw/DNA_Gokan_CBS315_81_2_fastqc.html": "b213156f709c844c52621c85feb83188f4ac7395145627da4b50cf33a4b07673",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/cleaned/DNA_Gokan_CBS315_81_1_fastqc.zip": "f6b4fecd2bd010d2472c357b289d07173e2eb74defd23ab9ce19f166cc002b40",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/cleaned/DNA_Gokan_CBS315_81_1_fastqc.html": "ed7b951b67ecb4c62a97f9187e0ff67bbe16f497b281c2c61bd9b38ff6c26cf1",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/cleaned/DNA_Gokan_CBS315_81_2_fastqc.zip": "d65a8d4a30f1ab0fbeeb65cf69b91b183c822b23a291c5b5f0acd35b0b454631",
+    "results/DNA/01_qc/DNA_Gokan_CBS315_81/cleaned/DNA_Gokan_CBS315_81_2_fastqc.html": "740562fb3e570823cf47c2ea7ba296147efbe75d60b3f3506a80474868de6adf"
+  },
+  "finished": "2026-10-17T21:06:55Z"
+}

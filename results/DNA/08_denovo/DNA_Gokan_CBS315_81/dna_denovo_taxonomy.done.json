@@ -1,0 +1,8 @@
+{
+  "signature": "ce236a5dbad116b5c1d6999c1240fb1dcc8a8533992ce9b03abbd5182cebd7c5",
+  "outputs": {
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/assembly.kraken.tsv": "df3ec1aab4c55f3e95bd794555e58936318329dee6b1acfcb4981081e329d7b8",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/assembly.kraken.report.tsv": "50ea17dceaa49bcc88476978a7baf037bb3896c2ecdd298fab3c7c05fed4b6c9"
+  },
+  "finished": "2026-10-19T20:50:11Z"
+}

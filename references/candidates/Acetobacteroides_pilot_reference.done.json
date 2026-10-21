@@ -1,0 +1,9 @@
+{
+  "signature": "766f26eb25d453bfad2aeca84e98e1d9f8451a0abee987c10e0fad74183c5065",
+  "outputs": {
+    "references/candidates/Acetobacteroides_pilot.fa": "fc46238976e181c88370a5ee05fd42198af89b65631b7f12c10c327435c21231",
+    "references/candidates/Acetobacteroides_pilot.fa.fai": "6f561528a489a407ba398364a51576c19c2531520910079b100756f114032cf3",
+    "references/candidates/Acetobacteroides_pilot.metadata.json": "9b7a83a815c0b550cf6a6c47a072d81005601378081d7146fcbab7e3908401a4"
+  },
+  "finished": "2026-10-18T05:40:14Z"
+}

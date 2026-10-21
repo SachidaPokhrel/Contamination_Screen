@@ -1,0 +1,237 @@
+LOCUS       CP087160                4090 bp    DNA     linear   BCT 22-NOV-2021
+DEFINITION  Pseudomonas sp. CIP-10 chromosome, complete genome.
+ACCESSION   CP087160 REGION: 1859050..1863139
+VERSION     CP087160.1
+DBLINK      BioProject: PRJNA777571
+            BioSample: SAMN22864319
+KEYWORDS    .
+SOURCE      Pseudomonas sp. CIP-10
+  ORGANISM  Pseudomonas sp. CIP-10
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Pseudomonadales; Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (bases 1 to 4090)
+  AUTHORS   Li,B. and Hu,Z.
+  TITLE     Screening and degradation characteristics of a
+            ciprofloxacin-degrading strain
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4090)
+  AUTHORS   Li,B. and Hu,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (15-NOV-2021) School of Environmental Science and
+            Engineering, Huazhong University of Science and Technology, Luoyu
+            Road 1037, Wuhan, China Wuhan 430074 China, Wuhan, Hubei 430074,
+            China
+COMMENT     Bacteria and source DNA available from Ecological energy research
+            center of Huazhong University of science and technology.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 08-SEP-2021
+            Assembly Method        :: Unicycler v. 0.4.9
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 12.0x
+            Sequencing Technology  :: Illumina MiSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 11/16/2021 14:31:16
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 5.3
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 5,920
+            CDSs (total)                      :: 5,809
+            Genes (coding)                    :: 5,687
+            CDSs (with protein)               :: 5,687
+            Genes (RNA)                       :: 111
+            rRNAs                             :: 9, 8, 8 (5S, 16S, 23S)
+            complete rRNAs                    :: 9, 8, 8 (5S, 16S, 23S)
+            tRNAs                             :: 81
+            ncRNAs                            :: 5
+            Pseudo Genes (total)              :: 122
+            CDSs (without protein)            :: 122
+            Pseudo Genes (ambiguous residues) :: 0 of 122
+            Pseudo Genes (frameshifted)       :: 36 of 122
+            Pseudo Genes (incomplete)         :: 98 of 122
+            Pseudo Genes (internal stop)      :: 15 of 122
+            Pseudo Genes (multiple problems)  :: 22 of 122
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..4090
+                     /organism="Pseudomonas sp. CIP-10"
+                     /mol_type="genomic DNA"
+                     /strain="CIP-10"
+                     /isolation_source="Antibiotic contaminated soil"
+                     /db_xref="taxon:2892442"
+                     /geo_loc_name="China: Yujia Mountain,Wuhan"
+                     /lat_lon="29.58 N 113.41 E"
+                     /collection_date="2020-10-09"
+     gene            <1..633
+                     /gene="lpdA"
+                     /locus_tag="LMH93_08435"
+     CDS             <1..633
+                     /gene="lpdA"
+                     /locus_tag="LMH93_08435"
+                     /EC_number="1.8.1.4"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_250278.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="dihydrolipoyl dehydrogenase"
+                     /protein_id="UFH28612.1"
+                     /translation="MTQKFDVVVIGAGPGGYVAAIKAAQLGLKTACIEKYTDAEGKLA
+                     LGGTCLNVGCIPSKALLDSSWKYKEAKESFNVHGISTGEVKMDVAAMVGRKAGIVKNL
+                     TGGVATLFKANGVTSIQGHGKLLAGKKVEVTKADGTTEVIEAENVILASGSRPIDIPP
+                     APVDQNVIVDSTGALEFQAVPKRLGVIGAGVIGLELGSVWARLGAEVTVLEALDTFLM
+                     AADTAVSKEAQKTLTKQGLDIKLGARVTGSKVNGNEVEVTYTNAEGEQKITFDKLIVA
+                     VGRRPVTTDLLAADSGVTIDERGYIFVDDYCATSVPGVYAIGDVVRGMMLAHKASEEG
+                     IMVVERIKGHKAQMNYDLIPSVIYTHPEIAWVGKTEQALKAEGVEVNVGTFPFAASGR
+                     AMAANDTGGFVKVIADAKTDRVLGVHVIGPSAAELVQQGAIAMEFGTSAEDLGMMVFS
+                     HPTLSEALHEAALAVNGGAIHVANRKKR"
+     gene            805..1971
+                     /gene="sucC"
+                     /locus_tag="LMH93_08440"
+     CDS             805..1971
+                     /gene="sucC"
+                     /locus_tag="LMH93_08440"
+                     /EC_number="6.2.1.5"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_250279.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ADP-forming succinate--CoA ligase subunit beta"
+                     /protein_id="UFH28613.1"
+                     /translation="MNLHEYQGKQLFAEYGLPVSKGFAVDTPEQAAEACDKIGGNEWV
+                     VKAQVHAGGRGKAGGVKLVRSKEDAKAFAAQWLGKNLVTYQTDANGQPVSKILVESCT
+                     DIAKELYLGAVVDRSSRRIVFMASTEGGVDIEKVAHETPEKILKATIDPLVGAQPFQG
+                     RELAFQLGLEGKQVQQFAKIFVGLAKLFKDHDLALLEVNPLVIKADGDLHCLDAKINI
+                     DANAMYRQPKLKTFHDPSQDDAREAHAAKFELNYVALEGNIGCMVNGAGLAMGTMDIV
+                     NLHGGKPANFLDVGGGATKERVTEAFKIILSDSNVAAVLVNIFGGIVRCDMIAEGIIG
+                     AVKEVGVKVPVVVRLEGNNAELGAKVLAESGLNIIAATSLTDAAQQVVKAAEGK"
+     gene            1971..2855
+                     /gene="sucD"
+                     /locus_tag="LMH93_08445"
+     CDS             1971..2855
+                     /gene="sucD"
+                     /locus_tag="LMH93_08445"
+                     /EC_number="6.2.1.5"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_016393102.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="succinate--CoA ligase subunit alpha"
+                     /protein_id="UFH28614.1"
+                     /translation="MSVLINKDTKVICQGFTGSQGTFHSEQAIAYGTKMVGGVTPGKG
+                     GTTHLGLPVFNTVKEAVEATGADASVIYVPAPFCKDSILEAAFGGIKLIVCITEGIPT
+                     LDMLDAKVKCDELGVTLIGPNCPGVITPGECKIGIMPGHIHLPGKVGIVSRSGTLTYE
+                     AVKQTTDAGFGQSTCVGIGGDPIPGSNFIDILKLFQEDPKTEAIVMIGEIGGSAEEEA
+                     AAYIKAHVTKPVVSYIAGVTAPAGKRMGHAGAIISGGKGTADEKFAALQDAGVKTVRS
+                     LADIGKALAELTGWEAKK"
+     gene            3247..>4090
+                     /gene="brnQ"
+                     /locus_tag="LMH93_08450"
+     CDS             3247..>4090
+                     /gene="brnQ"
+                     /locus_tag="LMH93_08450"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_250661.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="branched-chain amino acid transport system II
+                     carrier protein"
+                     /protein_id="UFH28615.1"
+                     /translation="MKVLKGQDILALGFMTFALFVGAGNIIFPPIVGLQSGPHVWMAA
+                     LGFLVTAVGLPVITVVALAKVGGGMDALSSPIGKFFGGLLAAVCYLSVGPLFATPRTA
+                     TVSFEVGVAPLTGESPLALFIYSLVYFIVVLAVSMYPGKLLDTVGRFLAPLKIIALAV
+                     LGIAAFALPAGTIGDAQPAYAAAAFSKGFSDGYLTMDTLGALVFGIVIVNAIRSRGVE
+                     SPRLITRYAIIAGLIAGVGLALVYISLFRLGATSHDIAADATNGAAVLHAYVQHTFGS
+                     LGSGFLAVLIALACLVTAVGLTCACAEYFSQILPLSYRALVVILAGFSLLISNLGLTK
+                     LIMFSIPVLTAIYPPCIVVVGLSFVKDLWNSPTRILAPVMLVSLLFGMVDAIKGSSLA
+                     HVLPDFMAHLPLSDAGMAWLVPSVVTLVGAVACDRMLGKPREALA"
+ORIGIN      
+        1 accttcgaca agctgattgt tgccgtcggc cgtcgcccgg tgactaccga tctgctggct
+       61 gccgacagcg gcgtgaccat cgacgagcgt ggctacatct tcgtcgacga ttactgcgcc
+      121 accagcgttc ctggcgtgta cgccatcggt gacgtggtac gcggcatgat gctggcccac
+      181 aaggcttcgg aagagggcat catggtcgtt gagcgcatca agggccacaa ggcccagatg
+      241 aactacgacc tgatcccatc ggtcatctac acccacccgg aaatcgcgtg ggtcggcaag
+      301 accgaacagg ccttgaaggc cgagggcgtt gaggttaacg tgggcacctt cccgttcgcg
+      361 gccagcggcc gtgcgatggc tgccaacgac accggtggtt tcgtcaaggt catcgccgat
+      421 gccaagaccg accgcgttct gggtgttcac gtgattggcc catcggctgc cgaactggtg
+      481 cagcagggcg caatcgcaat ggaattcggc accagtgccg aggatctggg catgatggtc
+      541 ttcagccatc caaccctgtc cgaagcgttg catgaagcag cgctggcggt gaatggcggc
+      601 gccattcacg tggccaaccg taagaagcgt taattataag aaaccacggc gggctgcccg
+      661 tcgtgagtct tgcgtgcatg actcaccgcg gaaagtccgc cggaccggat cacacgggaa
+      721 acccggggtc aacggtcaca ggtggtgcgg cgccactgat ggcgcagcgc cgaagcgcag
+      781 tacctaacga agacggtaaa aagcatgaat cttcacgagt atcagggtaa gcagctgttc
+      841 gctgaatacg gcctgccagt ttccaagggt ttcgcagtcg acacccctga gcaagctgca
+      901 gaagcctgcg acaagatcgg cgggaacgag tgggttgtaa aagcccaggt tcacgcgggt
+      961 ggtcgcggta aagcgggcgg cgtaaagctg gttcgcagca aggaagacgc caaggcgttc
+     1021 gctgcacagt ggttgggcaa gaatctggtt acctaccaga ccgatgccaa cggtcaaccc
+     1081 gtctccaaga ttctggtcga atcctgcact gacatcgcca aagagctgta cctgggcgct
+     1141 gtagtcgatc gttcgagccg ccgtatcgtg ttcatggctt ccaccgaagg tggcgtggac
+     1201 atcgagaaag tcgctcacga aacgcctgag aaaatcctca aggccaccat cgacccactg
+     1261 gtcggcgctc agccgttcca gggtcgcgag ctggctttcc agctgggcct ggaaggcaag
+     1321 caagttcaac agtttgccaa gatcttcgtt ggcctggcca agctgttcaa ggatcatgac
+     1381 ctggcgctgc tggaagtgaa cccgctggtg atcaaggccg atggcgacct gcactgcctc
+     1441 gatgccaaga tcaacatcga cgccaacgcc atgtaccgtc agccgaagct gaaaaccttc
+     1501 cacgacccgt cgcaggacga cgcccgtgaa gcccacgctg ccaagttcga actgaactac
+     1561 gttgcccttg aaggcaacat cggctgcatg gtcaacggtg ccggcctggc catgggtacc
+     1621 atggacatcg tcaacctgca cggcggcaag ccggccaact tcctcgacgt tggcggtggt
+     1681 gctaccaaag agcgcgttac cgaagcgttc aagatcattc tgtccgacag caatgtcgcg
+     1741 gccgttctgg tcaacatctt cggcggcatc gttcgctgcg acatgattgc cgaaggcatc
+     1801 attggtgcag tgaaagaagt cggcgttaaa gttccggtcg tcgttcgcct cgaaggcaac
+     1861 aacgccgaac tgggcgctaa agtactggca gaaagcggtt tgaacatcat tgcggcaacc
+     1921 agcctgaccg acgctgctca acaagttgtc aaagctgcgg agggcaagta atgagcgtcc
+     1981 tgatcaataa agataccaaa gtcatctgcc agggcttcac cggctcgcag ggtactttcc
+     2041 actccgaaca ggccattgcc tacggcacca agatggtcgg cggcgtaacc ccaggcaagg
+     2101 gtggcaccac ccacctgggc ctgccggtgt tcaacaccgt caaggaagcc gtggaagcta
+     2161 ccggcgctga cgcttcggtc atctacgtac ccgctccgtt ctgcaaagac tcgatcctgg
+     2221 aagctgcctt tggcggcatc aagctgatcg tctgcatcac cgaaggcatt cctaccctgg
+     2281 acatgctgga tgccaaggtc aagtgcgacg agctgggcgt gaccctgatc ggccctaact
+     2341 gcccaggtgt catcaccccg ggcgagtgca agatcggcat catgccaggc cacatccact
+     2401 tgccaggcaa ggtcggtatc gtttcgcgtt ccggcaccct gacctacgaa gctgtgaagc
+     2461 agaccaccga cgccggcttc ggccagtcga cctgcgtcgg catcggcggt gacccgatcc
+     2521 cgggctccaa cttcatcgac atcctgaagc tgttccagga agacccgaag accgaagcga
+     2581 tcgtgatgat cggtgagatc ggcggttcgg ctgaagaaga agccgcggcc tacatcaagg
+     2641 cccacgtgac caagcctgtc gtttcctaca tcgccggtgt taccgcacct gcgggcaagc
+     2701 gcatgggcca cgctggcgcc atcatctccg gtggcaaggg tactgcggac gagaagttcg
+     2761 ccgccctgca ggacgcgggt gtgaaaaccg tgcgttcgct ggctgacatc ggcaaggccc
+     2821 tggccgagct gactggctgg gaagccaaga agtaatactg ctacaccccc cacgcgcaca
+     2881 gaggccacct tcgggtggcc tttgtcgtat gtggggttcg taggagcgaa gaggacggtg
+     2941 ctggcgatag agattcttcg acaggtttaa taggaatttt cacgcagacg aatgtttcaa
+     3001 tccgaggata atgcctgctg tcctcggtcg cgcagacgac aaacatgtac gcacatcgga
+     3061 caagcagcac tgtgccagtg cgtttgactg acaaaacagt tacattacgc gttcactctg
+     3121 tgcccgtacc ccaaaaggga acgacacgct aaacgggtct ggcctatcaa gccgggcagc
+     3181 atttcccctt acccaaaggg aaatcccctc tcgaatcccg atttcagcag tgtggtacta
+     3241 ccttaaatga aagttctcaa aggccaggat atcctggcgc ttggctttat gacgtttgcg
+     3301 cttttcgtgg gtgcaggcaa tatcatcttc ccgcctatcg tcggcctgca gtctggcccg
+     3361 catgtatgga tggctgcact gggcttcctg gtgactgccg tcggcctgcc ggtcatcacc
+     3421 gtggtcgccc tggccaaggt cggtggcggc atggatgccc tgagcagccc gatcggcaag
+     3481 ttcttcggtg gcttgctggc tgctgtgtgc tacctgtcgg taggcccact gttcgccacc
+     3541 ccgcgtaccg cgaccgtgtc gttcgaagtg ggcgttgcac cgctgaccgg tgaaagcccg
+     3601 ctggcgctgt tcatctacag cctggtgtac ttcatcgtcg tgctggccgt gtccatgtac
+     3661 cctggcaagt tgctcgacac cgtgggccgc ttcctggcac cgttgaagat cattgccctg
+     3721 gccgtactgg gcatcgctgc cttcgccttg cccgccggta ccatcggtga cgcacagcct
+     3781 gcctatgccg ccgctgcgtt ctccaagggc ttctccgatg gctacctgac catggatacc
+     3841 ctgggtgccc tggtgttcgg tatcgtcatt gtcaatgcca ttcgctcgcg cggtgtcgag
+     3901 tcgccgaggc tgattacccg ctacgccatc atcgccggcc tgatcgccgg tgtcgggctg
+     3961 gccctggttt acatcagcct gttccgcctg ggtgccacca gccacgacat cgcggcggac
+     4021 gccaccaacg gtgcggcggt gctgcatgcc tacgtacagc acaccttcgg ctccctgggc
+     4081 agcggcttcc
+//
+

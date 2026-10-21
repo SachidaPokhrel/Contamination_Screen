@@ -1,0 +1,10 @@
+{
+  "pairs": 100000,
+  "reads": 200000,
+  "readset": "subsampled",
+  "db": "/datasets/unzipped/kraken2_full",
+  "release": "unknown",
+  "taxonomy_date": "unknown",
+  "db_taxa": "unknown",
+  "kraken_count_unit": "paired fragments/spots for --paired"
+}

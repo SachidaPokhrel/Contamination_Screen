@@ -1,0 +1,115 @@
+
+START 2026-10-17T21:58:02Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/references_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=2 readset=subsampled
+
+START 2026-10-17T21:58:02Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Gokan_CBS315_81.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCA_023334035.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=12706471&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/023/334/035/GCA_023334035.1_ASM2333403v1/GCA_023334035.1_ASM2333403v1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.partial.download.gz
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-17T21:58:04Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.metadata.json
+FINISH 2026-10-17T21:58:05Z exit_status=0
+
+START 2026-10-17T21:58:05Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Phib_genome.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCA_024679025.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=13507051&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/024/679/025/GCA_024679025.1_ASM2467902v1/GCA_024679025.1_ASM2467902v1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.partial.download.gz
+COMMAND 2026-10-17T21:58:07Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.metadata.json
+FINISH 2026-10-17T21:58:08Z exit_status=0
+
+START 2026-10-17T21:58:08Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Acetobacteroides_pilot.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCF_963678165.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=19804901&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/963/678/165/GCA_963678165.1_piUroStri2.Acetobacteroides_sp_1.1/GCA_963678165.1_piUroStri2.Acetobacteroides_sp_1.1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.partial.download.gz
+COMMAND 2026-10-17T21:58:09Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.metadata.json
+FINISH 2026-10-17T21:58:09Z exit_status=0
+
+START 2026-10-17T21:58:09Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Pseudomonas_CIP10.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCF_020911845.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=11473501&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/020/911/845/GCA_020911845.1_ASM2091184v1/GCA_020911845.1_ASM2091184v1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.partial.download.gz
+COMMAND 2026-10-17T21:58:09Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.metadata.json
+FINISH 2026-10-17T21:58:10Z exit_status=0
+
+START 2026-10-17T21:58:10Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Tateyamaria_pilot.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCF_001969365.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=961821&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/001/969/365/GCA_001969365.1_ASM196936v1/GCA_001969365.1_ASM196936v1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.fa.partial.download.gz
+COMMAND 2026-10-17T21:58:10Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.metadata.json
+FINISH 2026-10-17T21:58:10Z exit_status=0
+FINISH 2026-10-17T21:58:10Z exit_status=0
+
+START 2026-10-17T21:58:26Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/references_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=2 readset=subsampled
+
+START 2026-10-17T21:58:26Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Gokan_CBS315_81.log
+SKIP verified /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81_reference.done.json
+FINISH 2026-10-17T21:58:27Z exit_status=0
+
+START 2026-10-17T21:58:27Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Phib_genome.log
+SKIP verified /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome_reference.done.json
+FINISH 2026-10-17T21:58:27Z exit_status=0
+
+START 2026-10-17T21:58:27Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Acetobacteroides_pilot.log
+SKIP verified /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot_reference.done.json
+FINISH 2026-10-17T21:58:27Z exit_status=0
+
+START 2026-10-17T21:58:27Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Pseudomonas_CIP10.log
+SKIP verified /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10_reference.done.json
+FINISH 2026-10-17T21:58:27Z exit_status=0
+
+START 2026-10-17T21:58:27Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Tateyamaria_pilot.log
+SKIP verified /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot_reference.done.json
+FINISH 2026-10-17T21:58:27Z exit_status=0
+FINISH 2026-10-17T21:58:27Z exit_status=0
+
+START 2026-10-18T05:40:11Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/references_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/round2.yaml threads=2 readset=subsampled
+
+START 2026-10-18T05:40:11Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Gokan_CBS315_81.log
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-18T05:40:12Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.metadata.json
+FINISH 2026-10-18T05:40:12Z exit_status=0
+
+START 2026-10-18T05:40:12Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Phib_genome.log
+COMMAND 2026-10-18T05:40:13Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Phib_genome.metadata.json
+FINISH 2026-10-18T05:40:13Z exit_status=0
+
+START 2026-10-18T05:40:13Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Acetobacteroides_pilot.log
+COMMAND 2026-10-18T05:40:13Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.metadata.json
+FINISH 2026-10-18T05:40:14Z exit_status=0
+
+START 2026-10-18T05:40:14Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Pseudomonas_CIP10.log
+COMMAND 2026-10-18T05:40:14Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Pseudomonas_CIP10.metadata.json
+FINISH 2026-10-18T05:40:14Z exit_status=0
+
+START 2026-10-18T05:40:14Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Tateyamaria_pilot.log
+COMMAND 2026-10-18T05:40:14Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Tateyamaria_pilot.metadata.json
+FINISH 2026-10-18T05:40:14Z exit_status=0
+
+START 2026-10-18T05:40:14Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Stenotrophomonas_pilot.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCF_988222995.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=91466168&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/988/222/995/GCA_988222995.1_SM18_complete_genome/GCA_988222995.1_SM18_complete_genome_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa.partial.download.gz
+COMMAND 2026-10-18T05:40:15Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Stenotrophomonas_pilot.metadata.json
+FINISH 2026-10-18T05:40:15Z exit_status=0
+
+START 2026-10-18T05:40:15Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Miltoncostaea_pilot.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCF_018141545.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Miltoncostaea_pilot.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=9962081&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Miltoncostaea_pilot.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/018/141/545/GCA_018141545.1_ASM1814154v1/GCA_018141545.1_ASM1814154v1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Miltoncostaea_pilot.fa.partial.download.gz
+COMMAND 2026-10-18T05:40:16Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Miltoncostaea_pilot.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Miltoncostaea_pilot.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Miltoncostaea_pilot.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Miltoncostaea_pilot.metadata.json
+FINISH 2026-10-18T05:40:16Z exit_status=0
+FINISH 2026-10-18T05:40:16Z exit_status=0

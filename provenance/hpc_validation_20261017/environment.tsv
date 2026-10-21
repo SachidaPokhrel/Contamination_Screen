@@ -1,0 +1,15 @@
+tool	path	version	status
+prefetch	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/prefetch	prefetch : 3.2.1	available
+fasterq-dump	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/fasterq-dump	fasterq-dump : 3.2.1	available
+vdb-validate	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/vdb-validate	vdb-validate : 3.2.1	available
+fastqc	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/fastqc	FastQC v0.12.1	available
+fastp	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/fastp	fastp 0.24.3	available
+seqkit	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/seqkit	seqkit v2.14.0	available
+kraken2	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/kraken2	Kraken version 2.1.6 | Copyright 2013-2023, Derrick Wood (dwood@cs.jhu.edu)	available
+bracken	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bracken	Bracken v3.0.1	available
+bowtie2	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2	[WARNING] Failed to launch x86-64-v3 version, staying with default | [WARNING] Failed to launch x86-64-v3 version, staying with default | /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2-align-s version 2.5.5	available
+bowtie2-build	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2-build	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2-build-s version 2.5.5 | 64-bit | Built on runnervm7g52i	available
+samtools	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/samtools	samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.	available
+minimap2	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/minimap2	2.31-r1302	available
+blastn	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/blastn	blastn: 2.16.0+ |  Package: blast 2.16.0, build Mar 28 2025 16:30:45	available
+Rscript	/home/aubsxp001/.local/share/oomycete-envs/contamination/bin/Rscript	Rscript (R) version 4.4.3 (2025-02-28)	available

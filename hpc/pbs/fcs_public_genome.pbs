@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#PBS -N fcs_public
+#PBS -q large
+#PBS -l select=1:ncpus=2:mem=40gb
+#PBS -l walltime=24:00:00
+#PBS -j oe
+# Optional PBS wrapper only. Direct Linux execution does not require this file.
+# Defaults mirror the supplied successful job's CPU/memory REQUEST, not its peak use.
+# More RAM is recommended for speed; override resources to suit the database/site.
+set -Eeuo pipefail
+ROOT="${OOMYCETE_PROJECT_ROOT:-${PBS_O_WORKDIR:?Submit from the project root}}"
+cd "$ROOT"
+export FCS_ENGINE="${FCS_ENGINE:-singularity}"
+exec "${FCS_PYTHON:-python3}" -u scripts/fcs_analysis.py screen --threads "${PBS_NCPUS:-2}"

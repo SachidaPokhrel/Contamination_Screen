@@ -1,0 +1,7 @@
+
+START 2026-10-17T20:59:44Z pid=2415534 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_DNA_Gokan_CBS315_81.log
+FINISH 2026-10-17T20:59:44Z exit_status=1 error=Missing input: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz
+
+START 2026-10-17T21:14:40Z pid=2429032 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_DNA_Gokan_CBS315_81.log
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/subsampled/DNA_Gokan_CBS315_81_1.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/subsampled/DNA_Gokan_CBS315_81_2.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/subsampled/DNA_Gokan_CBS315_81.subsample.json
+FINISH 2026-10-17T21:16:33Z exit_status=0

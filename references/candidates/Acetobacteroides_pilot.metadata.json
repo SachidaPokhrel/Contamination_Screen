@@ -1,0 +1,16 @@
+{
+  "reference_id": "Acetobacteroides_pilot",
+  "role": "candidate",
+  "assay": "all",
+  "taxid": "1760811",
+  "organism": "uncultured Acetobacteroides sp.",
+  "accessions": "GCF_963678165.1",
+  "fasta": "references/candidates/Acetobacteroides_pilot.fa",
+  "evidence_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_963678165.1/",
+  "verified": "true",
+  "retrieved_at": "2026-10-18T05:40:13Z",
+  "sha256": "fc46238976e181c88370a5ee05fd42198af89b65631b7f12c10c327435c21231",
+  "contigs": 1,
+  "bases": 4298710,
+  "source": "NCBI versioned accession"
+}

@@ -1,0 +1,3 @@
+sample_id	assay	sra_run	organism	expected_taxids	raw_r1	raw_r2	sra_bytes	enabled
+DNA_Gokan_CBS315_81	DNA	SRR15309490	Globisporangium okanoganense	182683			900000000	true
+RNA_Phib_mycelia1	RNA	SRR16206986	Phytophthora hibernalis	175300			1000000000	true

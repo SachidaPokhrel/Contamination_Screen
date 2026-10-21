@@ -1,0 +1,7 @@
+
+START 2026-10-18T18:17:58Z pid=3401053 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/14_assembly_assembly_DNA_Gokan_CBS315_81.log
+CONFIG {"assembly": "references/host/Gokan_CBS315_81.fa", "assembly_accession": "GCA_023334035.1", "blobtools_command": ["bash", "hpc/blobtoolkit_exec.sh", "blobtools"], "container_engine": "singularity", "fcs_db": "", "fcs_image": "", "fcs_runner": "", "kraken_confidence": 0.1, "kraken_db": "/datasets/unzipped/pluspf", "min_mapq": 20, "output": "results/DNA/07_assembly/DNA_Gokan_CBS315_81", "reads": ["data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz", "data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz"], "sample_id": "DNA_Gokan_CBS315_81", "schema_version": 1, "taxid": 182683, "threads": 4}
+REUSE existing assembly; see original reference retrieval metadata
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-18T18:17:59Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa
+FINISH 2026-10-18T18:17:59Z exit_status=0

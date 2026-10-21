@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-20",
+  "queries": [
+    "NCBI GCA_051997085.1 assembly record",
+    "NCBI BioProject PRJNA816194 assembly table",
+    "NCBI SRA SAMN26664723",
+    "NCBI SRA PRJNA816194",
+    "NCBI GCA_051997085.1 contaminated/excluded status"
+  ],
+  "verified": [
+    "NCBI BioProject table links GCA_051997085.1 to Globisporangium irregulare strain13-30 and BioSample SAMN26664723",
+    "NCBI Taxonomy36331 confirms organism name"
+  ],
+  "unresolved": [
+    "No SRA run verified",
+    "Exact contamination flag wording not retrieved"
+  ],
+  "limitations": "Browser assembly/API/BioSample endpoints were inaccessible; local shell HTTPS failed DNS. No invented accession or claim of public SRA absence is made."
+}

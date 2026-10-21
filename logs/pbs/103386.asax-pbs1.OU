@@ -1,0 +1,25 @@
+Stage=reports PBS_JOBID=103386.asax-pbs1 root=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination started=2026-10-17T22:14:50Z
+
+START 2026-10-17T22:14:54Z pid=3024129 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/table_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=1 readset=subsampled
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/tables/detections.tsv and CSV; interpretations preserved or left blank
+FINISH 2026-10-17T22:14:54Z exit_status=0
+START 2026-10-17 22:14:59 R R version 4.4.3 (2025-02-28) 
+Input /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/tables/detections.tsv 
+ggplot2 3.5.2 
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/figures/read_fractions.png 
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/figures/read_fractions.pdf 
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/figures/breadth_vs_depth.png 
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/figures/breadth_vs_depth.pdf 
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/figures/taxonomic_screening.png 
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/figures/taxonomic_screening.pdf 
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/figures/coverage_profiles.png 
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/figures/coverage_profiles.pdf 
+FINISH 2026-10-17 22:24:55 exit_status=0
+
+START 2026-10-17T22:24:59Z pid=3032752 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/report_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=1 readset=subsampled
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/RNA_Phib_mycelia1_Pseudomonas_CIP10_report.md
+FINISH 2026-10-17T22:24:59Z exit_status=0
+Finished=reports time=2026-10-17T22:24:59Z exit_status=0
+FINISH 2026-10-17T22:24:59Z exit_status=0 job=103386.asax-pbs1

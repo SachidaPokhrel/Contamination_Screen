@@ -1,0 +1,45 @@
+START 2026-10-19T11:46:57-05:00 job=104005.asax-pbs1
+
+START 2026-10-19T16:47:06Z pid=2588389 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/15_rna_mapping_RNA_Phib_mycelia1.log
+CONFIG {"assembly": "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta", "blobtools_command": ["bash", "hpc/blobtoolkit_exec.sh", "blobtools"], "kraken_confidence": 0.1, "kraken_db": "/datasets/unzipped/pluspf", "min_mapq": 20, "minimum_free_gb": 40, "output": "results/RNA/08_transcriptome/RNA_Phib_mycelia1", "reads": ["data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz", "data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz"], "sample_id": "RNA_Phib_mycelia1", "schema_version": 1, "spades_command": ["bash", "hpc/rnaspades_exec.sh", "spades.py"], "spades_memory_gb": 56, "strand_specificity": "unknown", "threads": 4}
+COMMAND minimap2 -ax sr -t 3 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz | samtools sort -@ 0 -m 512M -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.bam.partial -
+[M::mm_idx_gen::0.944*1.01] collected minimizers
+[M::mm_idx_gen::1.138*1.34] sorted minimizers
+[M::main::1.149*1.33] loaded/built the index for 27606 target sequence(s)
+[M::mm_mapopt_update::1.149*1.33] mid_occ = 1000
+[M::mm_idx_stat] kmer size: 21; skip: 11; is_hpc: 0; #seq: 27606
+[M::mm_idx_stat::1.227*1.31] distinct minimizers: 3613534 (84.38% are singletons); average occurrences: 1.190; average spacing: 6.162; total length: 26496841
+[M::worker_pipeline::8.976*2.86] mapped 555956 sequences
+[M::worker_pipeline::13.949*3.05] mapped 555958 sequences
+[M::worker_pipeline::19.478*3.16] mapped 555954 sequences
+[M::worker_pipeline::28.214*3.20] mapped 555974 sequences
+[M::worker_pipeline::30.043*3.26] mapped 555948 sequences
+[M::worker_pipeline::35.073*3.29] mapped 555984 sequences
+[M::worker_pipeline::43.713*3.29] mapped 555954 sequences
+[M::worker_pipeline::46.667*3.33] mapped 555982 sequences
+[M::worker_pipeline::51.007*3.35] mapped 555984 sequences
+[M::worker_pipeline::56.353*3.36] mapped 555956 sequences
+[M::worker_pipeline::66.321*3.34] mapped 555960 sequences
+[M::worker_pipeline::68.278*3.37] mapped 555990 sequences
+[M::worker_pipeline::72.850*3.38] mapped 556000 sequences
+[M::worker_pipeline::82.299*3.36] mapped 556002 sequences
+[M::worker_pipeline::83.498*3.39] mapped 555958 sequences
+[M::worker_pipeline::87.838*3.40] mapped 555954 sequences
+[M::worker_pipeline::97.089*3.38] mapped 555982 sequences
+[M::worker_pipeline::99.159*3.40] mapped 555968 sequences
+[M::worker_pipeline::103.105*3.41] mapped 555954 sequences
+[M::worker_pipeline::108.757*3.41] mapped 555972 sequences
+[M::worker_pipeline::118.047*3.29] mapped 555986 sequences
+[M::worker_pipeline::118.389*3.29] mapped 207534 sequences
+[M::main] Version: 2.31-r1302
+[M::main] CMD: minimap2 -ax sr -t 3 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz
+[M::main] Real time: 118.461 sec; CPU: 389.339 sec; Peak RSS: 0.947 GB
+[bam_sort_core] merging from 6 files and 1 in-memory blocks...
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-19T16:50:11Z samtools quickcheck -v /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.bam.partial
+COMMAND 2026-10-19T16:50:11Z samtools view -b -q 20 -F 3844 -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.filtered.bam /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.bam.partial
+COMMAND 2026-10-19T16:51:11Z samtools index /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.filtered.bam
+COMMAND 2026-10-19T16:51:16Z samtools coverage /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.filtered.bam > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/samtools_coverage.tsv
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.filtered.bam, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.filtered.bam.bai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/samtools_coverage.tsv
+FINISH 2026-10-19T16:51:38Z exit_status=0
+FINISH 2026-10-19T11:51:38-05:00

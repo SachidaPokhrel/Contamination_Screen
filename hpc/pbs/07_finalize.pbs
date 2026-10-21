@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -N oom_finalize
+#PBS -q small
+#PBS -l select=1:ncpus=2:mem=4gb
+#PBS -l walltime=02:00:00
+#PBS -j oe
+
+set -euo pipefail
+cd "${PBS_O_WORKDIR:?Submit from project root}"
+export OOMYCETE_THREADS=2
+
+bash hpc/environment_exec.sh contamination \
+    python scripts/11_detection_table.py --config config/final.yaml
+
+bash hpc/environment_exec.sh plotting \
+    Rscript scripts/12_visualization.R \
+    --config config/final.yaml --output figures/final --force
+
+bash hpc/environment_exec.sh contamination \
+    python scripts/13_generate_report.py \
+    --config config/final.yaml \
+    --sample RNA_Phib_mycelia1 \
+    --reference Pseudomonas_CIP10 --force
+
+echo "FINAL OUTPUT GENERATION COMPLETED $(date -Is)"

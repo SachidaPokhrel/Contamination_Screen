@@ -1,0 +1,24 @@
+GX aligner and taxonomy classifier tool.
+
+https://github.com/ncbi/fcs/wiki/FCS-GX
+
+Usage: /app/bin/gx [OPTIONS] SUBCOMMAND
+
+Options:
+  -h,--help                   Print this help message and exit
+
+Subcommands:
+  make-db                     Create GX-database from a set of subject sequences.
+  get-fasta                   Fetch fasta from db.
+  split-fasta                 Split input fasta on N-runs of length at least 10.
+  get-fasta-stats             Generate fasta statistics
+  align                       Align DNA-queries against a GX-database.
+  taxify                      Generate taxonomy-report for query sequences.
+  clean-genome                Apply edit-actions to the original input fasta.
+  annotate-repeats            Find transposon locations.
+  extract-consensus-repeats   Extract consensus repeat sequences.
+  show-license                Show licensing information.
+
+
+build:Mar 18 2025 11:01:26; git:v0.5.5-0-g0bda491; sqlite:3.46.1
+

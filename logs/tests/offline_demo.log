@@ -1,0 +1,32 @@
+DEMO COMMAND bash /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/scripts/run_pipeline.sh --from-stage subsample --to-stage subsample --force
+
+START 2026-10-17T20:45:18Z pid=2401671 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/logs/run_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/config/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:18Z pid=2401671 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/test_input/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/test_input/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/test_input/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T20:45:19Z exit_status=0
+FINISH 2026-10-17T20:45:19Z exit_status=0
+DEMO COMMAND /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/python3 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/scripts/06_select_candidates.py --force
+
+START 2026-10-17T20:45:19Z pid=2401674 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/logs/candidates_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/config/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:19Z pid=2401674 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/logs/DNA/06_candidates_SYNTHETIC_DNA.log
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/test_input/results/DNA/04_candidates/SYNTHETIC_DNA/ranked_candidates.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/test_input/results/DNA/04_candidates/SYNTHETIC_DNA/selection_template.tsv
+Review candidates and edit config/candidate_selection.tsv before reference retrieval/mapping
+FINISH 2026-10-17T20:45:19Z exit_status=0
+FINISH 2026-10-17T20:45:19Z exit_status=0
+DEMO COMMAND bash /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/scripts/run_pipeline.sh --from-stage table --to-stage table
+
+START 2026-10-17T20:45:19Z pid=2401675 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/logs/run_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/config/config.yaml threads=2 readset=raw
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/tables/detections.tsv and CSV; interpretations preserved or left blank
+FINISH 2026-10-17T20:45:19Z exit_status=0
+DEMO COMMAND /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/python3 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/scripts/13_generate_report.py --force
+
+START 2026-10-17T20:45:19Z pid=2401678 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/logs/report_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/config/config.yaml threads=2 readset=raw
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo/reports/SYNTHETIC_DNA_fixture_report.md
+FINISH 2026-10-17T20:45:19Z exit_status=0
+OFFLINE DEMO OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/synthetic_demo

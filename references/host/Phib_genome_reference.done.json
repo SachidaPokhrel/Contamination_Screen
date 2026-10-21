@@ -1,0 +1,9 @@
+{
+  "signature": "8128291b5140a7e4a7bd867394f5467165bd818ca3934c3b7dc48a3ab8288b2a",
+  "outputs": {
+    "references/host/Phib_genome.fa": "6d6ba3ab52800d8b7f17810f98f1429a446270f2ed4f6173c843bd12a575d89d",
+    "references/host/Phib_genome.fa.fai": "92c0a94aa5f9b9891dfbdc442081c07b9805635d5e7a105e168a90ec5aec3c5d",
+    "references/host/Phib_genome.metadata.json": "156bcb35d78db404837261a53f150feec321e3e3fbe85baf1b2e7214003b4507"
+  },
+  "finished": "2026-10-18T05:40:13Z"
+}

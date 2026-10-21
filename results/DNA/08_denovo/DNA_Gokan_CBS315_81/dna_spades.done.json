@@ -1,0 +1,11 @@
+{
+  "signature": "21caf29c8a7d85d605fb22028eec56479a5511fd4171626d38c9ae37580da63b",
+  "outputs": {
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta": "8cae7042e1efcebe142fc03713ad865eae81a513288586e7ec136e677f1a21d3",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/spades.log": "6db8458d3ae7615edd916f96b91c987fecb46739fc55784342071bdc12a70c09",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/params.txt": "ffb5ad7f0b630b137e12819d3bf5d2cab7740d912f4e3ddbd10ee3c22e5d16f2",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/dna_spades_input_identity.json": "759b14b79848d391d59fc60e82da1d918e391cd709c28bc4e8722ac29abd295e",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/denovo_manifest.json": "becabd27926f276aac12195ae31085f066719dabd21ee626cd1756d3185f7165"
+  },
+  "finished": "2026-10-19T20:42:07Z"
+}

@@ -1,0 +1,12 @@
+{
+  "min_mapq": 20,
+  "min_baseq": 0,
+  "excluded_flags": 3844,
+  "mapq255": "excluded/unavailable",
+  "depth_mate_overlap": "remove",
+  "depth_deletions": "excluded",
+  "depth_refskip": "excluded",
+  "fragment_policy": "either mapped mate per reference; a discordant pair can support more than one reference, so do not sum fragment fractions across references",
+  "denominator": "all sequencing reads or paired fragments in exact input readset; not classified or mapped reads",
+  "duplicates": "only preflagged PCR/optical duplicates excluded; no duplicate marking performed"
+}

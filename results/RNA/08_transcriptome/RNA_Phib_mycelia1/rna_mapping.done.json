@@ -1,0 +1,9 @@
+{
+  "signature": "4c335b8b875980af5f87de293c1c8a18be85b648c0c13c143d15a6b7354e2c8e",
+  "outputs": {
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.filtered.bam": "033aae6a89bd32946e8294f3f6469b57a70028bc9e712f0640cc3595be2876b7",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/RNA.full_cleaned.filtered.bam.bai": "bce009da8c9727e6e5b17e7bb629ad536d8e2737ed054ccbeb71d6ecae1e341a",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/samtools_coverage.tsv": "7702b9262fddd130621e4e1a5418a8d72edd0ae4950628d1691cda5220691217"
+  },
+  "finished": "2026-10-19T16:51:38Z"
+}

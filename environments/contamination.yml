@@ -1,0 +1,24 @@
+name: contamination
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - sra-tools=3.2
+  - fastqc=0.12
+  - fastp=0.24
+  - seqkit=2
+  - kraken2=2.1
+  - bracken=3
+  - bowtie2=2.5
+  - minimap2=2
+  - samtools=1.21
+  - blast=2.16
+  - pigz=2
+  - pandas=2.2
+  - pyyaml=6
+  - r-base=4.4
+  - r-ggplot2=3.5
+  - r-readr=2
+  - r-dplyr=1
+  - r-yaml=2

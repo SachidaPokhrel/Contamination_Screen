@@ -1,0 +1,8 @@
+{
+  "signature": "c3ff97b07dd83021bba5bfd8eff423ce1ddb2186b1a4455ae27d39b585e7243b",
+  "outputs": {
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/assembly.kraken.tsv": "390b78de7cdc1fde2497d4f771f13bed0abb99b809fcbb01b4bc09e708f54f28",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/assembly.kraken.report.tsv": "8e8d52c5b060fda819bbffe0c48c39c8c549a8d7de5d5eb3b3f2526e033234b0"
+  },
+  "finished": "2026-10-19T16:53:02Z"
+}

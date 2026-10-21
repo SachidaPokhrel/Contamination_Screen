@@ -1,0 +1,43 @@
+{
+  "queue": "",
+  "resource_style": "select",
+  "environment_init": "",
+  "environment_dir": "~/.local/share/oomycete-envs",
+  "stages": {
+    "download": {
+      "cpus": 2,
+      "memory": "4gb",
+      "walltime": "04:00:00"
+    },
+    "qc": {
+      "cpus": 2,
+      "memory": "4gb",
+      "walltime": "02:00:00"
+    },
+    "screen": {
+      "cpus": 4,
+      "memory": "8gb",
+      "walltime": "02:00:00"
+    },
+    "mapping": {
+      "cpus": 4,
+      "memory": "8gb",
+      "walltime": "04:00:00"
+    },
+    "coverage": {
+      "cpus": 2,
+      "memory": "4gb",
+      "walltime": "02:00:00"
+    },
+    "viral_analysis": {
+      "cpus": 4,
+      "memory": "8gb",
+      "walltime": "04:00:00"
+    },
+    "reports": {
+      "cpus": 1,
+      "memory": "2gb",
+      "walltime": "01:00:00"
+    }
+  }
+}

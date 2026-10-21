@@ -1,0 +1,8 @@
+name: viral_analysis
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - megahit=1.2.9
+  - diamond=2.1

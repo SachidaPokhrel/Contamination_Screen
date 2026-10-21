@@ -1,0 +1,24 @@
+{
+  "sample_id": "DNA_Gokan_CBS315_81",
+  "contigs": 18388,
+  "total_bases": 46890401,
+  "longest_contig": 146301,
+  "N50": 17970,
+  "fasta_sha256": "8cae7042e1efcebe142fc03713ad865eae81a513288586e7ec136e677f1a21d3",
+  "input_scope": "full cleaned paired DNA reads",
+  "identity": {
+    "input_pairs": 5685476,
+    "reads": {
+      "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz": "18290aa4fee1da3d52b5cae242968541658ea005ef1f63f4d0beb41ca03aa1cc",
+      "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz": "778dc6983740b87cf1fa0b664c8b987d32abb241ecc614fbc1bfcc4f4d7bc104"
+    },
+    "memory_gb": 56,
+    "threads": 8,
+    "assembly_mode": "standard_DNA",
+    "command": [
+      "bash",
+      "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/dna_spades_exec.sh",
+      "spades.py"
+    ]
+  }
+}

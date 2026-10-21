@@ -1,0 +1,26 @@
+test_config_validation (test_core.CoreTest.test_config_validation) ... ok
+test_fake_qsub_dependencies (test_core.CoreTest.test_fake_qsub_dependencies) ... ok
+test_missing_input (test_core.CoreTest.test_missing_input) ... ok
+test_mock_submission_failure_stops_chain (test_core.CoreTest.test_mock_submission_failure_stops_chain) ... ok
+test_pair_errors (test_core.CoreTest.test_pair_errors) ... ok
+test_pbs_dryrun (test_core.CoreTest.test_pbs_dryrun) ... ok
+test_pbs_workdir_root_detection (test_core.CoreTest.test_pbs_workdir_root_detection) ... ok
+test_stage_checksum (test_core.CoreTest.test_stage_checksum) ... OUTPUTS /tmp/scratch-local/oomycete test 713mmtgl/output
+SKIP verified /tmp/scratch-local/oomycete test 713mmtgl/unit.done.json
+ok
+test_stage_relocation (test_core.CoreTest.test_stage_relocation) ... OUTPUTS /tmp/scratch-local/oomycete test gjo_1w0q/first/output
+SKIP verified /tmp/scratch-local/oomycete test gjo_1w0q/second/relocate.done.json
+ok
+test_subsample_restart_and_stale (test_core.CoreTest.test_subsample_restart_and_stale) ... ok
+test_truncated_fastq (test_core.CoreTest.test_truncated_fastq) ... ok
+test_all_zero (test_coverage.CoverageTest.test_all_zero) ... ok
+test_invalid_duplicate_position (test_coverage.CoverageTest.test_invalid_duplicate_position) ... ok
+test_known_multicontig (test_coverage.CoverageTest.test_known_multicontig) ... ok
+test_reads_vs_fragments (test_coverage.CoverageTest.test_reads_vs_fragments) ... ok
+test_sparse_and_zero_contig (test_coverage.CoverageTest.test_sparse_and_zero_contig) ... ok
+test_mock_prefetch_validation_conversion_restart_permission (test_download_mock.DownloadControlTest.test_mock_prefetch_validation_conversion_restart_permission) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.415s
+
+OK

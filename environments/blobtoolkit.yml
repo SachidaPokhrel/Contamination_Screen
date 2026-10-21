@@ -1,0 +1,7 @@
+name: blobtoolkit
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - blobtoolkit=4

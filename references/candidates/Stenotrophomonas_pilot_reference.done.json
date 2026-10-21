@@ -1,0 +1,9 @@
+{
+  "signature": "8585ca673e5571810fcd16e6756f739da51fcce865d92fab608d5f2bac1aef40",
+  "outputs": {
+    "references/candidates/Stenotrophomonas_pilot.fa": "c02d093f2af83847f2c9769754a8caf03c14aa159c468068edceab3524b52f57",
+    "references/candidates/Stenotrophomonas_pilot.fa.fai": "43d0ebb77bb22e9cbedd24cdc76c2fd956fa4ab9f9233f5ede4bfa48545a5b70",
+    "references/candidates/Stenotrophomonas_pilot.metadata.json": "b3e9281180ff7b9d0507f18a70b43311ca0bab4b0ec216ce0f109a9b276d0fa2"
+  },
+  "finished": "2026-10-18T05:40:15Z"
+}

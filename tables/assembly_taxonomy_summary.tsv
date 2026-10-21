@@ -1,0 +1,73 @@
+branch	assigned_label	sequences	bases	assembly_bases_percent	length_weighted_mean_depth	interpretation
+Published DNA assembly	unclassified	5630	44208218	99.99659	34.18415	provisional whole-contig assignment
+Published DNA assembly	Bacteria	1	1508	0.00341	58.4019	provisional whole-contig assignment
+De novo DNA assembly	unclassified	17792	46774929	99.75374	33.9675	provisional whole-contig assignment
+De novo DNA assembly	Homo sapiens	290	40468	0.0863	7.49076	provisional whole-contig assignment
+De novo DNA assembly	Bremia lactucae	79	19132	0.0408	1624.01907	provisional whole-contig assignment
+De novo DNA assembly	Enterobacteriaceae	27	6772	0.01444	1.26802	provisional whole-contig assignment
+De novo DNA assembly	Micrococcus	26	6707	0.0143	1.23722	provisional whole-contig assignment
+De novo DNA assembly	Eukaryota	22	4993	0.01065	96.04689	provisional whole-contig assignment
+De novo DNA assembly	Kocuria palustris	15	3851	0.00821	1.21319	provisional whole-contig assignment
+De novo DNA assembly	Bacteria	9	3607	0.00769	68.41264	provisional whole-contig assignment
+De novo DNA assembly	cellular organisms	23	3536	0.00754	11.53818	provisional whole-contig assignment
+De novo DNA assembly	root	7	3488	0.00744	400.25226	provisional whole-contig assignment
+De novo DNA assembly	Cutibacterium acnes	14	3472	0.0074	1.21313	provisional whole-contig assignment
+De novo DNA assembly	Stutzerimonas stutzeri	10	2599	0.00554	1.26318	provisional whole-contig assignment
+De novo DNA assembly	Micrococcus luteus	9	2376	0.00507	1.21886	provisional whole-contig assignment
+De novo DNA assembly	Kocuria varians	7	1781	0.0038	1.18473	provisional whole-contig assignment
+De novo DNA assembly	Tequatrovirus	1	1242	0.00265	4.53623	provisional whole-contig assignment
+De novo DNA assembly	Opisthokonta	8	1147	0.00245	19.68092	provisional whole-contig assignment
+De novo DNA assembly	Actinomycetes	3	796	0.0017	1.13693	provisional whole-contig assignment
+De novo DNA assembly	Bradyrhizobium	3	764	0.00163	1.18586	provisional whole-contig assignment
+De novo DNA assembly	Kocuria	3	745	0.00159	1.21074	provisional whole-contig assignment
+De novo DNA assembly	Escherichia coli	3	715	0.00152	1.26294	provisional whole-contig assignment
+De novo DNA assembly	Microbacteriaceae	4	528	0.00113	0.57197	provisional whole-contig assignment
+De novo DNA assembly	Stenotrophomonas	2	497	0.00106	1.21529	provisional whole-contig assignment
+De novo DNA assembly	Gammaproteobacteria	2	480	0.00102	1.25416	provisional whole-contig assignment
+De novo DNA assembly	Pseudomonadota	2	474	0.00101	1.27426	provisional whole-contig assignment
+De novo DNA assembly	Xanthomonas campestris pv. incanae	5	455	0.00097	3.19341	provisional whole-contig assignment
+De novo DNA assembly	Kocuria rhizophila	1	306	0.00065	1.94771	provisional whole-contig assignment
+De novo DNA assembly	Sar	2	293	0.00062	12.61092	provisional whole-contig assignment
+De novo DNA assembly	unclassified Stenotrophomonas	1	276	0.00059	1.0942	provisional whole-contig assignment
+De novo DNA assembly	Staphylococcus	1	274	0.00058	1.09854	provisional whole-contig assignment
+De novo DNA assembly	Comamonadaceae	1	266	0.00057	1.13534	provisional whole-contig assignment
+De novo DNA assembly	Stutzerimonas stutzeri group	1	259	0.00055	1.16602	provisional whole-contig assignment
+De novo DNA assembly	Brevundimonas sp. S1H14	1	256	0.00055	1.17969	provisional whole-contig assignment
+De novo DNA assembly	Delftia acidovorans	1	256	0.00055	1.17969	provisional whole-contig assignment
+De novo DNA assembly	Sphingomonadales	1	255	0.00054	1.18039	provisional whole-contig assignment
+De novo DNA assembly	Corynebacterium tuberculostearicum	1	253	0.00054	1.19368	provisional whole-contig assignment
+De novo DNA assembly	Acinetobacter	1	252	0.00054	1.19444	provisional whole-contig assignment
+De novo DNA assembly	Sphingobium sp. WTD-1	1	250	0.00053	1.208	provisional whole-contig assignment
+De novo DNA assembly	Leucobacter	1	247	0.00053	1.21457	provisional whole-contig assignment
+De novo DNA assembly	Stutzerimonas kunmingensis	1	245	0.00052	1.23265	provisional whole-contig assignment
+De novo DNA assembly	Dietzia timorensis	1	241	0.00051	1.24896	provisional whole-contig assignment
+De novo DNA assembly	Leucobacter aridicollis	1	239	0.00051	1.2636	provisional whole-contig assignment
+De novo DNA assembly	Exiguobacterium alkaliphilum	1	231	0.00049	1.30736	provisional whole-contig assignment
+De novo DNA assembly	Leishmania	1	138	0.00029	72.1594	provisional whole-contig assignment
+De novo DNA assembly	Streptomyces	1	123	0.00026	30.2276	provisional whole-contig assignment
+De novo DNA assembly	Pseudomonadati	1	104	0.00022	2.0	provisional whole-contig assignment
+De novo DNA assembly	Burkholderia vietnamiensis	1	83	0.00018	0.0	provisional whole-contig assignment
+De novo RNA transcriptome	unclassified	27473	26403054	99.64604	27.40132	provisional whole-contig assignment
+De novo RNA transcriptome	Bremia lactucae	12	30454	0.11493	181.9086	provisional whole-contig assignment
+De novo RNA transcriptome	cellular organisms	21	19240	0.07261	58.12141	provisional whole-contig assignment
+De novo RNA transcriptome	Bacteria	10	15565	0.05874	188.24654	provisional whole-contig assignment
+De novo RNA transcriptome	Eukaryota	8	6315	0.02383	694.5502	provisional whole-contig assignment
+De novo RNA transcriptome	Akanthomyces muscarius	22	4566	0.01723	3.16097	provisional whole-contig assignment
+De novo RNA transcriptome	Hypocreales	16	3570	0.01347	2.97899	provisional whole-contig assignment
+De novo RNA transcriptome	Paenibacillus	1	2901	0.01095	28.2964	provisional whole-contig assignment
+De novo RNA transcriptome	leotiomyceta	6	1740	0.00657	554.38098	provisional whole-contig assignment
+De novo RNA transcriptome	Sordariomycetes	5	1672	0.00631	5.96771	provisional whole-contig assignment
+De novo RNA transcriptome	unclassified Paenibacillus	1	1452	0.00548	21.7796	provisional whole-contig assignment
+De novo RNA transcriptome	Homo sapiens	8	1236	0.00466	1.22573	provisional whole-contig assignment
+De novo RNA transcriptome	Hypocreomycetidae	5	1053	0.00397	2.61729	provisional whole-contig assignment
+De novo RNA transcriptome	Paenibacillus sp. RUD330	3	641	0.00242	2.50234	provisional whole-contig assignment
+De novo RNA transcriptome	Dikarya	2	618	0.00233	449.6388	provisional whole-contig assignment
+De novo RNA transcriptome	Pseudomonadati	2	583	0.0022	3.50772	provisional whole-contig assignment
+De novo RNA transcriptome	Pseudomonadaceae	2	410	0.00155	2.02195	provisional whole-contig assignment
+De novo RNA transcriptome	Opisthokonta	2	408	0.00154	5.00736	provisional whole-contig assignment
+De novo RNA transcriptome	Basidiomycota	1	388	0.00146	3702.1	provisional whole-contig assignment
+De novo RNA transcriptome	Clostridium	2	328	0.00124	3.45122	provisional whole-contig assignment
+De novo RNA transcriptome	Gammaproteobacteria	1	207	0.00078	3.03865	provisional whole-contig assignment
+De novo RNA transcriptome	Trichoderma atroviride	1	149	0.00056	2.57047	provisional whole-contig assignment
+De novo RNA transcriptome	Pseudomonadota	1	146	0.00055	2.46575	provisional whole-contig assignment
+De novo RNA transcriptome	Pseudomonas	1	145	0.00055	1.24138	provisional whole-contig assignment

@@ -1,0 +1,15 @@
+
+START 2026-10-19T16:35:03Z pid=223124 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/15_rna_inspect_RNA_Phib_mycelia1.log
+CONFIG {"assembly": "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta", "blobtools_command": ["bash", "hpc/blobtoolkit_exec.sh", "blobtools"], "kraken_confidence": 0.1, "kraken_db": "/datasets/unzipped/pluspf", "min_mapq": 20, "minimum_free_gb": 40, "output": "results/RNA/08_transcriptome/RNA_Phib_mycelia1", "reads": ["data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz", "data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz"], "sample_id": "RNA_Phib_mycelia1", "schema_version": 1, "spades_command": ["bash", "hpc/rnaspades_exec.sh", "spades.py"], "spades_memory_gb": 56, "strand_specificity": "unknown", "threads": 8}
+Assembly: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta present= False
+Read input: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz present= True
+Read input: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz present= True
+Executable conda /scratch/aubsxp001/miniconda3/condabin/conda
+Executable minimap2 /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/minimap2
+Executable samtools /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/samtools
+Executable kraken2 /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/kraken2
+External Kraken DB: /datasets/unzipped/pluspf
+rnaSPAdes memory limit GB: 56
+Free disk GiB: 525910.2703399658
+Unknown strandedness: no --ss flag; coverage is expression-dependent
+FINISH 2026-10-19T16:35:03Z exit_status=0

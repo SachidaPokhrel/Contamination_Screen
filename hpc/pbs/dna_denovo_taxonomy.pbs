@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N oom_dna_taxonomy
+#PBS -q large
+#PBS -l select=1:ncpus=4:mem=115gb
+#PBS -l walltime=04:00:00
+#PBS -j oe
+set -Eeuo pipefail
+cd "${OOMYCETE_PROJECT_ROOT:-${PBS_O_WORKDIR:?Submit from project root}}"
+export OOMYCETE_THREADS=4
+if [[ -n "${OOMYCETE_ENV_INIT:-}" ]]; then source "$OOMYCETE_ENV_INIT"; fi
+printf 'START %s job=%s\n' "$(date -Is)" "${PBS_JOBID:-unknown}"
+extra=()
+if [[ "taxonomy" == assemble && "${DNA_RESUME:-0}" == 1 ]]; then extra+=(--resume); fi
+bash hpc/environment_exec.sh contamination bash scripts/16_dna_denovo.sh taxonomy --config "${DNA_DENOVO_CONFIG:-config/dna_denovo.json}" "${extra[@]}"
+printf 'FINISH %s\n' "$(date -Is)"

@@ -1,0 +1,5 @@
+assay	database	input_pairs	classified_pairs	unclassified_pairs	classified_percent	source
+DNA	Original database	100000	1399	98601	1.399	results/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.report.tsv
+DNA	pluspf comparison	100000	2773	97227	2.773	results_pluspf/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.report.tsv
+RNA	Original database	100000	2456	97544	2.456	results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv
+RNA	pluspf comparison	100000	5536	94464	5.536	results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv

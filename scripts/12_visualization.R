@@ -1,0 +1,59 @@
+#!/usr/bin/env Rscript
+args <- commandArgs(trailingOnly=TRUE)
+if ('--help' %in% args) {cat('Usage: 12_visualization.R [--config PATH] [--table PATH] [--results DIR] [--output DIR] [--force]\nDefaults resolve relative to the project root. Produces PNG and PDF evidence plots.\n'); quit(status=0)}
+script <- sub('^--file=', '', grep('^--file=', commandArgs(), value=TRUE)[1])
+root <- dirname(dirname(normalizePath(script)))
+getarg <- function(key, default) {i <- match(key,args); if(is.na(i)) default else {if(i==length(args))stop(paste('Missing value',key)); args[i+1]}}
+resolve <- function(x) if(grepl('^(/|~)',x)) path.expand(x) else file.path(root,x)
+configuration <- yaml::read_yaml(resolve(getarg('--config','config/config.yaml')))
+if(is.null(configuration$schema_version) || configuration$schema_version != 1)stop('Unsupported config schema')
+tab <- resolve(getarg('--table','tables/detections.tsv')); results <- resolve(getarg('--results',configuration$results_dir)); output <- resolve(getarg('--output','figures'))
+dir.create(output,recursive=TRUE,showWarnings=FALSE); dir.create(file.path(root,'logs'),showWarnings=FALSE)
+log <- file(file.path(root,'logs','12_visualization.log'),open='at'); sink(log,split=TRUE); sink(log,type='message')
+options(error=function() {cat('FINISH',format(Sys.time(),tz='UTC'),'exit_status=1\n'); sink(type='message'); sink(); close(log); quit(status=1)})
+cat('START',format(Sys.time(),tz='UTC'), 'R', R.version.string, '\nInput',tab,'\n')
+suppressPackageStartupMessages({library(ggplot2);library(readr);library(dplyr)})
+cat('ggplot2',as.character(packageVersion('ggplot2')),'\n')
+if(!file.exists(tab))stop('Missing detections table; run stage 11')
+d <- read_tsv(tab,show_col_types=FALSE); if(nrow(d)==0)stop('No detection rows')
+saveplot <- function(p,name) {
+ for(ext in c('png','pdf')) {f <- file.path(output,paste0(name,'.',ext)); if(file.exists(f) && !('--force' %in% args))stop(paste('Output exists; use --force',f)); ggsave(f,p,width=9,height=6,dpi=300);cat('OUTPUT',f,'\n')}
+}
+base <- theme_bw(base_size=11)
+saveplot(ggplot(d,aes(x=organism,y=read_fraction_percent,fill=mapping_mode))+geom_col(position='dodge')+facet_wrap(~sample_id,scales='free_x')+coord_flip()+labs(x=NULL,y='Mapped sequencing reads (%)')+base,'read_fractions')
+saveplot(ggplot(d,aes(x=mean_depth,y=breadth_1x_percent,color=mapping_mode,size=supporting_reads))+geom_point(alpha=.8)+facet_wrap(~sample_id)+labs(x='Mean depth (×; full reference)',y='Breadth at 1× (%)')+base,'breadth_vs_depth')
+# Kraken percentages are clade counts, so do not stack them as disjoint abundance.
+a <- distinct(d,sample_id,taxid,organism,kraken_percent); a <- filter(a,!is.na(kraken_percent))
+if(nrow(a)>0)saveplot(ggplot(a,aes(x=organism,y=kraken_percent))+geom_col(fill='#28898f')+facet_wrap(~sample_id,scales='free_x')+coord_flip()+labs(x=NULL,y='Kraken species clade assignments (%)')+base,'taxonomic_screening')
+# Stream and bin depth rather than loading whole host genome profiles into memory.
+profiles <- list(); pi <- 1L
+for(sample in unique(d$sample_id)) {
+ assay <- d$assay[match(sample,d$sample_id)]
+ for(mode in unique(d$mapping_mode[d$sample_id==sample])) {
+  f <- file.path(results,assay,'06_coverage',sample,mode,'depth.tsv.gz')
+  if(!file.exists(f))next
+  contigfile <- file.path(results,assay,'05_mapping',sample,mode,'contigs.tsv')
+  if(!file.exists(contigfile))next
+  ct <- read_tsv(contigfile,show_col_types=FALSE); keep <- filter(ct,role!='host')
+  con <- gzfile(f,'rt'); accum <- new.env(hash=TRUE,parent=emptyenv())
+  repeat {
+   lines <- readLines(con,n=50000L); if(length(lines)==0)break
+   chunk <- read.delim(text=paste(lines,collapse='\n'),header=FALSE,col.names=c('contig','position','depth'))
+   chunk <- inner_join(chunk,keep,by='contig')
+   if(nrow(chunk)==0)next
+   chunk$bin <- floor((chunk$position-1)/pmax(1,ceiling(chunk$length/500)))
+   summary <- chunk %>% group_by(contig,bin) %>% summarise(total=sum(depth),n=n(),.groups='drop')
+   for(j in seq_len(nrow(summary))) {
+    idx <- match(summary$contig[j],keep$contig); key <- paste(idx,summary$bin[j],sep=':')
+    old <- if(exists(key,accum,inherits=FALSE))get(key,accum) else c(0,0)
+    assign(key,old+c(summary$total[j],summary$n[j]),accum)
+   }
+  };close(con)
+  for(key in ls(accum)) {
+   ix <- as.numeric(strsplit(key,':',fixed=TRUE)[[1]]);z <- get(key,accum); rr <- keep[ix[1],]
+   profiles[[pi]] <- data.frame(sample_id=sample,mapping_mode=mode,reference_id=rr$reference_id,contig=rr$contig,position=ix[2]*max(1,ceiling(rr$length/500))+1,depth=z[1]/z[2]);pi <- pi+1L
+  }
+ }
+}
+if(length(profiles)>0) {x <- bind_rows(profiles);saveplot(ggplot(x,aes(x=position,y=depth,color=mapping_mode,group=interaction(contig,mapping_mode)))+geom_line()+facet_wrap(~sample_id+reference_id,scales='free')+labs(x='Contig position (bp; each contig starts at 1)',y='Binned retained base depth')+base,'coverage_profiles')}
+cat('FINISH',format(Sys.time(),tz='UTC'),'exit_status=0\n');sink(type='message');sink();close(log)

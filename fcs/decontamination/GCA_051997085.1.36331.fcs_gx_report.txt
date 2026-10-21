@@ -1,0 +1,10 @@
+##[["FCS genome report", 2, 1], {"git-rev": "v0.5.0+branch--HEAD", "run-date": "Wed Oct 14 16:09:38 2026", "db": {"build-date": "2023-01-24", "seqs": 3025824, "Gbp": 709.264}, "run-info": {"agg-cvg": 0.94078, "asserted-div": "prst:algae", "inferred-primary-divs": ["prst:algae"], "corrected-primary-divs": ["prst:algae"]}}]
+#seq_id	start_pos	end_pos	seq_len	action	div	agg_cont_cov	top_tax_name
+JALBZS010003580.1	1	2221	2221	EXCLUDE	fung:ascomycetes	100	Cladosporium colombiae
+JALBZS010003714.1	1	2067	2067	EXCLUDE	fung:ascomycetes	80	Cladosporium colombiae
+JALBZS010003737.1	1	2047	2047	EXCLUDE	fung:ascomycetes	67	Cladosporium colombiae
+JALBZS010004295.1	1	1605	1605	EXCLUDE	fung:ascomycetes	71	Cladosporium colombiae
+JALBZS010005108.1	1	1149	1149	EXCLUDE	fung:ascomycetes	96	Cladosporium colombiae
+JALBZS010005132.1	1	1136	1136	EXCLUDE	fung:ascomycetes	100	Cladosporium colombiae
+JALBZS010005197.1	1	1105	1105	EXCLUDE	fung:ascomycetes	83	Melanodothis sp. VS III C KN 2
+JALBZS010005385.1	1	1028	1028	EXCLUDE	fung:ascomycetes	100	Melanodothis sp. VS III C KN 2

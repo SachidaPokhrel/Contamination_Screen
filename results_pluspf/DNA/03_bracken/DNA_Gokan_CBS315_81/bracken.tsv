@@ -1,0 +1,4 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Bremia lactucae	4779	S	1579	67	1646	0.67709
+Plasmodium relictum	85471	S	14	67	81	0.03332
+Homo sapiens	9606	S	108	595	703	0.28918

@@ -1,0 +1,9 @@
+{
+  "signature": "1520a6a3e696503279d8d503f0136e16ec96408490194e6852b2b7e23025df80",
+  "outputs": {
+    "references/candidates/Miltoncostaea_pilot.fa": "7a2fdfd2c42cb94d9e1f60aec0bdbc9cc93d39c2db7a1842a8e150b8cc9db15a",
+    "references/candidates/Miltoncostaea_pilot.fa.fai": "998e0ab45cd6ee373d8b190feeace96a57d22b494a578aa4a90a32eeb9f420b6",
+    "references/candidates/Miltoncostaea_pilot.metadata.json": "b602f56c0efefb4bd5abc6e03068924a309a8c4be3648255c257472f6bf07b4a"
+  },
+  "finished": "2026-10-18T05:40:16Z"
+}

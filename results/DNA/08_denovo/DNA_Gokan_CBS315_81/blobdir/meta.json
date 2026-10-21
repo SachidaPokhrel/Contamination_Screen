@@ -1,0 +1,91 @@
+{
+ "id": "blobdir.partial",
+ "assembly": {
+  "file": "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta",
+  "scaffold-count": 18388,
+  "span": 46890401
+ },
+ "fields": [
+  {
+   "id": "identifiers",
+   "type": "identifier"
+  },
+  {
+   "id": "gc",
+   "preload": true,
+   "scale": "scaleLinear",
+   "name": "GC",
+   "datatype": "float",
+   "range": [
+    0.0,
+    1.0
+   ],
+   "type": "variable"
+  },
+  {
+   "preload": true,
+   "scale": "scaleLog",
+   "id": "length",
+   "name": "Length",
+   "clamp": false,
+   "datatype": "integer",
+   "range": [
+    78,
+    146301
+   ],
+   "type": "variable"
+  },
+  {
+   "scale": "scaleLinear",
+   "id": "ncount",
+   "name": "N count",
+   "datatype": "integer",
+   "range": [
+    0,
+    0
+   ],
+   "type": "variable"
+  },
+  {
+   "id": "assembly_depth",
+   "name": "assembly_depth",
+   "preload": false,
+   "active": false,
+   "file": "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/contig_evidence.tsv",
+   "id_column": 0,
+   "delimiter": "\t",
+   "datatype": "float",
+   "range": [
+    0.0,
+    3923.47
+   ],
+   "scale": "scaleLog",
+   "clamp": 0.01,
+   "type": "variable"
+  },
+  {
+   "id": "kraken_label",
+   "name": "kraken_label",
+   "preload": false,
+   "active": false,
+   "file": "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/08_denovo/DNA_Gokan_CBS315_81/contig_evidence.tsv",
+   "id_column": 0,
+   "delimiter": "\t",
+   "datatype": "string",
+   "type": "category"
+  }
+ ],
+ "links": {},
+ "name": "blobdir.partial",
+ "plot": {
+  "x": "gc",
+  "z": "length",
+  "y": "assembly_depth",
+  "cat": "kraken_label"
+ },
+ "record_type": "record",
+ "records": 18388,
+ "taxon": {},
+ "version": 1,
+ "revision": 0
+}

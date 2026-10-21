@@ -1,0 +1,10 @@
+
+START 2026-10-17T22:24:59Z pid=3032752 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/report_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=1 readset=subsampled
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/RNA_Phib_mycelia1_Pseudomonas_CIP10_report.md
+FINISH 2026-10-17T22:24:59Z exit_status=0
+
+START 2026-10-18T13:01:10Z pid=3089065 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/report_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/final.yaml threads=2 readset=subsampled
+OUTPUT /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/reports/RNA_Phib_mycelia1_Pseudomonas_CIP10_report.md
+FINISH 2026-10-18T13:01:10Z exit_status=0

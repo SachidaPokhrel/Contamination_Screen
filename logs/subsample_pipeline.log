@@ -1,0 +1,589 @@
+
+START 2026-10-17T19:31:48Z pid=9 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 7ilugp30/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:31:48Z pid=9 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:31:48Z exit_status=1 error=Missing input: /tmp/oomycete test 7ilugp30/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T19:31:48Z exit_status=1 error=Missing input: /tmp/oomycete test 7ilugp30/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T19:31:48Z pid=15 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 8lzucx7j/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:31:48Z pid=15 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test 8lzucx7j/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test 8lzucx7j/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test 8lzucx7j/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:31:48Z exit_status=0
+FINISH 2026-10-17T19:31:48Z exit_status=0
+
+START 2026-10-17T19:31:48Z pid=18 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 8lzucx7j/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:31:48Z pid=18 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test 8lzucx7j/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T19:31:48Z exit_status=0
+FINISH 2026-10-17T19:31:48Z exit_status=0
+
+START 2026-10-17T19:31:48Z pid=21 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 8lzucx7j/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:31:48Z pid=21 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:31:48Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test 8lzucx7j/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T19:31:48Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test 8lzucx7j/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T19:31:48Z pid=24 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 8lzucx7j/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:31:48Z pid=24 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test 8lzucx7j/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test 8lzucx7j/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test 8lzucx7j/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:31:49Z exit_status=0
+FINISH 2026-10-17T19:31:49Z exit_status=0
+
+START 2026-10-17T19:33:20Z pid=15 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test rgz9fl_j/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:33:20Z pid=15 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:33:20Z exit_status=1 error=Missing input: /tmp/oomycete test rgz9fl_j/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T19:33:20Z exit_status=1 error=Missing input: /tmp/oomycete test rgz9fl_j/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T19:33:20Z pid=21 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test dif7n1v6/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:33:20Z pid=21 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test dif7n1v6/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test dif7n1v6/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test dif7n1v6/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:33:20Z exit_status=0
+FINISH 2026-10-17T19:33:20Z exit_status=0
+
+START 2026-10-17T19:33:20Z pid=24 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test dif7n1v6/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:33:20Z pid=24 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test dif7n1v6/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T19:33:20Z exit_status=0
+FINISH 2026-10-17T19:33:20Z exit_status=0
+
+START 2026-10-17T19:33:20Z pid=27 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test dif7n1v6/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:33:20Z pid=27 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:33:20Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test dif7n1v6/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T19:33:20Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test dif7n1v6/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T19:33:21Z pid=30 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test dif7n1v6/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:33:21Z pid=30 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test dif7n1v6/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test dif7n1v6/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test dif7n1v6/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:33:21Z exit_status=0
+FINISH 2026-10-17T19:33:21Z exit_status=0
+
+START 2026-10-17T19:38:19Z pid=13 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test _sjd9_47/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:19Z pid=13 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:38:19Z exit_status=1 error=Missing input: /tmp/oomycete test _sjd9_47/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T19:38:19Z exit_status=1 error=Missing input: /tmp/oomycete test _sjd9_47/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T19:38:20Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test lzqbywe0/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:20Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test lzqbywe0/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test lzqbywe0/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test lzqbywe0/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:38:20Z exit_status=0
+FINISH 2026-10-17T19:38:20Z exit_status=0
+
+START 2026-10-17T19:38:20Z pid=34 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test lzqbywe0/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:20Z pid=34 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test lzqbywe0/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T19:38:20Z exit_status=0
+FINISH 2026-10-17T19:38:20Z exit_status=0
+
+START 2026-10-17T19:38:20Z pid=37 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test lzqbywe0/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:20Z pid=37 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:38:20Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test lzqbywe0/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T19:38:20Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test lzqbywe0/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T19:38:21Z pid=40 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test lzqbywe0/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:21Z pid=40 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test lzqbywe0/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test lzqbywe0/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test lzqbywe0/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:38:21Z exit_status=0
+FINISH 2026-10-17T19:38:21Z exit_status=0
+
+START 2026-10-17T19:38:32Z pid=9 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 01900yfu/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:32Z pid=9 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:38:32Z exit_status=1 error=Missing input: /tmp/oomycete test 01900yfu/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T19:38:32Z exit_status=1 error=Missing input: /tmp/oomycete test 01900yfu/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T19:38:32Z pid=27 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ll0kqmjb/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:32Z pid=27 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test ll0kqmjb/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test ll0kqmjb/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test ll0kqmjb/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:38:32Z exit_status=0
+FINISH 2026-10-17T19:38:32Z exit_status=0
+
+START 2026-10-17T19:38:32Z pid=30 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ll0kqmjb/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:32Z pid=30 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test ll0kqmjb/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T19:38:32Z exit_status=0
+FINISH 2026-10-17T19:38:32Z exit_status=0
+
+START 2026-10-17T19:38:33Z pid=33 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ll0kqmjb/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:33Z pid=33 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:38:33Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test ll0kqmjb/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T19:38:33Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test ll0kqmjb/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T19:38:33Z pid=36 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ll0kqmjb/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:38:33Z pid=36 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test ll0kqmjb/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test ll0kqmjb/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test ll0kqmjb/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:38:33Z exit_status=0
+FINISH 2026-10-17T19:38:33Z exit_status=0
+
+START 2026-10-17T19:42:09Z pid=10 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ibwj2zc2/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:09Z pid=10 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:42:09Z exit_status=1 error=Missing input: /tmp/oomycete test ibwj2zc2/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T19:42:09Z exit_status=1 error=Missing input: /tmp/oomycete test ibwj2zc2/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T19:42:10Z pid=28 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test x7s6tymy/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:10Z pid=28 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test x7s6tymy/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test x7s6tymy/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test x7s6tymy/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:42:10Z exit_status=0
+FINISH 2026-10-17T19:42:10Z exit_status=0
+
+START 2026-10-17T19:42:10Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test x7s6tymy/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:10Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test x7s6tymy/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T19:42:10Z exit_status=0
+FINISH 2026-10-17T19:42:10Z exit_status=0
+
+START 2026-10-17T19:42:10Z pid=34 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test x7s6tymy/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:10Z pid=34 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:42:10Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test x7s6tymy/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T19:42:10Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test x7s6tymy/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T19:42:10Z pid=37 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test x7s6tymy/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:10Z pid=37 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test x7s6tymy/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test x7s6tymy/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test x7s6tymy/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:42:10Z exit_status=0
+FINISH 2026-10-17T19:42:10Z exit_status=0
+
+START 2026-10-17T19:42:42Z pid=12 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test qdljdjdr/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:42Z pid=12 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:42:42Z exit_status=1 error=Missing input: /tmp/oomycete test qdljdjdr/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T19:42:42Z exit_status=1 error=Missing input: /tmp/oomycete test qdljdjdr/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T19:42:43Z pid=30 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 1o9gdqcm/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:43Z pid=30 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test 1o9gdqcm/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test 1o9gdqcm/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test 1o9gdqcm/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:42:43Z exit_status=0
+FINISH 2026-10-17T19:42:43Z exit_status=0
+
+START 2026-10-17T19:42:43Z pid=33 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 1o9gdqcm/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:43Z pid=33 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test 1o9gdqcm/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T19:42:43Z exit_status=0
+FINISH 2026-10-17T19:42:43Z exit_status=0
+
+START 2026-10-17T19:42:43Z pid=36 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 1o9gdqcm/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:43Z pid=36 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:42:43Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test 1o9gdqcm/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T19:42:43Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test 1o9gdqcm/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T19:42:43Z pid=39 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 1o9gdqcm/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:42:43Z pid=39 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test 1o9gdqcm/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test 1o9gdqcm/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test 1o9gdqcm/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:42:44Z exit_status=0
+FINISH 2026-10-17T19:42:44Z exit_status=0
+
+START 2026-10-17T19:43:10Z pid=13 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 9nw5dd6k/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:10Z pid=13 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:43:10Z exit_status=1 error=Missing input: /tmp/oomycete test 9nw5dd6k/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T19:43:10Z exit_status=1 error=Missing input: /tmp/oomycete test 9nw5dd6k/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T19:43:11Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 6tkmywr0/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:11Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test 6tkmywr0/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test 6tkmywr0/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test 6tkmywr0/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:43:11Z exit_status=0
+FINISH 2026-10-17T19:43:11Z exit_status=0
+
+START 2026-10-17T19:43:11Z pid=34 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 6tkmywr0/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:11Z pid=34 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test 6tkmywr0/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T19:43:11Z exit_status=0
+FINISH 2026-10-17T19:43:11Z exit_status=0
+
+START 2026-10-17T19:43:11Z pid=37 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 6tkmywr0/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:11Z pid=37 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:43:11Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test 6tkmywr0/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T19:43:11Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test 6tkmywr0/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T19:43:11Z pid=40 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 6tkmywr0/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:11Z pid=40 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test 6tkmywr0/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test 6tkmywr0/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test 6tkmywr0/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:43:11Z exit_status=0
+FINISH 2026-10-17T19:43:11Z exit_status=0
+
+START 2026-10-17T19:43:44Z pid=12 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test qdhbsc7a/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:44Z pid=12 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:43:44Z exit_status=1 error=Missing input: /tmp/oomycete test qdhbsc7a/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T19:43:44Z exit_status=1 error=Missing input: /tmp/oomycete test qdhbsc7a/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T19:43:44Z pid=30 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test spz7t5ub/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:44Z pid=30 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test spz7t5ub/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test spz7t5ub/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test spz7t5ub/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:43:44Z exit_status=0
+FINISH 2026-10-17T19:43:44Z exit_status=0
+
+START 2026-10-17T19:43:44Z pid=33 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test spz7t5ub/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:44Z pid=33 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test spz7t5ub/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T19:43:44Z exit_status=0
+FINISH 2026-10-17T19:43:44Z exit_status=0
+
+START 2026-10-17T19:43:45Z pid=36 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test spz7t5ub/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:45Z pid=36 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:43:45Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test spz7t5ub/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T19:43:45Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test spz7t5ub/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T19:43:45Z pid=39 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test spz7t5ub/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:43:45Z pid=39 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test spz7t5ub/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test spz7t5ub/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test spz7t5ub/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:43:45Z exit_status=0
+FINISH 2026-10-17T19:43:45Z exit_status=0
+
+START 2026-10-17T19:48:06Z pid=13 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test o7ml1bvh/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:48:06Z pid=13 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:48:06Z exit_status=1 error=Missing input: /tmp/oomycete test o7ml1bvh/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T19:48:06Z exit_status=1 error=Missing input: /tmp/oomycete test o7ml1bvh/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T19:48:06Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ubwmh0se/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:48:06Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test ubwmh0se/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test ubwmh0se/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test ubwmh0se/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:48:06Z exit_status=0
+FINISH 2026-10-17T19:48:06Z exit_status=0
+
+START 2026-10-17T19:48:06Z pid=34 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ubwmh0se/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:48:06Z pid=34 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test ubwmh0se/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T19:48:06Z exit_status=0
+FINISH 2026-10-17T19:48:06Z exit_status=0
+
+START 2026-10-17T19:48:07Z pid=37 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ubwmh0se/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:48:07Z pid=37 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T19:48:07Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test ubwmh0se/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T19:48:07Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test ubwmh0se/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T19:48:07Z pid=40 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ubwmh0se/config.yaml threads=2 readset=raw
+
+START 2026-10-17T19:48:07Z pid=40 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test ubwmh0se/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test ubwmh0se/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test ubwmh0se/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T19:48:07Z exit_status=0
+FINISH 2026-10-17T19:48:07Z exit_status=0
+
+START 2026-10-17T20:44:11Z pid=2399776 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test csi45imc/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:44:11Z pid=2399776 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T20:44:11Z exit_status=1 error=Missing input: /tmp/scratch-local/oomycete test csi45imc/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T20:44:11Z exit_status=1 error=Missing input: /tmp/scratch-local/oomycete test csi45imc/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T20:44:12Z pid=2399829 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test d7dlsi9_/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:44:12Z pid=2399829 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/scratch-local/oomycete test d7dlsi9_/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/scratch-local/oomycete test d7dlsi9_/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/scratch-local/oomycete test d7dlsi9_/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T20:44:12Z exit_status=0
+FINISH 2026-10-17T20:44:12Z exit_status=0
+
+START 2026-10-17T20:44:12Z pid=2399832 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test d7dlsi9_/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:44:12Z pid=2399832 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/scratch-local/oomycete test d7dlsi9_/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T20:44:12Z exit_status=0
+FINISH 2026-10-17T20:44:12Z exit_status=0
+
+START 2026-10-17T20:44:12Z pid=2399835 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test d7dlsi9_/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:44:12Z pid=2399835 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T20:44:12Z exit_status=1 error=Stale/modified outputs: /tmp/scratch-local/oomycete test d7dlsi9_/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T20:44:12Z exit_status=1 error=Stale/modified outputs: /tmp/scratch-local/oomycete test d7dlsi9_/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T20:44:12Z pid=2399838 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test d7dlsi9_/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:44:12Z pid=2399838 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/scratch-local/oomycete test d7dlsi9_/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/scratch-local/oomycete test d7dlsi9_/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/scratch-local/oomycete test d7dlsi9_/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T20:44:12Z exit_status=0
+FINISH 2026-10-17T20:44:12Z exit_status=0
+
+START 2026-10-17T20:45:13Z pid=2401346 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test 2l35zl8t/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:13Z pid=2401346 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T20:45:13Z exit_status=1 error=Missing input: /tmp/scratch-local/oomycete test 2l35zl8t/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-17T20:45:13Z exit_status=1 error=Missing input: /tmp/scratch-local/oomycete test 2l35zl8t/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-17T20:45:14Z pid=2401365 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test 5ss0n7ar/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:14Z pid=2401365 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/scratch-local/oomycete test 5ss0n7ar/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/scratch-local/oomycete test 5ss0n7ar/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/scratch-local/oomycete test 5ss0n7ar/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T20:45:14Z exit_status=0
+FINISH 2026-10-17T20:45:14Z exit_status=0
+
+START 2026-10-17T20:45:14Z pid=2401368 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test 5ss0n7ar/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:14Z pid=2401368 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/scratch-local/oomycete test 5ss0n7ar/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-17T20:45:14Z exit_status=0
+FINISH 2026-10-17T20:45:14Z exit_status=0
+
+START 2026-10-17T20:45:14Z pid=2401371 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test 5ss0n7ar/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:14Z pid=2401371 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-17T20:45:14Z exit_status=1 error=Stale/modified outputs: /tmp/scratch-local/oomycete test 5ss0n7ar/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-17T20:45:14Z exit_status=1 error=Stale/modified outputs: /tmp/scratch-local/oomycete test 5ss0n7ar/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-17T20:45:14Z pid=2401374 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /tmp/scratch-local/oomycete test 5ss0n7ar/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:14Z pid=2401374 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/scratch-local/oomycete test 5ss0n7ar/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/scratch-local/oomycete test 5ss0n7ar/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/scratch-local/oomycete test 5ss0n7ar/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-17T20:45:14Z exit_status=0
+FINISH 2026-10-17T20:45:14Z exit_status=0
+
+START 2026-10-17T20:59:44Z pid=2415534 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=2 readset=subsampled
+
+START 2026-10-17T20:59:44Z pid=2415534 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_DNA_Gokan_CBS315_81.log
+FINISH 2026-10-17T20:59:44Z exit_status=1 error=Missing input: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz
+FINISH 2026-10-17T20:59:44Z exit_status=1 error=Missing input: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz
+
+START 2026-10-17T21:14:40Z pid=2429032 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/subsample_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=2 readset=subsampled
+
+START 2026-10-17T21:14:40Z pid=2429032 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/03_subsample_DNA_Gokan_CBS315_81.log
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/subsampled/DNA_Gokan_CBS315_81_1.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/subsampled/DNA_Gokan_CBS315_81_2.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/subsampled/DNA_Gokan_CBS315_81.subsample.json
+FINISH 2026-10-17T21:16:33Z exit_status=0
+
+START 2026-10-17T21:16:33Z pid=2429032 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/03_subsample_RNA_Phib_mycelia1.log
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_1.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_2.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1.subsample.json
+FINISH 2026-10-17T21:17:59Z exit_status=0
+FINISH 2026-10-17T21:17:59Z exit_status=0
+
+START 2026-10-20T21:27:18Z pid=29 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test jd6e_js0/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:27:18Z pid=29 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-20T21:27:18Z exit_status=1 error=Missing input: /tmp/oomycete test jd6e_js0/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-20T21:27:18Z exit_status=1 error=Missing input: /tmp/oomycete test jd6e_js0/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-20T21:27:19Z pid=47 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test j2ul602_/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:27:19Z pid=47 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test j2ul602_/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test j2ul602_/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test j2ul602_/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-20T21:27:19Z exit_status=0
+FINISH 2026-10-20T21:27:19Z exit_status=0
+
+START 2026-10-20T21:27:19Z pid=50 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test j2ul602_/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:27:19Z pid=50 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test j2ul602_/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-20T21:27:19Z exit_status=0
+FINISH 2026-10-20T21:27:19Z exit_status=0
+
+START 2026-10-20T21:27:19Z pid=53 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test j2ul602_/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:27:19Z pid=53 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-20T21:27:19Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test j2ul602_/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-20T21:27:19Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test j2ul602_/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-20T21:27:19Z pid=56 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test j2ul602_/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:27:19Z pid=56 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/DNA/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test j2ul602_/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test j2ul602_/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test j2ul602_/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-20T21:27:19Z exit_status=0
+FINISH 2026-10-20T21:27:19Z exit_status=0
+
+START 2026-10-20T21:28:23Z pid=26 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test vzpykusb/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:28:23Z pid=26 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-20T21:28:23Z exit_status=1 error=Missing input: /tmp/oomycete test vzpykusb/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-20T21:28:23Z exit_status=1 error=Missing input: /tmp/oomycete test vzpykusb/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-20T21:28:23Z pid=44 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test io1xd2az/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:28:23Z pid=44 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test io1xd2az/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test io1xd2az/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test io1xd2az/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-20T21:28:23Z exit_status=0
+FINISH 2026-10-20T21:28:23Z exit_status=0
+
+START 2026-10-20T21:28:23Z pid=47 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test io1xd2az/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:28:23Z pid=47 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test io1xd2az/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-20T21:28:23Z exit_status=0
+FINISH 2026-10-20T21:28:23Z exit_status=0
+
+START 2026-10-20T21:28:24Z pid=50 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test io1xd2az/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:28:24Z pid=50 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-20T21:28:24Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test io1xd2az/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-20T21:28:24Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test io1xd2az/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-20T21:28:24Z pid=53 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test io1xd2az/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:28:24Z pid=53 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test io1xd2az/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test io1xd2az/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test io1xd2az/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-20T21:28:24Z exit_status=0
+FINISH 2026-10-20T21:28:24Z exit_status=0
+
+START 2026-10-20T21:30:02Z pid=29 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test n9zys0qo/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:30:02Z pid=29 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-20T21:30:02Z exit_status=1 error=Missing input: /tmp/oomycete test n9zys0qo/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-20T21:30:02Z exit_status=1 error=Missing input: /tmp/oomycete test n9zys0qo/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-20T21:30:02Z pid=47 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ekfzoqo8/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:30:02Z pid=47 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test ekfzoqo8/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test ekfzoqo8/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test ekfzoqo8/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-20T21:30:02Z exit_status=0
+FINISH 2026-10-20T21:30:02Z exit_status=0
+
+START 2026-10-20T21:30:02Z pid=50 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ekfzoqo8/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:30:02Z pid=50 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test ekfzoqo8/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-20T21:30:02Z exit_status=0
+FINISH 2026-10-20T21:30:02Z exit_status=0
+
+START 2026-10-20T21:30:03Z pid=53 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ekfzoqo8/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:30:03Z pid=53 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-20T21:30:03Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test ekfzoqo8/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-20T21:30:03Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test ekfzoqo8/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-20T21:30:03Z pid=56 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test ekfzoqo8/config.yaml threads=2 readset=raw
+
+START 2026-10-20T21:30:03Z pid=56 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test ekfzoqo8/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test ekfzoqo8/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test ekfzoqo8/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-20T21:30:03Z exit_status=0
+FINISH 2026-10-20T21:30:03Z exit_status=0
+
+START 2026-10-21T00:13:27Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test 9u1mlj1z/config.yaml threads=2 readset=raw
+
+START 2026-10-21T00:13:27Z pid=31 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-21T00:13:27Z exit_status=1 error=Missing input: /tmp/oomycete test 9u1mlj1z/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+FINISH 2026-10-21T00:13:27Z exit_status=1 error=Missing input: /tmp/oomycete test 9u1mlj1z/data/DNA/cleaned/SYNTHETIC_DNA_1.fastq.gz
+
+START 2026-10-21T00:13:28Z pid=49 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test li6djh41/config.yaml threads=2 readset=raw
+
+START 2026-10-21T00:13:28Z pid=49 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test li6djh41/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test li6djh41/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test li6djh41/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-21T00:13:28Z exit_status=0
+FINISH 2026-10-21T00:13:28Z exit_status=0
+
+START 2026-10-21T00:13:28Z pid=52 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test li6djh41/config.yaml threads=2 readset=raw
+
+START 2026-10-21T00:13:28Z pid=52 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+SKIP verified /tmp/oomycete test li6djh41/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json
+FINISH 2026-10-21T00:13:28Z exit_status=0
+FINISH 2026-10-21T00:13:28Z exit_status=0
+
+START 2026-10-21T00:13:29Z pid=55 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test li6djh41/config.yaml threads=2 readset=raw
+
+START 2026-10-21T00:13:29Z pid=55 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+FINISH 2026-10-21T00:13:29Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test li6djh41/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+FINISH 2026-10-21T00:13:29Z exit_status=1 error=Stale/modified outputs: /tmp/oomycete test li6djh41/data/DNA/subsampled/SYNTHETIC_DNA_subsample.done.json; inspect and use --force to rebuild
+
+START 2026-10-21T00:13:29Z pid=58 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/subsample_pipeline.log
+CONFIG /tmp/oomycete test li6djh41/config.yaml threads=2 readset=raw
+
+START 2026-10-21T00:13:29Z pid=58 python=3.14.4 log=/home/sachida/Codex_Code/Contamination_Scan/logs/verification/synthetic/03_subsample_SYNTHETIC_DNA.log
+OUTPUTS /tmp/oomycete test li6djh41/data/DNA/subsampled/SYNTHETIC_DNA_1.fastq.gz, /tmp/oomycete test li6djh41/data/DNA/subsampled/SYNTHETIC_DNA_2.fastq.gz, /tmp/oomycete test li6djh41/data/DNA/subsampled/SYNTHETIC_DNA.subsample.json
+FINISH 2026-10-21T00:13:29Z exit_status=0
+FINISH 2026-10-21T00:13:29Z exit_status=0

@@ -1,0 +1,3 @@
+assay	sample_id	input_pairs	cleaned_pairs	retained_pairs_percent	q30_after_percent	input_scope
+DNA	DNA_Gokan_CBS315_81	5888715	5685476	96.5487	86.418	full readset
+RNA	RNA_Phib_mycelia1	6040967	5941455	98.3527	88.514	full readset

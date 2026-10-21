@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "input_fasta": "fcs/GCA_051997085.1.fasta",
+  "taxid": 36331,
+  "engine": "auto",
+  "image": "",
+  "database": "",
+  "threads": 8,
+  "output_dir": "fcs/reruns",
+  "recorded_action_report": "fcs/decontamination/GCA_051997085.1.36331.fcs_gx_report.txt",
+  "recorded_taxonomy_report": "fcs/decontamination/GCA_051997085.1.36331.taxonomy.rpt",
+  "recorded_clean_fasta": "fcs/clean.fasta",
+  "recorded_contaminant_fasta": "fcs/contaminated.fasta",
+  "ncbi_metadata": "metadata/fcs_genome.json"
+}

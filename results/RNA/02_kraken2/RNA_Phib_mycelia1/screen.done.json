@@ -1,0 +1,9 @@
+{
+  "signature": "ea6bcc84ebbae1f3f8bc99fa4282b6f306538e19b512df3e8e998602c8fccba7",
+  "outputs": {
+    "results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv": "85c1c2fec6bf71de9a612c54d5234d200a2cff484e386a92c96601b8213a2573",
+    "results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.output.tsv": "3f2f6c687fcbcef67fea18a9defc813e4a9911247a91d15e51cf7fd133e35836",
+    "results/RNA/02_kraken2/RNA_Phib_mycelia1/screen.json": "7bfe6b7ca902e39f2a466e25f756415bb6a301dd31b5af4537af37c610db4927"
+  },
+  "finished": "2026-10-17T21:41:10Z"
+}

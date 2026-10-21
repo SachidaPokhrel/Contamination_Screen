@@ -1,0 +1,72 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: 5screen.sh
+  The time limit is 360:00:00 HH:MM:SS.
+  The target directory is: /scratch/aubsxp001/Phylogeny/input/fcs
+  The working directory is:  /scratch-local/aubsxp001.screen_class.102266.asax-pbs1
+  The memory limit is: 40gb
+  The job will start running after: 202610141609.16
+  Job Name: screen_class
+  Queue: -q large
+  Constraints: 
+  Using  2  cores on master node  asax032.asc.edu
+  Node list:  asax032.asc.edu asax032.asc.edu
+  Cores:  2
+  Command typed:
+/scripts/run_script 5screen.sh     
+  Queue submit command:
+qsub -q large -j oe -N screen_class -a 202610141609.16 -r n -M szp0204@auburn.edu -l walltime=360:00:00 -l select=ncpus=2:mpiprocs=2:mem=40000mb 
+
+-----------------------------------------------------------------------------
+
+tax-id    : 36331
+fasta     : /sample-volume/GCA_051997085.1.fasta
+size      : 41.89 MiB
+split-fa  : True
+BLAST-div : oomycetes
+gx-div    : prst:algae
+w/same-tax: True
+bin-dir   : /app/bin
+gx-db     : /app/db/gxdb/gxdb/all.gxi
+gx-ver    : Nov 27 2023 11:05:36; git:v0.5.0+branch--HEAD
+output    : /output-volume//GCA_051997085.1.36331.taxonomy.rpt
+
+-----------------------------------------------------------------------------
+
+Collecting masking statistics...
+Collected masking stats:  0.0426538 Gbp; 3.17845s; 13.4197 Mbp/s. Baseline: 1.05916
+
+Processed 5451 queries, 42.6542Mbp in 29799.1s. (0.00143139Mbp/s); num-jobs:425
+Species                    : None
+Asserted div               : prst:algae
+Inferred primary-divs      : ['prst:algae']
+Corrected primary-divs     : ['prst:algae']
+Putative contaminant divs  : []
+Aggregate coverage         : 94%
+Minimum contam. coverage   : 20%
+
+-----------------------------------------------------------------------------
+
+fcs_gx_report.txt contamination summary:
+----------------------------------------
+                                seqs      bases
+                               ----- ----------
+TOTAL                              8      12358
+-----                          ----- ----------
+fung:ascomycetes                   8      12358
+
+-----------------------------------------------------------------------------
+
+fcs_gx_report.txt action summary:
+---------------------------------
+                                seqs      bases
+                               ----- ----------
+TOTAL                              8      12358
+-----                          ----- ----------
+EXCLUDE                            8      12358
+
+-----------------------------------------------------------------------------
+

@@ -1,0 +1,9 @@
+{
+  "signature": "168c03c123a4a005a95f4213ac83fa6e6bfdcda7f6886ae9cf8883fecc4117a5",
+  "outputs": {
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/DNA.full_cleaned.filtered.bam": "461b01b41c915f327167645b048d03e35868f4afbdeab77af09883552afb8851",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/DNA.full_cleaned.filtered.bam.bai": "e22ca1236b4fcca85f4c42d1997f49dc6de4c5a2880c004fa67cd51a1194b983",
+    "results/DNA/07_assembly/DNA_Gokan_CBS315_81/samtools_coverage.tsv": "acb8c01cbec873f30e29167283b283024556f77bcd800cad39c435414c78d3bb"
+  },
+  "finished": "2026-10-18T18:36:42Z"
+}

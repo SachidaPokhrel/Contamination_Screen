@@ -1,0 +1,12 @@
+assay	sample_id	name	taxid	directly_assigned_fragments	redistributed_fragments	estimated_fragments	bracken_model_percent	estimated_input_pair_percent	input_pairs	distribution_bp	validation_status
+DNA	DNA_Gokan_CBS315_81	Bremia lactucae	4779	1579	67	1646	67.709	1.646	100000	150	screening_estimate_not_independent_confirmation
+DNA	DNA_Gokan_CBS315_81	Plasmodium relictum	85471	14	67	81	3.332	0.081	100000	150	screening_estimate_not_independent_confirmation
+DNA	DNA_Gokan_CBS315_81	Homo sapiens	9606	108	595	703	28.918	0.703	100000	150	screening_estimate_not_independent_confirmation
+RNA	RNA_Phib_mycelia1	Bremia lactucae	4779	1358	311	1669	33.875	1.669	100000	100	screening_estimate_not_independent_confirmation
+RNA	RNA_Phib_mycelia1	Akanthomyces muscarius	2231603	92	343	435	8.829	0.435	100000	100	screening_estimate_not_independent_confirmation
+RNA	RNA_Phib_mycelia1	Purpureocillium takamizusanense	2060973	44	224	268	5.439	0.268	100000	100	screening_estimate_not_independent_confirmation
+RNA	RNA_Phib_mycelia1	Malassezia restricta	76775	11	306	317	6.434	0.317	100000	100	screening_estimate_not_independent_confirmation
+RNA	RNA_Phib_mycelia1	Cutaneotrichosporon cavernicola	279322	10	41	51	1.035	0.051	100000	100	screening_estimate_not_independent_confirmation
+RNA	RNA_Phib_mycelia1	Homo sapiens	9606	83	1196	1279	25.959	1.279	100000	100	screening_estimate_not_independent_confirmation
+RNA	RNA_Phib_mycelia1	uncultured Acetobacteroides sp.	1760811	65	668	733	14.877	0.733	100000	100	screening_estimate_not_independent_confirmation
+RNA	RNA_Phib_mycelia1	Miltoncostaea oceani	2843216	12	158	170	3.45	0.17	100000	100	screening_estimate_not_independent_confirmation

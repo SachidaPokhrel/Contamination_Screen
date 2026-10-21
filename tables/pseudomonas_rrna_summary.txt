@@ -1,0 +1,14 @@
+
+=== DNA_Gokan_CBS315_81 ===
+Total retained reads: 143
+annotated_rRNA_overlap: 143
+CP087163.1_outside_annotated_rRNA: 0
+other_assembly_contig: 0
+
+=== RNA_Phib_mycelia1 ===
+Total retained reads: 128
+annotated_rRNA_overlap: 126
+CP087163.1_outside_annotated_rRNA: 0
+other_assembly_contig: 2
+
+Saved: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/tables/pseudomonas_rrna_alignment_audit.tsv

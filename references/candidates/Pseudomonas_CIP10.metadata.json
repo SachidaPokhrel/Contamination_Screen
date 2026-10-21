@@ -1,0 +1,16 @@
+{
+  "reference_id": "Pseudomonas_CIP10",
+  "role": "candidate",
+  "assay": "all",
+  "taxid": "2892442",
+  "organism": "Pseudomonas sp. CIP-10",
+  "accessions": "GCF_020911845.1",
+  "fasta": "references/candidates/Pseudomonas_CIP10.fa",
+  "evidence_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_020911845.1/",
+  "verified": "true",
+  "retrieved_at": "2026-10-18T05:40:14Z",
+  "sha256": "4b59595110ed9240ad1cfe25d8789e7f53651eacc279f3c9ed044ee9cd0b7bbb",
+  "contigs": 4,
+  "bases": 6473352,
+  "source": "NCBI versioned accession"
+}

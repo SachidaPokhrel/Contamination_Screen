@@ -1,0 +1,19 @@
+
+START 2026-10-17T21:58:02Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Gokan_CBS315_81.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCA_023334035.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=12706471&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/023/334/035/GCA_023334035.1_ASM2333403v1/GCA_023334035.1_ASM2333403v1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.partial.download.gz
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-17T21:58:04Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.metadata.json
+FINISH 2026-10-17T21:58:05Z exit_status=0
+
+START 2026-10-17T21:58:26Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Gokan_CBS315_81.log
+SKIP verified /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81_reference.done.json
+FINISH 2026-10-17T21:58:27Z exit_status=0
+
+START 2026-10-18T05:40:11Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Gokan_CBS315_81.log
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-18T05:40:12Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/host/Gokan_CBS315_81.metadata.json
+FINISH 2026-10-18T05:40:12Z exit_status=0

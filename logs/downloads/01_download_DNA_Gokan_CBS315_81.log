@@ -1,0 +1,42 @@
+
+START 2026-10-17T19:47:50Z pid=4 python=3.14.4 log=/home/sachida/Codex_Code/Oomycete_Contamination/logs/downloads/01_download_DNA_Gokan_CBS315_81.log
+FINISH 2026-10-17T19:47:50Z exit_status=1 error=Required executable missing: prefetch; run hpc/install_hpc_environment.sh
+
+START 2026-10-17T20:16:26Z pid=2364851 python=3.12.2 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/downloads/01_download_DNA_Gokan_CBS315_81.log
+FINISH 2026-10-17T20:16:26Z exit_status=1 error=Required executable missing: prefetch; run hpc/install_hpc_environment.sh
+
+START 2026-10-17T20:46:40Z pid=2403393 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/downloads/01_download_DNA_Gokan_CBS315_81.log
+VERSION prefetch: prefetch : 3.2.1
+VERSION vdb-validate: vdb-validate : 3.2.1
+VERSION fasterq-dump: fasterq-dump : 3.2.1
+Archive bytes=900000000; provisional conversion reserve=20147483648.0 at /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/work/tmp/SRR15309490
+COMMAND 2026-10-17T20:46:40Z prefetch --max-size 10G -O /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/sra SRR15309490
+2026-10-17T20:46:40 prefetch.3.2.1: 1) Resolving 'SRR15309490'...
+2026-10-17T20:46:41 prefetch.3.2.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-10-17T20:46:41 prefetch.3.2.1: 1) Downloading 'SRR15309490'...
+2026-10-17T20:46:41 prefetch.3.2.1:  SRA Normalized Format file is being retrieved
+2026-10-17T20:46:41 prefetch.3.2.1:  Downloading via HTTPS...
+2026-10-17T20:46:56 prefetch.3.2.1:  HTTPS download succeed
+2026-10-17T20:46:58 prefetch.3.2.1:  'SRR15309490' is valid: 783965203 bytes were streamed from 783953435
+2026-10-17T20:46:58 prefetch.3.2.1: 1) 'SRR15309490' was downloaded successfully
+2026-10-17T20:46:58 prefetch.3.2.1: 1) Resolving 'SRR15309490's dependencies...
+2026-10-17T20:46:58 prefetch.3.2.1: 'SRR15309490' has 0 unresolved dependencies
+COMMAND 2026-10-17T20:46:58Z vdb-validate /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/sra/SRR15309490/SRR15309490.sra
+2026-10-17T20:46:58 vdb-validate.3.2.1 info: Database 'SRR15309490.sra' metadata: md5 ok
+2026-10-17T20:46:58 vdb-validate.3.2.1 info: Table 'SEQUENCE' metadata: md5 ok
+2026-10-17T20:46:58 vdb-validate.3.2.1 info: Column 'ALTREAD': md5 ok
+2026-10-17T20:46:59 vdb-validate.3.2.1 info: Column 'QUALITY': md5 ok
+2026-10-17T20:47:00 vdb-validate.3.2.1 info: Column 'READ': md5 ok
+2026-10-17T20:47:00 vdb-validate.3.2.1 info: Column 'READ_LEN': md5 ok
+2026-10-17T20:47:00 vdb-validate.3.2.1 info: Column 'READ_START': md5 ok
+2026-10-17T20:47:00 vdb-validate.3.2.1 info: Database '/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/sra/SRR15309490/SRR15309490.sra' contains only unaligned reads
+2026-10-17T20:47:00 vdb-validate.3.2.1 info: Database 'SRR15309490.sra' is consistent
+COMMAND 2026-10-17T20:47:00Z fasterq-dump /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/sra/SRR15309490 --split-files --threads 2 --temp /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/work/tmp/SRR15309490 --outdir /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/SRR15309490.conversion --force
+spots read      : 5,888,715
+reads read      : 11,777,430
+reads written   : 11,777,430
+VERSION pigz: pigz 2.8
+COMMAND 2026-10-17T20:47:54Z pigz -c -p 2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/SRR15309490.conversion/SRR15309490_1.fastq > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_1.fastq.gz.partial
+COMMAND 2026-10-17T20:49:50Z pigz -c -p 2 /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/SRR15309490.conversion/SRR15309490_2.fastq > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_2.fastq.gz.partial
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_1.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81_2.fastq.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81.sha256, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/raw/DNA_Gokan_CBS315_81.download.json
+FINISH 2026-10-17T20:52:31Z exit_status=0

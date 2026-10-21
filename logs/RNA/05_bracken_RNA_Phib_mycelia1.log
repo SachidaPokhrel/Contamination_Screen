@@ -1,0 +1,28 @@
+
+START 2026-10-17T21:41:10Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/05_bracken_RNA_Phib_mycelia1.log
+FINISH 2026-10-17T21:41:10Z exit_status=0
+
+START 2026-10-18T13:28:18Z pid=3090823 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/05_bracken_RNA_Phib_mycelia1.log
+VERSION bracken: Bracken v3.0.1
+COMMAND 2026-10-18T13:28:18Z bracken -d /datasets/unzipped/pluspf -i /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/03_bracken/RNA_Phib_mycelia1/bracken.tsv -w /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/03_bracken/RNA_Phib_mycelia1/bracken.report.tsv -r 100 -l S
+ >> Checking for Valid Options...
+ >> Running Bracken 
+      >> python src/est_abundance.py -i /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/03_bracken/RNA_Phib_mycelia1/bracken.tsv -k /datasets/unzipped/pluspf/database100mers.kmer_distrib -l S -t 10
+>> Checking report file: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv
+PROGRAM START TIME: 10-18-2026 13:28:18
+BRACKEN SUMMARY (Kraken report: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv)
+    >>> Threshold: 10 
+    >>> Number of species in sample: 38 
+	  >> Number of species with reads > threshold: 8 
+	  >> Number of species with reads < threshold: 30 
+    >>> Total reads in sample: 100000
+	  >> Total reads kept at species level (reads > threshold): 1675
+	  >> Total reads discarded (species reads < threshold): 50
+	  >> Reads distributed: 3252
+	  >> Reads not distributed (eg. no species above threshold): 559
+	  >> Unclassified reads: 94464
+BRACKEN OUTPUT PRODUCED: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/03_bracken/RNA_Phib_mycelia1/bracken.tsv
+PROGRAM END TIME: 10-18-2026 13:28:18
+  Bracken complete.
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/03_bracken/RNA_Phib_mycelia1/bracken.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_pluspf/RNA/03_bracken/RNA_Phib_mycelia1/bracken.report.tsv
+FINISH 2026-10-18T13:28:18Z exit_status=0

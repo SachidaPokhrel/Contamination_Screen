@@ -1,0 +1,40 @@
+{
+  "time": "2026-10-17T20:45:20.173281+00:00",
+  "checks": [
+    [
+      "unit_tests",
+      "PASS",
+      0
+    ],
+    [
+      "Bash/PBS/Python syntax",
+      "PASS",
+      0
+    ],
+    [
+      "Analysis entry point help",
+      "PASS",
+      0
+    ],
+    [
+      "real_mapping",
+      "PASS",
+      0
+    ],
+    [
+      "R_syntax",
+      "PASS",
+      0
+    ],
+    [
+      "offline_demo",
+      "PASS",
+      0
+    ],
+    [
+      "environment_inventory",
+      "PASS",
+      0
+    ]
+  ]
+}

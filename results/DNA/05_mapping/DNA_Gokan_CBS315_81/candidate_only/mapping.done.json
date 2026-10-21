@@ -1,0 +1,14 @@
+{
+  "signature": "8964e6989bbcaf7354092203540ea41b993435cb6a53b8d2b98d339f3096c7f8",
+  "outputs": {
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/candidate_only/aligned.bam": "072fb4299ae6ebac5439e397d3308977537d6d4adb8edf311970f00711d9c8d3",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/candidate_only/aligned.bam.bai": "1703065f0846c178ab3d209e34982923f1c601d7b362a683d69bfa03b1ebb0c2",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/candidate_only/reference.fa": "1e2b33906b0c4f74e375520cd949b038941ba007572b5ee5fcc329279bf6ed11",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/candidate_only/reference.fa.fai": "ef7e10190e2d4a282dc7109d892f0aa2da742f4eed1df6233a6a5438b6b2a7bc",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/candidate_only/contigs.tsv": "9b6643f4da2d875fd738d8d4ea655d45c2bc1fdba14314d4d3c9e969a703e481",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/candidate_only/mapping.json": "80f48de3a1d56aaa386e7dfc0c8f79c744eb04c21da3459ea3b09ee2dd72a99d",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/candidate_only/flagstat.txt": "2c16510a47ee4a5d59fc2078ccf9804ee1d695383e13611eea020a79a63e25bf",
+    "results/DNA/05_mapping/DNA_Gokan_CBS315_81/candidate_only/samtools.stats.txt": "29e7b7e564bf4375206454b07748e2c6bda384f503af2c4c83dbc1bb98a5bb82"
+  },
+  "finished": "2026-10-17T21:58:54Z"
+}

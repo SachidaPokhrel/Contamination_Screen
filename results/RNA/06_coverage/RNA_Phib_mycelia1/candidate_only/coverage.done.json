@@ -1,0 +1,11 @@
+{
+  "signature": "8f4a6ab98cd9f51c83e6b6042d8bfa6c1825b095afa91cddd1b16266eb94d169",
+  "outputs": {
+    "results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/coverage.tsv": "708f1d97106184f1460b9f5a8fbb89c32cefd8a741d07382fb3f18cdcd039a82",
+    "results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/depth.tsv.gz": "9a67921b7e2ed934cf083395ed45d1d152db4a1302c397bf89dccb8dc80cfb4c",
+    "results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/thresholds.json": "ffe378fad694a15a4042bba8835c94f84d8155c3d59352f697a5e449495cbda3",
+    "results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam": "d54914faa750b9a3c914383121acc22102b30aeb5472ea9aa3a3344f7c125915",
+    "results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam.bai": "9132599d07bfab909c8a2476e5f7182507d71bf855b92b917940779c6ac0977a"
+  },
+  "finished": "2026-10-17T22:10:03Z"
+}

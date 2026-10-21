@@ -1,0 +1,4 @@
+{
+  "status": "disabled",
+  "reason": "requires compatible database read-length distribution; no abundance inferred"
+}

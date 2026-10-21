@@ -1,0 +1,16 @@
+{
+  "signature": "e70c9accc633bf025404fc986c79cf088ac013db791c46e499d70ea9e31709b2",
+  "outputs": {
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/contig_evidence.tsv": "2f8071280f14472e54a285013e119e27400fe9e35fd8f10940b2c3a24ea9d3bf",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/blobdir/identifiers.json": "b60f2e865928f75256567c7348280002e390da5966e08141a78b283d4ca4ee25",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/blobdir/gc.json": "d6d265d933bcd789570bf58405eb47c864ba5f9cb29b711ed8464f530e678a87",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/blobdir/length.json": "3770c252f7cae65726c55eed03d7f5a7e7670a60daced28627e2115ce6f26ecf",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/blobdir/ncount.json": "a9cf3d0ee1896fe8fc092808e82d312e94b81978d085e5b53e4e5d93fd695343",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/blobdir/meta.json": "717ff7c26663d6143a47e5e6fcb375c9267ee7e0b11ef92093bcd8373ebf87fc",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/blobdir/assembly_depth.json": "693fe2e6aa213e934411bf5838bc8e9e541e7c3f686e6c4dce16a2bc3bd77e91",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/blobdir/kraken_label.json": "0c03ab0af615806b826dc1a51d2210779c65ffe8603c3996e3abebad481f3440",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rna_blobplot.png": "efb1dd9f059da0a4c5585b96a44787f21e2fb8cb6a63c9e7d48998942fb034fa",
+    "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rna_blobplot.pdf": "6bc9592fd3238bb4b45eda4b776fd3e7293507c902c5ec8bdb332015fa8e99d3"
+  },
+  "finished": "2026-10-19T16:53:45Z"
+}

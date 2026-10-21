@@ -1,0 +1,16 @@
+[
+  {
+    "path": "results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta",
+    "compressed_path": "results/DNA/08_denovo/DNA_Gokan_CBS315_81/spades/contigs.fasta.gz",
+    "sha256": "8cae7042e1efcebe142fc03713ad865eae81a513288586e7ec136e677f1a21d3",
+    "compressed_sha256": "642a514b840e4672f1fb076d4738b94bc43fdb71d0defb945e0d5d3356fc3fd9",
+    "bytes": 48353727
+  },
+  {
+    "path": "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta",
+    "compressed_path": "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta.gz",
+    "sha256": "cc7a759700892b6fe6f80d37e75ef28ec64d54b90db364f82de1fac71f7279e2",
+    "compressed_sha256": "1ac14cf8432e54aaf8d130e70677f95eb1cf0c378a39fed09ef4f68590247026",
+    "bytes": 28213394
+  }
+]

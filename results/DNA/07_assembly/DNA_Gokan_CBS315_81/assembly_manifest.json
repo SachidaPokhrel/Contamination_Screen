@@ -1,0 +1,8 @@
+{
+  "accession": "GCA_023334035.1",
+  "sample": "DNA_Gokan_CBS315_81",
+  "taxid": 182683,
+  "fasta": "references/host/Gokan_CBS315_81.fa",
+  "sha256": "e91b7c236c926e5b334707b83d8793eab683df170b516fb7919a067df35a537e",
+  "assessment_scope": "published assembly; may omit sequences present in reads"
+}

@@ -1,0 +1,17 @@
+
+START 2026-10-17T21:58:08Z pid=2470879 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Acetobacteroides_pilot.log
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=assembly&term=GCF_963678165.1%5BAssembly+Accession%5D&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.partial.assembly_search.json
+HTTP GET https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=assembly&id=19804901&retmode=json -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.partial.assembly_summary.json
+HTTP GET https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/963/678/165/GCA_963678165.1_piUroStri2.Acetobacteroides_sp_1.1/GCA_963678165.1_piUroStri2.Acetobacteroides_sp_1.1_genomic.fna.gz -> /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.partial.download.gz
+COMMAND 2026-10-17T21:58:09Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.metadata.json
+FINISH 2026-10-17T21:58:09Z exit_status=0
+
+START 2026-10-17T21:58:27Z pid=3022341 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Acetobacteroides_pilot.log
+SKIP verified /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot_reference.done.json
+FINISH 2026-10-17T21:58:27Z exit_status=0
+
+START 2026-10-18T05:40:13Z pid=3001270 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/07_reference_Acetobacteroides_pilot.log
+COMMAND 2026-10-18T05:40:13Z samtools faidx /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.fa.fai, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/references/candidates/Acetobacteroides_pilot.metadata.json
+FINISH 2026-10-18T05:40:14Z exit_status=0

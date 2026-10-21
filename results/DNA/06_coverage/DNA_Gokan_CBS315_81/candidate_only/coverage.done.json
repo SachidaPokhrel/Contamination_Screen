@@ -1,0 +1,11 @@
+{
+  "signature": "ee971900c79c9ad47a7ad8f40326e87f81cc00256c0681da79b5ac119e7d5ae4",
+  "outputs": {
+    "results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/coverage.tsv": "ee50d523ca8577bb4e9b49e756f8aa05b9cdb60fb2c23dbbedbb816b4b229829",
+    "results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/depth.tsv.gz": "8b7a9eb2763d8bb98180161004b19f4ad3f73b423121f236315f14867d847f3b",
+    "results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/thresholds.json": "ffe378fad694a15a4042bba8835c94f84d8155c3d59352f697a5e449495cbda3",
+    "results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/filtered.bam": "dc2aaf85c4f97d849d24031dcc29fdc72240718ea8a734b4b0c5f6c736f13184",
+    "results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/filtered.bam.bai": "ecd80071855a6a9de017a57b9cdf8bc18c6f8c5ab8827529045f8eb8fdad27de"
+  },
+  "finished": "2026-10-17T22:07:42Z"
+}

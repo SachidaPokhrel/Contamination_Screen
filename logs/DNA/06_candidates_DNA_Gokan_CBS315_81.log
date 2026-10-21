@@ -1,0 +1,5 @@
+
+START 2026-10-17T21:41:10Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/06_candidates_DNA_Gokan_CBS315_81.log
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/04_candidates/DNA_Gokan_CBS315_81/ranked_candidates.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/04_candidates/DNA_Gokan_CBS315_81/selection_template.tsv
+Review candidates and edit config/candidate_selection.tsv before reference retrieval/mapping
+FINISH 2026-10-17T21:41:10Z exit_status=0

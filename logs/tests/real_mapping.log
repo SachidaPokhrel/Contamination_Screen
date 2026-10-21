@@ -1,0 +1,1539 @@
+/tmp/scratch-local/tmp.q2j8gzh8iS
+
+START 2026-10-17T20:45:16Z pid=2401511 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/mapping_pipeline.log
+CONFIG /scratch-local/tmp.q2j8gzh8iS/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:16Z pid=2401511 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/08_mapping_candidate_only_SYNTHETIC_DNA.log
+VERSION bowtie2-build: /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2-build-s version 2.5.5 | 64-bit | Built on runnervm7g52i
+VERSION bowtie2: [WARNING] Failed to launch x86-64-v3 version, staying with default | [WARNING] Failed to launch x86-64-v3 version, staying with default | /home/aubsxp001/.local/share/oomycete-envs/contamination/bin/bowtie2-align-s version 2.5.5
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-17T20:45:17Z bowtie2-build --threads 2 /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/reference.fa /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index
+Settings:
+  Output files: "/tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+Building a SMALL index
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 8
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/reference.fa
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+bmax according to bmaxDivN setting: 250
+Using parameters --bmax 188 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 188 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 22 sample suffixes
+Generating random suffixes
+QSorting 22 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 22 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 3, merged 11; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 2, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 2; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 141.929 (target: 187)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 14
+  Reserving size (188) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 147 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 148 for bucket 1
+Getting block 2 of 14
+  Reserving size (188) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 180 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 181 for bucket 2
+Getting block 3 of 14
+  Reserving size (188) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 106 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 107 for bucket 3
+Getting block 4 of 14
+  Reserving size (188) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 142 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 143 for bucket 4
+Getting block 5 of 14
+  Reserving size (188) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 162 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 163 for bucket 5
+Getting block 6 of 14
+  Reserving size (188) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 181 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 182 for bucket 6
+Getting block 7 of 14
+  Reserving size (188) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 139 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 140 for bucket 7
+Getting block 8 of 14
+  Reserving size (188) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 115 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 116 for bucket 8
+Getting block 9 of 14
+  Reserving size (188) for bucket 9
+  Calculating Z arrays for bucket 9
+  Entering block accumulator loop for bucket 9:
+  bucket 9: 10%
+  bucket 9: 20%
+  bucket 9: 30%
+  bucket 9: 40%
+  bucket 9: 50%
+  bucket 9: 60%
+  bucket 9: 70%
+  bucket 9: 80%
+  bucket 9: 90%
+  bucket 9: 100%
+  Sorting block of length 146 for bucket 9
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 147 for bucket 9
+Getting block 10 of 14
+  Reserving size (188) for bucket 10
+  Calculating Z arrays for bucket 10
+  Entering block accumulator loop for bucket 10:
+  bucket 10: 10%
+  bucket 10: 20%
+  bucket 10: 30%
+  bucket 10: 40%
+  bucket 10: 50%
+  bucket 10: 60%
+  bucket 10: 70%
+  bucket 10: 80%
+  bucket 10: 90%
+  bucket 10: 100%
+  Sorting block of length 140 for bucket 10
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 141 for bucket 10
+Getting block 11 of 14
+  Reserving size (188) for bucket 11
+  Calculating Z arrays for bucket 11
+  Entering block accumulator loop for bucket 11:
+  bucket 11: 10%
+  bucket 11: 20%
+  bucket 11: 30%
+  bucket 11: 40%
+  bucket 11: 50%
+  bucket 11: 60%
+  bucket 11: 70%
+  bucket 11: 80%
+  bucket 11: 90%
+  bucket 11: 100%
+  Sorting block of length 115 for bucket 11
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 116 for bucket 11
+Getting block 12 of 14
+  Reserving size (188) for bucket 12
+  Calculating Z arrays for bucket 12
+  Entering block accumulator loop for bucket 12:
+  bucket 12: 10%
+  bucket 12: 20%
+  bucket 12: 30%
+  bucket 12: 40%
+  bucket 12: 50%
+  bucket 12: 60%
+  bucket 12: 70%
+  bucket 12: 80%
+  bucket 12: 90%
+  bucket 12: 100%
+  Sorting block of length 171 for bucket 12
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 172 for bucket 12
+Getting block 13 of 14
+  Reserving size (188) for bucket 13
+  Calculating Z arrays for bucket 13
+  Entering block accumulator loop for bucket 13:
+  bucket 13: 10%
+  bucket 13: 20%
+  bucket 13: 30%
+  bucket 13: 40%
+  bucket 13: 50%
+  bucket 13: 60%
+  bucket 13: 70%
+  bucket 13: 80%
+  bucket 13: 90%
+  bucket 13: 100%
+  Sorting block of length 108 for bucket 13
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 109 for bucket 13
+Getting block 14 of 14
+  Reserving size (188) for bucket 14
+  Calculating Z arrays for bucket 14
+  Entering block accumulator loop for bucket 14:
+  bucket 14: 10%
+  bucket 14: 20%
+  bucket 14: 30%
+  bucket 14: 40%
+  bucket 14: 50%
+  bucket 14: 60%
+  bucket 14: 70%
+  bucket 14: 80%
+  bucket 14: 90%
+  bucket 14: 100%
+  Sorting block of length 135 for bucket 14
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 136 for bucket 14
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 505
+fchr[G]: 1012
+fchr[T]: 1513
+fchr[$]: 2000
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 4195216 bytes to primary EBWT file: /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.1.bt2.tmp
+Wrote 508 bytes to secondary EBWT file: /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 2000
+    bwtLen: 2001
+    sz: 500
+    bwtSz: 501
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 126
+    offsSz: 504
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 11
+    numLines: 11
+    ebwtTotLen: 704
+    ebwtTotSz: 704
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:00:00
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to reverse reference sequence: 00:00:00
+bmax according to bmaxDivN setting: 250
+Using parameters --bmax 188 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 188 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 22 sample suffixes
+Generating random suffixes
+QSorting 22 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 22 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 2, merged 10; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 141.929 (target: 187)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 14
+  Reserving size (188) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 143 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 144 for bucket 1
+Getting block 2 of 14
+  Reserving size (188) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 146 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 147 for bucket 2
+Getting block 3 of 14
+  Reserving size (188) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 46 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 47 for bucket 3
+Getting block 4 of 14
+  Reserving size (188) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 146 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 147 for bucket 4
+Getting block 5 of 14
+  Reserving size (188) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 173 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 174 for bucket 5
+Getting block 6 of 14
+  Reserving size (188) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 101 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 102 for bucket 6
+Getting block 7 of 14
+  Reserving size (188) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 95 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 96 for bucket 7
+Getting block 8 of 14
+  Reserving size (188) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 171 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 172 for bucket 8
+Getting block 9 of 14
+  Reserving size (188) for bucket 9
+  Calculating Z arrays for bucket 9
+  Entering block accumulator loop for bucket 9:
+  bucket 9: 10%
+  bucket 9: 20%
+  bucket 9: 30%
+  bucket 9: 40%
+  bucket 9: 50%
+  bucket 9: 60%
+  bucket 9: 70%
+  bucket 9: 80%
+  bucket 9: 90%
+  bucket 9: 100%
+  Sorting block of length 185 for bucket 9
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 186 for bucket 9
+Getting block 10 of 14
+  Reserving size (188) for bucket 10
+  Calculating Z arrays for bucket 10
+  Entering block accumulator loop for bucket 10:
+  bucket 10: 10%
+  bucket 10: 20%
+  bucket 10: 30%
+  bucket 10: 40%
+  bucket 10: 50%
+  bucket 10: 60%
+  bucket 10: 70%
+  bucket 10: 80%
+  bucket 10: 90%
+  bucket 10: 100%
+  Sorting block of length 136 for bucket 10
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 137 for bucket 10
+Getting block 11 of 14
+  Reserving size (188) for bucket 11
+  Calculating Z arrays for bucket 11
+  Entering block accumulator loop for bucket 11:
+  bucket 11: 10%
+  bucket 11: 20%
+  bucket 11: 30%
+  bucket 11: 40%
+  bucket 11: 50%
+  bucket 11: 60%
+  bucket 11: 70%
+  bucket 11: 80%
+  bucket 11: 90%
+  bucket 11: 100%
+  Sorting block of length 178 for bucket 11
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 179 for bucket 11
+Getting block 12 of 14
+  Reserving size (188) for bucket 12
+  Calculating Z arrays for bucket 12
+  Entering block accumulator loop for bucket 12:
+  bucket 12: 10%
+  bucket 12: 20%
+  bucket 12: 30%
+  bucket 12: 40%
+  bucket 12: 50%
+  bucket 12: 60%
+  bucket 12: 70%
+  bucket 12: 80%
+  bucket 12: 90%
+  bucket 12: 100%
+  Sorting block of length 167 for bucket 12
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 168 for bucket 12
+Getting block 13 of 14
+  Reserving size (188) for bucket 13
+  Calculating Z arrays for bucket 13
+  Entering block accumulator loop for bucket 13:
+  bucket 13: 10%
+  bucket 13: 20%
+  bucket 13: 30%
+  bucket 13: 40%
+  bucket 13: 50%
+  bucket 13: 60%
+  bucket 13: 70%
+  bucket 13: 80%
+  bucket 13: 90%
+  bucket 13: 100%
+  Sorting block of length 167 for bucket 13
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 168 for bucket 13
+Getting block 14 of 14
+  Reserving size (188) for bucket 14
+  Calculating Z arrays for bucket 14
+  Entering block accumulator loop for bucket 14:
+  bucket 14: 10%
+  bucket 14: 20%
+  bucket 14: 30%
+  bucket 14: 40%
+  bucket 14: 50%
+  bucket 14: 60%
+  bucket 14: 70%
+  bucket 14: 80%
+  bucket 14: 90%
+  bucket 14: 100%
+  Sorting block of length 133 for bucket 14
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 134 for bucket 14
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 505
+fchr[G]: 1012
+fchr[T]: 1513
+fchr[$]: 2000
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 4195216 bytes to primary EBWT file: /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.rev.1.bt2.tmp
+Wrote 508 bytes to secondary EBWT file: /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.rev.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.3.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.3.bt2
+Returning from Ebwt constructor
+Headers:
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.4.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.4.bt2
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.1.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.1.bt2
+    len: 2000
+    bwtLen: 2001
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.2.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.2.bt2
+    sz: 500
+    bwtSz: 501
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.rev.1.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.rev.1.bt2
+    lineRate: 6
+    offRate: 4
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.rev.2.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index.rev.2.bt2
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 126
+    offsSz: 504
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 11
+    numLines: 11
+    ebwtTotLen: 704
+    ebwtTotSz: 704
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:00:00
+COMMAND 2026-10-17T20:45:17Z bowtie2 --very-sensitive --seed 1729 -p 2 -x /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/index -1 /tmp/scratch-local/tmp.q2j8gzh8iS/reads_1.fastq.gz -2 /tmp/scratch-local/tmp.q2j8gzh8iS/reads_2.fastq.gz -S /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/alignment.sam.partial
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+12 reads; of these:
+  12 (100.00%) were paired; of these:
+    2 (16.67%) aligned concordantly 0 times
+    10 (83.33%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    2 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    2 pairs aligned 0 times concordantly or discordantly; of these:
+      4 mates make up the pairs; of these:
+        4 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+83.33% overall alignment rate
+COMMAND 2026-10-17T20:45:17Z samtools sort -@ 1 -m 256M -T /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/sorttmp -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.partial.bam /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/alignment.sam.partial
+COMMAND 2026-10-17T20:45:17Z samtools quickcheck -v /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.partial.bam
+COMMAND 2026-10-17T20:45:17Z samtools index /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.bam
+COMMAND 2026-10-17T20:45:17Z samtools flagstat /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.bam > /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/flagstat.txt
+COMMAND 2026-10-17T20:45:17Z samtools stats /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.bam > /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/samtools.stats.txt
+COMMAND 2026-10-17T20:45:17Z samtools faidx /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/reference.fa
+OUTPUTS /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.bam, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.bam.bai, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/reference.fa, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/reference.fa.fai, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/contigs.tsv, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/mapping.json, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/flagstat.txt, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/samtools.stats.txt
+FINISH 2026-10-17T20:45:17Z exit_status=0
+
+START 2026-10-17T20:45:17Z pid=2401511 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/08_mapping_competitive_SYNTHETIC_DNA.log
+COMMAND 2026-10-17T20:45:17Z bowtie2-build --threads 2 /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/reference.fa /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index
+Settings:
+  Output files: "/tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+Building a SMALL index
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 8
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/reference.fa
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+bmax according to bmaxDivN setting: 375
+Using parameters --bmax 282 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 282 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 22 sample suffixes
+Generating random suffixes
+QSorting 22 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 22 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 4, merged 10; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 2; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 199.067 (target: 281)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 15
+  Reserving size (282) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 181 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 182 for bucket 1
+Getting block 2 of 15
+  Reserving size (282) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 204 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 205 for bucket 2
+Getting block 3 of 15
+  Reserving size (282) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 276 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 277 for bucket 3
+Getting block 4 of 15
+  Reserving size (282) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 177 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 178 for bucket 4
+Getting block 5 of 15
+  Reserving size (282) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 253 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 254 for bucket 5
+Getting block 6 of 15
+  Reserving size (282) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 202 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 203 for bucket 6
+Getting block 7 of 15
+  Reserving size (282) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 171 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 172 for bucket 7
+Getting block 8 of 15
+  Reserving size (282) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 269 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 270 for bucket 8
+Getting block 9 of 15
+  Reserving size (282) for bucket 9
+  Calculating Z arrays for bucket 9
+  Entering block accumulator loop for bucket 9:
+  bucket 9: 10%
+  bucket 9: 20%
+  bucket 9: 30%
+  bucket 9: 40%
+  bucket 9: 50%
+  bucket 9: 60%
+  bucket 9: 70%
+  bucket 9: 80%
+  bucket 9: 90%
+  bucket 9: 100%
+  Sorting block of length 248 for bucket 9
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 249 for bucket 9
+Getting block 10 of 15
+  Reserving size (282) for bucket 10
+  Calculating Z arrays for bucket 10
+  Entering block accumulator loop for bucket 10:
+  bucket 10: 10%
+  bucket 10: 20%
+  bucket 10: 30%
+  bucket 10: 40%
+  bucket 10: 50%
+  bucket 10: 60%
+  bucket 10: 70%
+  bucket 10: 80%
+  bucket 10: 90%
+  bucket 10: 100%
+  Sorting block of length 244 for bucket 10
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 245 for bucket 10
+Getting block 11 of 15
+  Reserving size (282) for bucket 11
+  Calculating Z arrays for bucket 11
+  Entering block accumulator loop for bucket 11:
+  bucket 11: 10%
+  bucket 11: 20%
+  bucket 11: 30%
+  bucket 11: 40%
+  bucket 11: 50%
+  bucket 11: 60%
+  bucket 11: 70%
+  bucket 11: 80%
+  bucket 11: 90%
+  bucket 11: 100%
+  Sorting block of length 137 for bucket 11
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 138 for bucket 11
+Getting block 12 of 15
+  Reserving size (282) for bucket 12
+  Calculating Z arrays for bucket 12
+  Entering block accumulator loop for bucket 12:
+  bucket 12: 10%
+  bucket 12: 20%
+  bucket 12: 30%
+  bucket 12: 40%
+  bucket 12: 50%
+  bucket 12: 60%
+  bucket 12: 70%
+  bucket 12: 80%
+  bucket 12: 90%
+  bucket 12: 100%
+  Sorting block of length 246 for bucket 12
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 247 for bucket 12
+Getting block 13 of 15
+  Reserving size (282) for bucket 13
+  Calculating Z arrays for bucket 13
+  Entering block accumulator loop for bucket 13:
+  bucket 13: 10%
+  bucket 13: 20%
+  bucket 13: 30%
+  bucket 13: 40%
+  bucket 13: 50%
+  bucket 13: 60%
+  bucket 13: 70%
+  bucket 13: 80%
+  bucket 13: 90%
+  bucket 13: 100%
+  Sorting block of length 74 for bucket 13
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 75 for bucket 13
+Getting block 14 of 15
+  Reserving size (282) for bucket 14
+  Calculating Z arrays for bucket 14
+  Entering block accumulator loop for bucket 14:
+  bucket 14: 10%
+  bucket 14: 20%
+  bucket 14: 30%
+  bucket 14: 40%
+  bucket 14: 50%
+  bucket 14: 60%
+  bucket 14: 70%
+  bucket 14: 80%
+  bucket 14: 90%
+  bucket 14: 100%
+  Sorting block of length 274 for bucket 14
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 275 for bucket 14
+Getting block 15 of 15
+  Reserving size (282) for bucket 15
+  Calculating Z arrays for bucket 15
+  Entering block accumulator loop for bucket 15:
+  bucket 15: 10%
+  bucket 15: 20%
+  bucket 15: 30%
+  bucket 15: 40%
+  bucket 15: 50%
+  bucket 15: 60%
+  bucket 15: 70%
+  bucket 15: 80%
+  bucket 15: 90%
+  bucket 15: 100%
+  Sorting block of length 30 for bucket 15
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 31 for bucket 15
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 731
+fchr[G]: 1503
+fchr[T]: 2272
+fchr[$]: 3000
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 4195570 bytes to primary EBWT file: /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.1.bt2.tmp
+Wrote 756 bytes to secondary EBWT file: /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 3000
+    bwtLen: 3001
+    sz: 750
+    bwtSz: 751
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 188
+    offsSz: 752
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 16
+    numLines: 16
+    ebwtTotLen: 1024
+    ebwtTotSz: 1024
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:00:00
+Reading reference sizes
+  Time reading reference sizes: 00:00:00
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:00
+  Time to reverse reference sequence: 00:00:00
+bmax according to bmaxDivN setting: 375
+Using parameters --bmax 282 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 282 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:00:00
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:00
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:00
+  Sanity-checking and returning
+Building samples
+Reserving space for 22 sample suffixes
+Generating random suffixes
+QSorting 22 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 22 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 2, merged 10; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 0; iterating...
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Split 1, merged 1; iterating...
+Avg bucket size: 186.562 (target: 281)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 16
+  Reserving size (282) for bucket 1
+  Calculating Z arrays for bucket 1
+  Entering block accumulator loop for bucket 1:
+  bucket 1: 10%
+  bucket 1: 20%
+  bucket 1: 30%
+  bucket 1: 40%
+  bucket 1: 50%
+  bucket 1: 60%
+  bucket 1: 70%
+  bucket 1: 80%
+  bucket 1: 90%
+  bucket 1: 100%
+  Sorting block of length 45 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 46 for bucket 1
+Getting block 2 of 16
+  Reserving size (282) for bucket 2
+  Calculating Z arrays for bucket 2
+  Entering block accumulator loop for bucket 2:
+  bucket 2: 10%
+  bucket 2: 20%
+  bucket 2: 30%
+  bucket 2: 40%
+  bucket 2: 50%
+  bucket 2: 60%
+  bucket 2: 70%
+  bucket 2: 80%
+  bucket 2: 90%
+  bucket 2: 100%
+  Sorting block of length 278 for bucket 2
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 279 for bucket 2
+Getting block 3 of 16
+  Reserving size (282) for bucket 3
+  Calculating Z arrays for bucket 3
+  Entering block accumulator loop for bucket 3:
+  bucket 3: 10%
+  bucket 3: 20%
+  bucket 3: 30%
+  bucket 3: 40%
+  bucket 3: 50%
+  bucket 3: 60%
+  bucket 3: 70%
+  bucket 3: 80%
+  bucket 3: 90%
+  bucket 3: 100%
+  Sorting block of length 146 for bucket 3
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 147 for bucket 3
+Getting block 4 of 16
+  Reserving size (282) for bucket 4
+  Calculating Z arrays for bucket 4
+  Entering block accumulator loop for bucket 4:
+  bucket 4: 10%
+  bucket 4: 20%
+  bucket 4: 30%
+  bucket 4: 40%
+  bucket 4: 50%
+  bucket 4: 60%
+  bucket 4: 70%
+  bucket 4: 80%
+  bucket 4: 90%
+  bucket 4: 100%
+  Sorting block of length 223 for bucket 4
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 224 for bucket 4
+Getting block 5 of 16
+  Reserving size (282) for bucket 5
+  Calculating Z arrays for bucket 5
+  Entering block accumulator loop for bucket 5:
+  bucket 5: 10%
+  bucket 5: 20%
+  bucket 5: 30%
+  bucket 5: 40%
+  bucket 5: 50%
+  bucket 5: 60%
+  bucket 5: 70%
+  bucket 5: 80%
+  bucket 5: 90%
+  bucket 5: 100%
+  Sorting block of length 129 for bucket 5
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 130 for bucket 5
+Getting block 6 of 16
+  Reserving size (282) for bucket 6
+  Calculating Z arrays for bucket 6
+  Entering block accumulator loop for bucket 6:
+  bucket 6: 10%
+  bucket 6: 20%
+  bucket 6: 30%
+  bucket 6: 40%
+  bucket 6: 50%
+  bucket 6: 60%
+  bucket 6: 70%
+  bucket 6: 80%
+  bucket 6: 90%
+  bucket 6: 100%
+  Sorting block of length 268 for bucket 6
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 269 for bucket 6
+Getting block 7 of 16
+  Reserving size (282) for bucket 7
+  Calculating Z arrays for bucket 7
+  Entering block accumulator loop for bucket 7:
+  bucket 7: 10%
+  bucket 7: 20%
+  bucket 7: 30%
+  bucket 7: 40%
+  bucket 7: 50%
+  bucket 7: 60%
+  bucket 7: 70%
+  bucket 7: 80%
+  bucket 7: 90%
+  bucket 7: 100%
+  Sorting block of length 240 for bucket 7
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 241 for bucket 7
+Getting block 8 of 16
+  Reserving size (282) for bucket 8
+  Calculating Z arrays for bucket 8
+  Entering block accumulator loop for bucket 8:
+  bucket 8: 10%
+  bucket 8: 20%
+  bucket 8: 30%
+  bucket 8: 40%
+  bucket 8: 50%
+  bucket 8: 60%
+  bucket 8: 70%
+  bucket 8: 80%
+  bucket 8: 90%
+  bucket 8: 100%
+  Sorting block of length 270 for bucket 8
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 271 for bucket 8
+Getting block 9 of 16
+  Reserving size (282) for bucket 9
+  Calculating Z arrays for bucket 9
+  Entering block accumulator loop for bucket 9:
+  bucket 9: 10%
+  bucket 9: 20%
+  bucket 9: 30%
+  bucket 9: 40%
+  bucket 9: 50%
+  bucket 9: 60%
+  bucket 9: 70%
+  bucket 9: 80%
+  bucket 9: 90%
+  bucket 9: 100%
+  Sorting block of length 139 for bucket 9
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 140 for bucket 9
+Getting block 10 of 16
+  Reserving size (282) for bucket 10
+  Calculating Z arrays for bucket 10
+  Entering block accumulator loop for bucket 10:
+  bucket 10: 10%
+  bucket 10: 20%
+  bucket 10: 30%
+  bucket 10: 40%
+  bucket 10: 50%
+  bucket 10: 60%
+  bucket 10: 70%
+  bucket 10: 80%
+  bucket 10: 90%
+  bucket 10: 100%
+  Sorting block of length 209 for bucket 10
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 210 for bucket 10
+Getting block 11 of 16
+  Reserving size (282) for bucket 11
+  Calculating Z arrays for bucket 11
+  Entering block accumulator loop for bucket 11:
+  bucket 11: 10%
+  bucket 11: 20%
+  bucket 11: 30%
+  bucket 11: 40%
+  bucket 11: 50%
+  bucket 11: 60%
+  bucket 11: 70%
+  bucket 11: 80%
+  bucket 11: 90%
+  bucket 11: 100%
+  Sorting block of length 215 for bucket 11
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 216 for bucket 11
+Getting block 12 of 16
+  Reserving size (282) for bucket 12
+  Calculating Z arrays for bucket 12
+  Entering block accumulator loop for bucket 12:
+  bucket 12: 10%
+  bucket 12: 20%
+  bucket 12: 30%
+  bucket 12: 40%
+  bucket 12: 50%
+  bucket 12: 60%
+  bucket 12: 70%
+  bucket 12: 80%
+  bucket 12: 90%
+  bucket 12: 100%
+  Sorting block of length 91 for bucket 12
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 92 for bucket 12
+Getting block 13 of 16
+  Reserving size (282) for bucket 13
+  Calculating Z arrays for bucket 13
+  Entering block accumulator loop for bucket 13:
+  bucket 13: 10%
+  bucket 13: 20%
+  bucket 13: 30%
+  bucket 13: 40%
+  bucket 13: 50%
+  bucket 13: 60%
+  bucket 13: 70%
+  bucket 13: 80%
+  bucket 13: 90%
+  bucket 13: 100%
+  Sorting block of length 151 for bucket 13
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 152 for bucket 13
+Getting block 14 of 16
+  Reserving size (282) for bucket 14
+  Calculating Z arrays for bucket 14
+  Entering block accumulator loop for bucket 14:
+  bucket 14: 10%
+  bucket 14: 20%
+  bucket 14: 30%
+  bucket 14: 40%
+  bucket 14: 50%
+  bucket 14: 60%
+  bucket 14: 70%
+  bucket 14: 80%
+  bucket 14: 90%
+  bucket 14: 100%
+  Sorting block of length 208 for bucket 14
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 209 for bucket 14
+Getting block 15 of 16
+  Reserving size (282) for bucket 15
+  Calculating Z arrays for bucket 15
+  Entering block accumulator loop for bucket 15:
+  bucket 15: 10%
+  bucket 15: 20%
+  bucket 15: 30%
+  bucket 15: 40%
+  bucket 15: 50%
+  bucket 15: 60%
+  bucket 15: 70%
+  bucket 15: 80%
+  bucket 15: 90%
+  bucket 15: 100%
+  Sorting block of length 213 for bucket 15
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 214 for bucket 15
+Getting block 16 of 16
+  Reserving size (282) for bucket 16
+  Calculating Z arrays for bucket 16
+  Entering block accumulator loop for bucket 16:
+  bucket 16: 10%
+  bucket 16: 20%
+  bucket 16: 30%
+  bucket 16: 40%
+  bucket 16: 50%
+  bucket 16: 60%
+  bucket 16: 70%
+  bucket 16: 80%
+  bucket 16: 90%
+  bucket 16: 100%
+  Sorting block of length 160 for bucket 16
+  (Using difference cover)
+  Sorting block time: 00:00:00
+Returning block of 161 for bucket 16
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 731
+fchr[G]: 1503
+fchr[T]: 2272
+fchr[$]: 3000
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 4195570 bytes to primary EBWT file: /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.rev.1.bt2.tmp
+Wrote 756 bytes to secondary EBWT file: /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.rev.2.bt2.tmp
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.3.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.3.bt2
+Headers:
+    len: 3000
+    bwtLen: 3001
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.4.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.4.bt2
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.1.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.1.bt2
+    sz: 750
+    bwtSz: 751
+    lineRate: 6
+    offRate: 4
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.2.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.2.bt2
+    offMask: 0xfffffff0
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.rev.1.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.rev.1.bt2
+Renaming /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.rev.2.bt2.tmp to /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index.rev.2.bt2
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 188
+    offsSz: 752
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 16
+    numLines: 16
+    ebwtTotLen: 1024
+    ebwtTotSz: 1024
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:00:00
+COMMAND 2026-10-17T20:45:17Z bowtie2 --very-sensitive --seed 1729 -p 2 -x /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/index -1 /tmp/scratch-local/tmp.q2j8gzh8iS/reads_1.fastq.gz -2 /tmp/scratch-local/tmp.q2j8gzh8iS/reads_2.fastq.gz -S /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/alignment.sam.partial
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+[WARNING] Failed to launch x86-64-v3 version, staying with default
+12 reads; of these:
+  12 (100.00%) were paired; of these:
+    2 (16.67%) aligned concordantly 0 times
+    10 (83.33%) aligned concordantly exactly 1 time
+    0 (0.00%) aligned concordantly >1 times
+    ----
+    2 pairs aligned concordantly 0 times; of these:
+      0 (0.00%) aligned discordantly 1 time
+    ----
+    2 pairs aligned 0 times concordantly or discordantly; of these:
+      4 mates make up the pairs; of these:
+        4 (100.00%) aligned 0 times
+        0 (0.00%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+83.33% overall alignment rate
+COMMAND 2026-10-17T20:45:17Z samtools sort -@ 1 -m 256M -T /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/sorttmp -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.partial.bam /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/alignment.sam.partial
+COMMAND 2026-10-17T20:45:17Z samtools quickcheck -v /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.partial.bam
+COMMAND 2026-10-17T20:45:17Z samtools index /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.bam
+COMMAND 2026-10-17T20:45:17Z samtools flagstat /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.bam > /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/flagstat.txt
+COMMAND 2026-10-17T20:45:17Z samtools stats /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.bam > /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/samtools.stats.txt
+COMMAND 2026-10-17T20:45:17Z samtools faidx /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/reference.fa
+OUTPUTS /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.bam, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.bam.bai, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/reference.fa, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/reference.fa.fai, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/contigs.tsv, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/mapping.json, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/flagstat.txt, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/samtools.stats.txt
+FINISH 2026-10-17T20:45:17Z exit_status=0
+FINISH 2026-10-17T20:45:17Z exit_status=0
+
+START 2026-10-17T20:45:17Z pid=2401612 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/coverage_pipeline.log
+CONFIG /scratch-local/tmp.q2j8gzh8iS/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:17Z pid=2401612 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/09_coverage_candidate_only_SYNTHETIC_DNA.log
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-17T20:45:17Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.bam
+COMMAND 2026-10-17T20:45:17Z samtools index /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam
+COMMAND 2026-10-17T20:45:17Z samtools view /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam > /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/support.sam
+COMMAND 2026-10-17T20:45:17Z samtools depth -aa -q 0 -Q 20 -s -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/depth.tsv /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam
+OUTPUTS /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/coverage.tsv, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/depth.tsv.gz, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/thresholds.json, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam.bai
+FINISH 2026-10-17T20:45:17Z exit_status=0
+
+START 2026-10-17T20:45:17Z pid=2401612 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/09_coverage_competitive_SYNTHETIC_DNA.log
+COMMAND 2026-10-17T20:45:17Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.bam
+COMMAND 2026-10-17T20:45:17Z samtools index /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam
+COMMAND 2026-10-17T20:45:17Z samtools view /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam > /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/support.sam
+COMMAND 2026-10-17T20:45:17Z samtools depth -aa -q 0 -Q 20 -s -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/depth.tsv /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam
+OUTPUTS /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/coverage.tsv, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/depth.tsv.gz, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/thresholds.json, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam.bai
+FINISH 2026-10-17T20:45:17Z exit_status=0
+FINISH 2026-10-17T20:45:17Z exit_status=0
+PASS real Bowtie2/SAMtools candidate-only and competitive alignment plus coverage

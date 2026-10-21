@@ -1,0 +1,16 @@
+{
+  "signature": "cd29d79613af9c307f370bda891241371b940e2ef2592af4e07ee282196e5f08",
+  "outputs": {
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/contig_evidence.tsv": "f88df1dd5395784195ac8ae8aca29879a89311e7c23069fbcd42eba1af53f0db",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/blobdir/identifiers.json": "0110f612a625498f682b90cfc5785ba1e926d9bcaa1bf288a8817ad446071864",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/blobdir/gc.json": "ffc6166eff337494a7bc105a2fc3c1aa2b8e91aa75675fca710a7ef29760b4f2",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/blobdir/length.json": "009fb872026375942ce3901c50d364e83d231908249129eed22e7e75175c0855",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/blobdir/ncount.json": "b24c9177cdfa59f95c3829342636129ced18b97fe955b063c8ec0e0bbad41451",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/blobdir/meta.json": "7f16a7e949afef2000abff6da5c370ae7b371dedd2fbe38bdd6c47c769826633",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/blobdir/assembly_depth.json": "04f4261d9ecf7e327038fe454e29bb51f7961bc8daf11449724708b273b9f554",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/blobdir/kraken_label.json": "2710c77ee3c76e75caa4503eac7982d1b7575ef35f6d837f0e15e8058061326a",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/dna_denovo_blobplot.png": "86151c2d7306920dde488f1b9dafb7ca090e07f99bad01f6e9d4a18d13187afb",
+    "results/DNA/08_denovo/DNA_Gokan_CBS315_81/dna_denovo_blobplot.pdf": "1e8ac5e69b8ca5cf96819ea45942935874e93b678a20c1f75729c5c97f2ddc7f"
+  },
+  "finished": "2026-10-19T20:50:56Z"
+}

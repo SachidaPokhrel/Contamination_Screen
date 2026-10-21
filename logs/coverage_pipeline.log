@@ -1,0 +1,100 @@
+
+START 2026-10-17T20:44:16Z pid=2400046 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/coverage_pipeline.log
+CONFIG /scratch-local/tmp.1MhBapa3sy/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:44:16Z pid=2400046 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/09_coverage_candidate_only_SYNTHETIC_DNA.log
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-17T20:44:16Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.bam
+COMMAND 2026-10-17T20:44:16Z samtools index /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam
+COMMAND 2026-10-17T20:44:16Z samtools view /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam > /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/support.sam
+COMMAND 2026-10-17T20:44:16Z samtools depth -aa -q 0 -Q 20 -s -o /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/depth.tsv /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam
+OUTPUTS /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/coverage.tsv, /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/depth.tsv.gz, /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/thresholds.json, /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam, /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam.bai
+FINISH 2026-10-17T20:44:16Z exit_status=0
+
+START 2026-10-17T20:44:16Z pid=2400046 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/09_coverage_competitive_SYNTHETIC_DNA.log
+COMMAND 2026-10-17T20:44:16Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.bam
+COMMAND 2026-10-17T20:44:16Z samtools index /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam
+COMMAND 2026-10-17T20:44:16Z samtools view /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam > /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/support.sam
+COMMAND 2026-10-17T20:44:16Z samtools depth -aa -q 0 -Q 20 -s -o /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/depth.tsv /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam
+OUTPUTS /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/coverage.tsv, /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/depth.tsv.gz, /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/thresholds.json, /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam, /tmp/scratch-local/tmp.1MhBapa3sy/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam.bai
+FINISH 2026-10-17T20:44:16Z exit_status=0
+FINISH 2026-10-17T20:44:16Z exit_status=0
+
+START 2026-10-17T20:45:17Z pid=2401612 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/coverage_pipeline.log
+CONFIG /scratch-local/tmp.q2j8gzh8iS/config.yaml threads=2 readset=raw
+
+START 2026-10-17T20:45:17Z pid=2401612 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/09_coverage_candidate_only_SYNTHETIC_DNA.log
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-17T20:45:17Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/candidate_only/aligned.bam
+COMMAND 2026-10-17T20:45:17Z samtools index /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam
+COMMAND 2026-10-17T20:45:17Z samtools view /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam > /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/support.sam
+COMMAND 2026-10-17T20:45:17Z samtools depth -aa -q 0 -Q 20 -s -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/depth.tsv /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam
+OUTPUTS /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/coverage.tsv, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/depth.tsv.gz, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/thresholds.json, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/candidate_only/filtered.bam.bai
+FINISH 2026-10-17T20:45:17Z exit_status=0
+
+START 2026-10-17T20:45:17Z pid=2401612 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/09_coverage_competitive_SYNTHETIC_DNA.log
+COMMAND 2026-10-17T20:45:17Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/05_mapping/SYNTHETIC_DNA/competitive/aligned.bam
+COMMAND 2026-10-17T20:45:17Z samtools index /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam
+COMMAND 2026-10-17T20:45:17Z samtools view /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam > /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/support.sam
+COMMAND 2026-10-17T20:45:17Z samtools depth -aa -q 0 -Q 20 -s -o /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/depth.tsv /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam
+OUTPUTS /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/coverage.tsv, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/depth.tsv.gz, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/thresholds.json, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam, /tmp/scratch-local/tmp.q2j8gzh8iS/results/DNA/06_coverage/SYNTHETIC_DNA/competitive/filtered.bam.bai
+FINISH 2026-10-17T20:45:17Z exit_status=0
+FINISH 2026-10-17T20:45:17Z exit_status=0
+
+START 2026-10-17T22:07:13Z pid=3023425 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/coverage_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=2 readset=subsampled
+
+START 2026-10-17T22:07:13Z pid=3023425 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/09_coverage_candidate_only_DNA_Gokan_CBS315_81.log
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-17T22:07:13Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/filtered.bam /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/05_mapping/DNA_Gokan_CBS315_81/candidate_only/aligned.bam
+COMMAND 2026-10-17T22:07:13Z samtools index /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/filtered.bam
+COMMAND 2026-10-17T22:07:13Z samtools view /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/filtered.bam > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/support.sam
+COMMAND 2026-10-17T22:07:13Z samtools depth -aa -q 0 -Q 20 -s -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/depth.tsv /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/filtered.bam
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/coverage.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/depth.tsv.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/thresholds.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/filtered.bam, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/candidate_only/filtered.bam.bai
+FINISH 2026-10-17T22:07:42Z exit_status=0
+
+START 2026-10-17T22:07:42Z pid=3023425 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/09_coverage_competitive_DNA_Gokan_CBS315_81.log
+COMMAND 2026-10-17T22:07:42Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/filtered.bam /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/05_mapping/DNA_Gokan_CBS315_81/competitive/aligned.bam
+COMMAND 2026-10-17T22:07:44Z samtools index /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/filtered.bam
+COMMAND 2026-10-17T22:07:44Z samtools view /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/filtered.bam > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/support.sam
+COMMAND 2026-10-17T22:07:45Z samtools depth -aa -q 0 -Q 20 -s -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/depth.tsv /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/filtered.bam
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/coverage.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/depth.tsv.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/thresholds.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/filtered.bam, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/06_coverage/DNA_Gokan_CBS315_81/competitive/filtered.bam.bai
+FINISH 2026-10-17T22:09:34Z exit_status=0
+
+START 2026-10-17T22:09:35Z pid=3023425 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/09_coverage_candidate_only_RNA_Phib_mycelia1.log
+COMMAND 2026-10-17T22:09:35Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/05_mapping/RNA_Phib_mycelia1/candidate_only/aligned.bam
+COMMAND 2026-10-17T22:09:35Z samtools index /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam
+COMMAND 2026-10-17T22:09:35Z samtools view /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/support.sam
+COMMAND 2026-10-17T22:09:35Z samtools depth -aa -q 0 -Q 20 -s -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/depth.tsv /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/coverage.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/depth.tsv.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/thresholds.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam.bai
+FINISH 2026-10-17T22:10:03Z exit_status=0
+
+START 2026-10-17T22:10:03Z pid=3023425 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/09_coverage_competitive_RNA_Phib_mycelia1.log
+COMMAND 2026-10-17T22:10:03Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/05_mapping/RNA_Phib_mycelia1/competitive/aligned.bam
+COMMAND 2026-10-17T22:10:04Z samtools index /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam
+COMMAND 2026-10-17T22:10:04Z samtools view /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/support.sam
+COMMAND 2026-10-17T22:10:05Z samtools depth -aa -q 0 -Q 20 -s -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/depth.tsv /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/coverage.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/depth.tsv.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/thresholds.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam.bai
+FINISH 2026-10-17T22:12:57Z exit_status=0
+FINISH 2026-10-17T22:12:57Z exit_status=0
+
+START 2026-10-18T05:45:28Z pid=3062997 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/coverage_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/round2.yaml threads=2 readset=subsampled
+
+START 2026-10-18T05:45:28Z pid=3062997 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/09_coverage_candidate_only_RNA_Phib_mycelia1.log
+VERSION samtools: samtools 1.21 | Using htslib 1.24 | Copyright (C) 2024 Genome Research Ltd.
+COMMAND 2026-10-18T05:45:28Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/05_mapping/RNA_Phib_mycelia1/candidate_only/aligned.bam
+COMMAND 2026-10-18T05:45:28Z samtools index /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam
+COMMAND 2026-10-18T05:45:28Z samtools view /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/support.sam
+COMMAND 2026-10-18T05:45:28Z samtools depth -aa -q 0 -Q 20 -s -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/depth.tsv /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/coverage.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/depth.tsv.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/thresholds.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/candidate_only/filtered.bam.bai
+FINISH 2026-10-18T05:46:13Z exit_status=0
+
+START 2026-10-18T05:46:13Z pid=3062997 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/09_coverage_competitive_RNA_Phib_mycelia1.log
+COMMAND 2026-10-18T05:46:13Z samtools view -b -q 20 -F 3844 -e 'mapq < 255' -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/05_mapping/RNA_Phib_mycelia1/competitive/aligned.bam
+COMMAND 2026-10-18T05:46:14Z samtools index /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam
+COMMAND 2026-10-18T05:46:14Z samtools view /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam > /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/support.sam
+COMMAND 2026-10-18T05:46:16Z samtools depth -aa -q 0 -Q 20 -s -o /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/depth.tsv /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/coverage.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/depth.tsv.gz, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/thresholds.json, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results_round2/RNA/06_coverage/RNA_Phib_mycelia1/competitive/filtered.bam.bai
+FINISH 2026-10-18T05:49:28Z exit_status=0
+FINISH 2026-10-18T05:49:28Z exit_status=0

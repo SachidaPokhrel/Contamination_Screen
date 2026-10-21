@@ -1,0 +1,23 @@
+{
+  "sample_id": "RNA_Phib_mycelia1",
+  "transcripts": 27606,
+  "total_bases": 26496841,
+  "fasta_sha256": "cc7a759700892b6fe6f80d37e75ef28ec64d54b90db364f82de1fac71f7279e2",
+  "input_scope": "full cleaned paired RNA reads",
+  "strand_specificity": "unknown",
+  "identity": {
+    "input_pairs": 5941455,
+    "reads": {
+      "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz": "26c50013eb9ff60b33e85ae909ed6e294cbe2db563fa2714540e42507b6219c4",
+      "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz": "8ba73b897935fee46acba87251b5788b5be893fab2899f8925b010ea1b009342"
+    },
+    "memory_gb": 56,
+    "threads": 8,
+    "strand_specificity": "unknown",
+    "command": [
+      "bash",
+      "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/rnaspades_exec.sh",
+      "spades.py"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+ "id": "blobdir.partial",
+ "assembly": {
+  "file": "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta",
+  "scaffold-count": 27606,
+  "span": 26496841
+ },
+ "fields": [
+  {
+   "id": "identifiers",
+   "type": "identifier"
+  },
+  {
+   "id": "gc",
+   "preload": true,
+   "scale": "scaleLinear",
+   "name": "GC",
+   "datatype": "float",
+   "range": [
+    0.0948,
+    0.7608
+   ],
+   "type": "variable"
+  },
+  {
+   "preload": true,
+   "scale": "scaleLog",
+   "id": "length",
+   "name": "Length",
+   "clamp": false,
+   "datatype": "integer",
+   "range": [
+    43,
+    13911
+   ],
+   "type": "variable"
+  },
+  {
+   "scale": "scaleLinear",
+   "id": "ncount",
+   "name": "N count",
+   "datatype": "integer",
+   "range": [
+    0,
+    300
+   ],
+   "type": "variable"
+  },
+  {
+   "id": "assembly_depth",
+   "name": "assembly_depth",
+   "preload": false,
+   "active": false,
+   "file": "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/contig_evidence.tsv",
+   "id_column": 0,
+   "delimiter": "\t",
+   "datatype": "float",
+   "range": [
+    0.0,
+    5481.05
+   ],
+   "scale": "scaleLog",
+   "clamp": 0.01,
+   "type": "variable"
+  },
+  {
+   "id": "kraken_label",
+   "name": "kraken_label",
+   "preload": false,
+   "active": false,
+   "file": "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/contig_evidence.tsv",
+   "id_column": 0,
+   "delimiter": "\t",
+   "datatype": "string",
+   "type": "category"
+  }
+ ],
+ "links": {},
+ "name": "blobdir.partial",
+ "plot": {
+  "x": "gc",
+  "z": "length",
+  "y": "assembly_depth",
+  "cat": "kraken_label"
+ },
+ "record_type": "record",
+ "records": 27606,
+ "taxon": {},
+ "version": 1,
+ "revision": 0
+}

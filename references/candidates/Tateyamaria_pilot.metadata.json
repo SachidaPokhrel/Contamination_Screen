@@ -1,0 +1,16 @@
+{
+  "reference_id": "Tateyamaria_pilot",
+  "role": "candidate",
+  "assay": "all",
+  "taxid": "299262",
+  "organism": "Tateyamaria omphalii",
+  "accessions": "GCF_001969365.1",
+  "fasta": "references/candidates/Tateyamaria_pilot.fa",
+  "evidence_url": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_001969365.1/",
+  "verified": "true",
+  "retrieved_at": "2026-10-18T05:40:14Z",
+  "sha256": "88fa4abbb3ba5e2d34c30561999aa25d1f81ed1aea732b5dd3d19426086b749d",
+  "contigs": 8,
+  "bases": 4315457,
+  "source": "NCBI versioned accession"
+}

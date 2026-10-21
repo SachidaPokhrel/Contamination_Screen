@@ -1,0 +1,32 @@
+Command line: /home/aubsxp001/.local/share/oomycete-envs/rnaspades/bin/spades.py	--rna	-1	/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz	-2	/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz	-t	8	-m	56	-o	/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades	
+
+System information:
+  SPAdes version: 4.2.0
+  Python version: 3.11.17
+  OS: Linux-5.14.0-570.58.1.el9_6.x86_64-x86_64-with-glibc2.34
+
+Output dir: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades
+Debug mode is turned OFF
+
+Dataset parameters:
+  RNA-seq mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz']
+      right reads: ['/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.2 format
+Other parameters:
+  Dir for temp files: /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/tmp
+  Threads: 8
+  Memory limit (in Gb): 56
+

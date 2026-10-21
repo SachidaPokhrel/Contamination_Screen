@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -N oom_rna_round2
+#PBS -q medium
+#PBS -l select=1:ncpus=2:mem=8gb
+#PBS -l walltime=04:00:00
+#PBS -j oe
+
+set -euo pipefail
+cd "${PBS_O_WORKDIR:?Submit from the project root}"
+test -f config/round2.yaml
+export OOMYCETE_THREADS=2
+
+echo "START $(date -Is) job=${PBS_JOBID:-unknown}"
+
+bash hpc/environment_exec.sh contamination \
+    bash scripts/08_mapping.sh \
+    --config config/round2.yaml \
+    --sample RNA_Phib_mycelia1
+
+bash hpc/environment_exec.sh contamination \
+    bash scripts/09_coverage.sh \
+    --config config/round2.yaml \
+    --sample RNA_Phib_mycelia1
+
+echo "FINISH $(date -Is)"

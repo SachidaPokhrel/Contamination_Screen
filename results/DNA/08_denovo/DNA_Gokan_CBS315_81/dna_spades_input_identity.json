@@ -1,0 +1,15 @@
+{
+  "input_pairs": 5685476,
+  "reads": {
+    "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_1.fastq.gz": "18290aa4fee1da3d52b5cae242968541658ea005ef1f63f4d0beb41ca03aa1cc",
+    "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/cleaned/DNA_Gokan_CBS315_81_2.fastq.gz": "778dc6983740b87cf1fa0b664c8b987d32abb241ecc614fbc1bfcc4f4d7bc104"
+  },
+  "memory_gb": 56,
+  "threads": 8,
+  "assembly_mode": "standard_DNA",
+  "command": [
+    "bash",
+    "/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/hpc/dna_spades_exec.sh",
+    "spades.py"
+  ]
+}

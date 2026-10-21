@@ -1,0 +1,11 @@
+
+START 2026-10-19T16:47:06Z pid=345580 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/15_rna_taxonomy_RNA_Phib_mycelia1.log
+CONFIG {"assembly": "results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta", "blobtools_command": ["bash", "hpc/blobtoolkit_exec.sh", "blobtools"], "kraken_confidence": 0.1, "kraken_db": "/datasets/unzipped/pluspf", "min_mapq": 20, "minimum_free_gb": 40, "output": "results/RNA/08_transcriptome/RNA_Phib_mycelia1", "reads": ["data/RNA/cleaned/RNA_Phib_mycelia1_1.fastq.gz", "data/RNA/cleaned/RNA_Phib_mycelia1_2.fastq.gz"], "sample_id": "RNA_Phib_mycelia1", "schema_version": 1, "spades_command": ["bash", "hpc/rnaspades_exec.sh", "spades.py"], "spades_memory_gb": 56, "strand_specificity": "unknown", "threads": 4}
+VERSION kraken2: Kraken version 2.1.6 | Copyright 2013-2023, Derrick Wood (dwood@cs.jhu.edu)
+COMMAND 2026-10-19T16:47:07Z kraken2 --db /datasets/unzipped/pluspf --threads 4 --confidence 0.1 --report /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/assembly.kraken.report.tsv --output /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/assembly.kraken.tsv /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/rnaspades/transcripts.fasta
+Loading database information... done.
+27606 sequences (26.50 Mbp) processed in 1.260s (1314.7 Kseq/m, 1261.85 Mbp/m).
+  133 sequences classified (0.48%)
+  27473 sequences unclassified (99.52%)
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/assembly.kraken.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/08_transcriptome/RNA_Phib_mycelia1/assembly.kraken.report.tsv
+FINISH 2026-10-19T16:53:02Z exit_status=0

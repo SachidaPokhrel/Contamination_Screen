@@ -1,0 +1,16 @@
+*.py text eol=lf
+*.sh text eol=lf
+*.pbs text eol=lf
+*.R text eol=lf
+*.md text eol=lf
+*.tsv text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.html text eol=lf
+*.png binary
+*.pdf binary
+*.gz binary
+*.zip binary
+*.docx binary

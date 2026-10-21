@@ -1,0 +1,10 @@
+{
+  "approved_at": "2026-10-17T19:47:50.280497+00:00",
+  "authorization": "User answered yes to retrieving the two provisional runs (~1.56 GB combined) once shell networking is available.",
+  "sra_runs": [
+    "SRR15309490",
+    "SRR16206986"
+  ],
+  "scope": "Sequencing data for these two configured runs; reference/database downloads remain disabled.",
+  "status": "approved; execution blocked by missing SRA Toolkit and shell DNS failure"
+}

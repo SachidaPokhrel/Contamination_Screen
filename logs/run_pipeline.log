@@ -1,0 +1,39 @@
+
+START 2026-10-17T21:31:16Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/run_pipeline.log
+CONFIG /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/config/config.yaml threads=4 readset=subsampled
+
+START 2026-10-17T21:34:18Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/04_kraken2_DNA_Gokan_CBS315_81.log
+VERSION kraken2: Kraken version 2.1.6 | Copyright 2013-2023, Derrick Wood (dwood@cs.jhu.edu)
+COMMAND 2026-10-17T21:35:43Z kraken2 --db /datasets/unzipped/kraken2_full --threads 4 --paired --confidence 0.1 --report /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.report.tsv --output /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.output.tsv --gzip-compressed /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/subsampled/DNA_Gokan_CBS315_81_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/DNA/subsampled/DNA_Gokan_CBS315_81_2.fastq.gz
+Loading database information... done.
+100000 sequences (29.78 Mbp) processed in 1.285s (4670.9 Kseq/m, 1390.83 Mbp/m).
+  1399 sequences classified (1.40%)
+  98601 sequences unclassified (98.60%)
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.report.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/02_kraken2/DNA_Gokan_CBS315_81/kraken.output.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/02_kraken2/DNA_Gokan_CBS315_81/screen.json
+FINISH 2026-10-17T21:37:08Z exit_status=0
+
+START 2026-10-17T21:37:08Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/04_kraken2_RNA_Phib_mycelia1.log
+COMMAND 2026-10-17T21:39:44Z kraken2 --db /datasets/unzipped/kraken2_full --threads 4 --paired --confidence 0.1 --report /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv --output /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.output.tsv --gzip-compressed /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_1.fastq.gz /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/data/RNA/subsampled/RNA_Phib_mycelia1_2.fastq.gz
+Loading database information... done.
+100000 sequences (17.99 Mbp) processed in 0.896s (6692.8 Kseq/m, 1203.84 Mbp/m).
+  2456 sequences classified (2.46%)
+  97544 sequences unclassified (97.54%)
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.report.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/kraken.output.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/02_kraken2/RNA_Phib_mycelia1/screen.json
+FINISH 2026-10-17T21:41:10Z exit_status=0
+
+START 2026-10-17T21:41:10Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/05_bracken_DNA_Gokan_CBS315_81.log
+FINISH 2026-10-17T21:41:10Z exit_status=0
+
+START 2026-10-17T21:41:10Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/05_bracken_RNA_Phib_mycelia1.log
+FINISH 2026-10-17T21:41:10Z exit_status=0
+
+START 2026-10-17T21:41:10Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/DNA/06_candidates_DNA_Gokan_CBS315_81.log
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/04_candidates/DNA_Gokan_CBS315_81/ranked_candidates.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/DNA/04_candidates/DNA_Gokan_CBS315_81/selection_template.tsv
+Review candidates and edit config/candidate_selection.tsv before reference retrieval/mapping
+FINISH 2026-10-17T21:41:10Z exit_status=0
+
+START 2026-10-17T21:41:10Z pid=3019942 python=3.11.17 log=/scratch/aubsxp001/Codex_Code/Oomycete_Contamination/logs/RNA/06_candidates_RNA_Phib_mycelia1.log
+OUTPUTS /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/04_candidates/RNA_Phib_mycelia1/ranked_candidates.tsv, /scratch/aubsxp001/Codex_Code/Oomycete_Contamination/results/RNA/04_candidates/RNA_Phib_mycelia1/selection_template.tsv
+Review candidates and edit config/candidate_selection.tsv before reference retrieval/mapping
+FINISH 2026-10-17T21:41:10Z exit_status=0
+FINISH 2026-10-17T21:41:10Z exit_status=0

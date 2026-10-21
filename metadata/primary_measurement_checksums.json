@@ -1,0 +1,7 @@
+{
+  "note": "Primary measurements preserved during 2026-10-20 repository curation; these checksums protect subsequent edits, not an independent historical rerun.",
+  "sha256": {
+    "tables/detections.tsv": "ed28eb43eec48e067d590e3a48a4ae8bb2871362de435cbff44360181bcd4382",
+    "tables/detections.csv": "3511e4c334db0873902c2b8f398df5134dc7ce8961d7deb653d318e15b1fd96a"
+  }
+}

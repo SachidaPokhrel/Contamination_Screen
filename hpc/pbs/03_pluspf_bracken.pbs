@@ -1,0 +1,28 @@
+#!/bin/bash
+#PBS -N oom_pluspf
+#PBS -q large
+#PBS -l select=1:ncpus=4:mem=115gb
+#PBS -l walltime=04:00:00
+#PBS -j oe
+
+set -euo pipefail
+cd "${PBS_O_WORKDIR:?Submit from project root}"
+export OOMYCETE_THREADS=4
+unset KRAKEN2_DB
+
+echo "START $(date -Is) job=${PBS_JOBID:-unknown}"
+
+# Screen both samples against the same database.
+bash hpc/environment_exec.sh contamination \
+    bash scripts/04_kraken2_screen.sh --config config/pluspf_DNA.yaml
+
+# Estimate abundance with assay-specific read-length assumptions.
+bash hpc/environment_exec.sh contamination \
+    bash scripts/05_bracken_abundance.sh \
+    --config config/pluspf_DNA.yaml --sample DNA_Gokan_CBS315_81
+
+bash hpc/environment_exec.sh contamination \
+    bash scripts/05_bracken_abundance.sh \
+    --config config/pluspf_RNA.yaml --sample RNA_Phib_mycelia1
+
+echo "FINISH $(date -Is)"

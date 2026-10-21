@@ -1,0 +1,122 @@
+# BLASTN 2.16.0+
+# Query: SRR16206986.1054097/mate1
+# RID: D81HVMP4014
+# Database: nt
+# Fields: query id, subject acc.ver, % identity, alignment length, query length, q. start, q. end, evalue, bit score, % query coverage per hsp, subject tax ids, subject sci names, subject title
+# 103 hits found
+SRR16206986.1054097/mate1	XM_067926286.1	93.333	90	90	1	90	1.92e-27	136	100	4785	N/A	Phytophthora cinnamomi succinyl-CoA ligase [GDP-forming] subunit alpha, mitochondrial (IUM83_02375), partial mRNA
+SRR16206986.1054097/mate1	XM_067881102.1	93.333	90	90	1	90	1.92e-27	136	100	164328	N/A	Phytophthora ramorum Succinate--CoA ligase [ADP-forming] subunit alpha (KRP23_10630), partial mRNA
+SRR16206986.1054097/mate1	XM_009525816.1	93.333	90	90	1	90	1.92e-27	136	100	67593	N/A	Phytophthora sojae hypothetical protein mRNA
+SRR16206986.1054097/mate1	XM_012352387.1	93.258	89	90	2	90	6.72e-27	134	99	695850	N/A	Saprolegnia parasitica CBS 223.65 succinyl-CoA ligase subunit alpha mRNA
+SRR16206986.1054097/mate1	CP085224.1	92.222	90	90	1	90	8.18e-26	132	100	859058	N/A	Caenispirillum salinarum strain ADH2-936 chromosome, complete genome
+SRR16206986.1054097/mate1	CP165964.1	92.222	90	90	1	90	8.18e-26	132	100	556533	N/A	Pseudomonas benzenivorans strain jeju3-2 chromosome, complete genome
+SRR16206986.1054097/mate1	CP019437.1	92.222	90	90	1	90	8.18e-26	132	100	1915078	N/A	Thioclava nitratireducens strain 25B10_4 chromosome, complete genome
+SRR16206986.1054097/mate1	CP137892.1	92.222	90	90	1	90	8.18e-26	132	100	556533	N/A	Pseudomonas benzenivorans strain HNIBRBA3361 chromosome, complete genome
+SRR16206986.1054097/mate1	CP123974.1	92.222	90	90	1	90	8.18e-26	132	100	1915078	N/A	Thioclava nitratireducens strain M1-LQ-LJL-11 chromosome, complete genome
+SRR16206986.1054097/mate1	OZ524429.1	92.222	90	90	1	90	8.18e-26	132	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15208.bin.c.23 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ522545.1	92.222	90	90	1	90	8.18e-26	132	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15196.bin.s.111 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ513436.1	92.222	90	90	1	90	8.18e-26	132	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15083.bin.c.126 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	CP051233.1	92.135	89	90	2	90	2.86e-25	130	99	1979401	N/A	MAG: Thalassovita sp. isolate m4 chromosome
+SRR16206986.1054097/mate1	OZ518957.1	92.135	89	90	2	90	2.86e-25	130	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15134.bin.3.2160 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ505359.1	92.135	89	90	2	90	2.86e-25	130	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15046.bin.c.38 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	CP053562.1	92.135	89	90	2	90	2.86e-25	130	99	1549850	N/A	Thioclava electrotropha strain Elox9 chromosome, complete genome
+SRR16206986.1054097/mate1	AP023189.1	91.111	90	90	1	90	9.97e-25	127	100	2725477	N/A	Pseudomonas tohonis TUM18999 DNA, complete genome
+SRR16206986.1054097/mate1	CP199044.1	91.111	90	90	1	90	9.97e-25	127	100	402884	N/A	Cereibacter changlensis strain P12F1 chromosome, complete genome
+SRR16206986.1054097/mate1	CP196711.1	91.111	90	90	1	90	9.97e-25	127	100	3451557	N/A	Pseudomonas sp. MBLB4123 chromosome, complete genome
+SRR16206986.1054097/mate1	CP047698.1	91.111	90	90	1	90	9.97e-25	127	100	65741	N/A	Pseudomonas knackmussii strain N1-2 chromosome, complete genome
+SRR16206986.1054097/mate1	CP194950.1	91.111	90	90	1	90	9.97e-25	127	100	312306	N/A	Pseudomonas entomophila strain Lu_Au_030 chromosome, complete genome
+SRR16206986.1054097/mate1	CP154852.1	91.111	90	90	1	90	9.97e-25	127	100	3132207	N/A	Pseudomonas phoenicis strain 1P02AnB chromosome
+SRR16206986.1054097/mate1	CP154851.1	91.111	90	90	1	90	9.97e-25	127	100	3132207	N/A	Pseudomonas phoenicis strain 1P03AnA chromosome
+SRR16206986.1054097/mate1	CP154846.1	91.111	90	90	1	90	9.97e-25	127	100	3132207	N/A	Pseudomonas phoenicis strain 1P10UG chromosome
+SRR16206986.1054097/mate1	CP166971.1	91.111	90	90	1	90	9.97e-25	127	100	3242725	N/A	Pseudomonas sp. QL9 chromosome, complete genome
+SRR16206986.1054097/mate1	CP166873.1	91.111	90	90	1	90	9.97e-25	127	100	3242491	N/A	Pseudomonas sp. QE6 chromosome, complete genome
+SRR16206986.1054097/mate1	OZ156465.1	91.111	90	90	1	90	9.97e-25	127	100	3096260	N/A	Candidatus Thiodiazotropha sp. LNASS1 isolate 6c41e2f9-faec-415b-97c3-6ddcd12de2e9 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	CP022110.1	91.111	90	90	1	90	9.97e-25	127	100	1441467	N/A	Nitrospirillum viridazoti CBAmc chromosome 1, complete sequence
+SRR16206986.1054097/mate1	CP131056.1	91.111	90	90	1	90	9.97e-25	127	100	3064829	N/A	Radicibacter daui strain UR115 chromosome, complete genome
+SRR16206986.1054097/mate1	CP127228.1	91.111	90	90	1	90	9.97e-25	127	100	2725477	N/A	Pseudomonas tohonis strain KRS022 chromosome, complete genome
+SRR16206986.1054097/mate1	CP115820.1	91.111	90	90	1	90	9.97e-25	127	100	2725477	N/A	Pseudomonas tohonis strain Q4-3 chromosome, complete genome
+SRR16206986.1054097/mate1	CP106785.1	91.111	90	90	1	90	9.97e-25	127	100	2725477	N/A	Pseudomonas tohonis strain G5.110 chromosome, complete genome
+SRR16206986.1054097/mate1	XM_008907181.1	91.111	90	90	1	90	9.97e-25	127	100	761204	N/A	Phytophthora parasitica INRA-310 succinyl-CoA ligase [GDP-forming] subunit alpha, mitochondrial mRNA
+SRR16206986.1054097/mate1	HG322950.1	91.111	90	90	1	90	9.97e-25	127	100	1301098	N/A	Pseudomonas knackmussii B13 complete genome
+SRR16206986.1054097/mate1	CP069370.1	91.111	90	90	1	90	9.97e-25	127	100	2807096	N/A	Neotabrizicola shimadae strain N10 chromosome, complete genome
+SRR16206986.1054097/mate1	CP065340.1	91.111	90	90	1	90	9.97e-25	127	100	1424203	N/A	Pseudomonas lalucatii strain R1b52 chromosome
+SRR16206986.1054097/mate1	AP021905.1	91.111	90	90	1	90	9.97e-25	127	100	2678261	N/A	Pseudomonas sp. Pc102 DNA, complete genome
+SRR16206986.1054097/mate1	OZ533417.1	91.111	90	90	1	90	9.97e-25	127	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15109.bin.s.87 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ521541.1	91.111	90	90	1	90	9.97e-25	127	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15183.bin.c.58 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ521344.1	91.111	90	90	1	90	9.97e-25	127	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15183.bin.s.146 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ520595.1	91.111	90	90	1	90	9.97e-25	127	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15178.bin.s.116 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ518530.1	91.111	90	90	1	90	9.97e-25	127	100	2689616	N/A	MAG: Steroidobacteraceae bacterium isolate MFD15147.bin.s.152 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ516561.1	91.111	90	90	1	90	9.97e-25	127	100	1940284	N/A	MAG: Palleronia sp. isolate MFD15094.bin.c.405 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ515270.1	91.111	90	90	1	90	9.97e-25	127	100	315423	N/A	MAG: Palleronia marisminoris isolate MFD15094.bin.c.150 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ514535.1	91.111	90	90	1	90	9.97e-25	127	100	1940284	N/A	MAG: Palleronia sp. isolate MFD15088.bin.c.7 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ513940.1	91.111	90	90	1	90	9.97e-25	127	100	315423	N/A	MAG: Palleronia marisminoris isolate MFD15088.bin.c.139 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ512828.1	91.111	90	90	1	90	9.97e-25	127	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15084.bin.c.2 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ507187.1	91.111	90	90	1	90	9.97e-25	127	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15039.bin.2.1532 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ304445.1	91.111	90	90	1	90	9.97e-25	127	100	296830	N/A	MAG: uncultured Rhodospirillales bacterium isolate 083-NL-13.bin.c.18 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	CP168803.1	91.111	90	90	1	90	9.97e-25	127	100	3240935	N/A	Azospirillum sp. VT-I1 plasmid unnamed6, complete sequence
+SRR16206986.1054097/mate1	AP022853.1	91.011	89	90	2	90	3.48e-24	125	99	2715678	N/A	Sulfurimicrobium lacus skT11 DNA, complete genome
+SRR16206986.1054097/mate1	OZ257249.1	91.011	89	90	2	90	3.48e-24	125	99	2021613	N/A	MAG: Tagaea sp. isolate 835704f9-8dba-454c-b00a-1ace12109bd4 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ242974.1	91.011	89	90	2	90	3.48e-24	125	99	2847306	N/A	MAG: Candidatus Thiodiazotropha sp. isolate c44e5f9e-6b63-43a9-822d-80879a7fa0b5 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	CP133759.1	91.011	89	90	2	90	3.48e-24	125	99	1123368	N/A	Thermithiobacillus tepidarius DSM 3134 chromosome, complete genome
+SRR16206986.1054097/mate1	CP022196.1	91.011	89	90	2	90	3.48e-24	125	99	1758178	N/A	Celeribacter ethanolicus strain TSPH2 chromosome, complete genome
+SRR16206986.1054097/mate1	CP155729.1	91.011	89	90	2	90	3.48e-24	125	99	388399	N/A	Sagittula stellata E-37 chromosome, complete genome
+SRR16206986.1054097/mate1	CP139141.1	91.011	89	90	2	90	3.48e-24	125	99	1027966	N/A	Pseudomonas sp. HR96 chromosome, complete genome
+SRR16206986.1054097/mate1	CP136010.1	91.011	89	90	2	90	3.48e-24	125	99	3035478	N/A	Pseudomonas sp. FeN3W chromosome, complete genome
+SRR16206986.1054097/mate1	CP087106.1	92.857	84	90	7	90	3.48e-24	125	93	2894310	N/A	Methylobacterium sp. NMS14P chromosome, complete genome
+SRR16206986.1054097/mate1	CP083539.1	91.011	89	90	2	90	3.48e-24	125	99	2867012	N/A	Jannaschia sp. W003 chromosome, complete genome
+SRR16206986.1054097/mate1	CP097484.1	92.857	84	90	7	90	3.48e-24	125	93	374432	N/A	Methylobacterium tardum strain DSM 19566 chromosome, complete genome
+SRR16206986.1054097/mate1	XM_008610708.1	91.011	89	90	2	90	3.48e-24	125	99	1156394	N/A	Saprolegnia diclina VS20 succinyl-CoA ligase [GDP-forming] subunit alpha, mitochondrial mRNA
+SRR16206986.1054097/mate1	OZ523978.1	91.011	89	90	2	90	3.48e-24	125	99	2026786	N/A	MAG: Rhodospirillales bacterium isolate MFD15204.bin.s.103 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ515858.1	91.011	89	90	2	90	3.48e-24	125	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15104.bin.c.81 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ515858.1	84.270	89	90	2	90	4.84e-16	98.7	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15104.bin.c.81 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ515260.1	91.011	89	90	2	90	3.48e-24	125	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15102.bin.c.154 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ515260.1	86.517	89	90	2	90	9.34e-19	107	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15102.bin.c.154 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ513205.1	91.011	89	90	2	90	3.48e-24	125	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15080.bin.c.241 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ513205.1	86.517	89	90	2	90	9.34e-19	107	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15080.bin.c.241 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ508467.1	91.011	89	90	2	90	3.48e-24	125	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15045.bin.s.4 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ508095.1	91.011	89	90	2	90	3.48e-24	125	99	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15044.bin.2.147 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ505427.1	91.011	89	90	2	90	3.48e-24	125	99	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15056.bin.c.121 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ503045.1	91.011	89	90	2	90	3.48e-24	125	99	445220	N/A	MAG: Reyranella massiliensis isolate MFD15007.bin.c.148 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ307249.1	91.011	89	90	2	90	3.48e-24	125	99	77133	N/A	MAG: uncultured bacterium isolate 042-US1-105.bin.2.133 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ305152.1	91.011	89	90	2	90	3.48e-24	125	99	352351	N/A	MAG: uncultured Rhodospirillaceae bacterium isolate 007-SA-08.bin.c.3 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ257243.1	91.860	86	90	5	90	1.21e-23	124	96	64002	N/A	MAG: Nevskia ramosa isolate bb4fe44b-0c1b-4b6d-ba23-805e0cbd12fd genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ534952.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15124.bin.s.158 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ535192.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15213.bin.s.920 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ534361.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15211.bin.s.155 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ534414.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15124.bin.2.832 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ533591.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15122.bin.c.359 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ533365.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15109.bin.s.148 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ523972.1	90.000	90	90	1	90	4.24e-23	123	100	1871053	N/A	MAG: Phenylobacterium sp. isolate MFD15204.bin.s.122 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ522362.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15185.bin.s.115 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ521990.1	90.000	90	90	1	90	4.24e-23	123	100	2026786	N/A	MAG: Rhodospirillales bacterium isolate MFD15183.bin.c.80 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ521610.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15183.bin.c.103 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ521237.1	90.000	90	90	1	90	4.24e-23	123	100	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15189.bin.s.1 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ521164.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15180.bin.s.361 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ521130.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15184.bin.c.25 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ521115.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15178.bin.s.66 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ520881.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15177.bin.c.10 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ519678.1	90.000	90	90	1	90	4.24e-23	123	100	1913989	N/A	MAG: Gammaproteobacteria bacterium isolate MFD15168.bin.c.117 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ519287.1	91.765	85	90	3	87	4.24e-23	123	94	2026780	N/A	MAG: Planctomycetota bacterium isolate MFD15161.bin.s.4 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ517915.1	90.000	90	90	1	90	4.24e-23	123	100	2026786	N/A	MAG: Rhodospirillales bacterium isolate MFD15142.bin.s.462 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ516662.1	90.000	90	90	1	90	4.24e-23	123	100	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15105.bin.c.26 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ515331.1	90.000	90	90	1	90	4.24e-23	123	100	2026786	N/A	MAG: Rhodospirillales bacterium isolate MFD15102.bin.c.204 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ514434.1	90.000	90	90	1	90	4.24e-23	123	100	1940284	N/A	MAG: Palleronia sp. isolate MFD15088.bin.s.289 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ513102.1	90.000	90	90	1	90	4.24e-23	123	100	2026786	N/A	MAG: Rhodospirillales bacterium isolate MFD15083.bin.c.165 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ513045.1	90.000	90	90	1	90	4.24e-23	123	100	1871053	N/A	MAG: Phenylobacterium sp. isolate MFD15084.bin.s.250 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ508507.1	90.000	90	90	1	90	4.24e-23	123	100	1978230	N/A	MAG: Caulobacteraceae bacterium isolate MFD15039.bin.c.76 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ508052.1	90.000	90	90	1	90	4.24e-23	123	100	1904441	N/A	MAG: Paracoccaceae bacterium isolate MFD15031.bin.c.25 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ507702.1	90.000	90	90	1	90	4.24e-23	123	100	1913988	N/A	MAG: Alphaproteobacteria bacterium isolate MFD15031.bin.s.12 genome assembly, chromosome: 1
+SRR16206986.1054097/mate1	OZ506456.1	90.000	90	90	1	90	4.24e-23	123	100	2026737	N/A	MAG: Ectothiorhodospiraceae bacterium isolate MFD15018.bin.c.11 genome assembly, chromosome: 1
+# BLASTN 2.16.0+
+# Query: SRR16206986.1054097/mate2
+# RID: D81HVMP4014
+# Database: nt
+# Fields: query id, subject acc.ver, % identity, alignment length, query length, q. start, q. end, evalue, bit score, % query coverage per hsp, subject tax ids, subject sci names, subject title
+# 6 hits found
+SRR16206986.1054097/mate2	XM_067881102.1	93.750	64	90	27	90	4.84e-16	98.7	71	164328	N/A	Phytophthora ramorum Succinate--CoA ligase [ADP-forming] subunit alpha (KRP23_10630), partial mRNA
+SRR16206986.1054097/mate2	CP106978.1	90.141	71	90	20	90	1.69e-15	97.8	79	1642459	N/A	Phytophthora agathidicida strain 3770 chromosome 8
+SRR16206986.1054097/mate2	XM_008907181.1	90.141	71	90	20	90	1.69e-15	97.8	79	761204	N/A	Phytophthora parasitica INRA-310 succinyl-CoA ligase [GDP-forming] subunit alpha, mitochondrial mRNA
+SRR16206986.1054097/mate2	XM_002908561.1	90.141	71	90	20	90	1.69e-15	97.8	79	403677	N/A	Phytophthora infestans T30-4 succinyl-CoA ligase subunit alpha, mitochondrial precursor (PITG_02026), partial mRNA
+SRR16206986.1054097/mate2	CP125259.1	89.706	68	90	23	90	7.18e-14	92.4	76	639000	N/A	Phytophthora plurivora strain TJ71 chromosome 4
+SRR16206986.1054097/mate2	XM_067926286.1	82.812	64	90	27	90	8.19e-07	68.0	71	4785	N/A	Phytophthora cinnamomi succinyl-CoA ligase [GDP-forming] subunit alpha, mitochondrial (IUM83_02375), partial mRNA
+# BLAST processed 2 queries
